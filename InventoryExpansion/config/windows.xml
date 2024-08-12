@@ -1,0 +1,61 @@
+<configs>
+<remove xpath="/windows/window[@name='windowBackpack']"/>
+<remove xpath="/windows/window[@name='windowCraftingQueue']"/>
+<append xpath="/windows">
+
+    <!-- BACKPACK Inventory slots -->
+    <window name="windowBackpack" width="807" height="349" panel="Center" controller="BackpackWindow" cursor_area="true" >
+	<!--#$-IGS END.-$#-->
+		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
+			<sprite depth="3" name="windowIcon" style="icon32px" pivot="center" pos="21,-21" sprite="ui_game_symbol_backpack" />
+			<label depth="3" name="windowName" pos="42,-6" width="180" height="32" text="INVENTORY" text_key="xuiInventory" font_size="32" />
+
+
+			<rect pos="280,0" width="300" controller="ContainerStandardControls" move_start_bottom_left="true" is_backpack="true">
+				<button depth="3" name="btnClearInventory" sprite="ui_game_symbol_trash" tooltip_key="lblClearInventory" pos="-45, -22" style="icon32px, press, hover" pivot="center" sound="[paging_click]" visible="{creativewindowopen}" />
+
+				<button depth="3" name="btnSort"           sprite="ui_game_symbol_sort"  tooltip_key="lblSortContainer"  pos="0, -22" style="icon32px, press, hover" pivot="center" sound="[paging_click]" />
+				
+				<rect pos="0, 0" visible="{lootingorvehiclestorage}">
+					<button   depth="3" name="btnMoveAll"          sprite="ui_game_symbol_store_all_down"     tooltip_key="lblStashAll"             pos="80, -22" style="icon32px, press, hover" pivot="center" sound="[paging_click]" />
+					<button   depth="3" name="btnMoveFillAndSmart" sprite="ui_game_symbol_store_similar_down" tooltip_key="lblStashFillAndSmart" pos="40, -22" style="icon32px, press, hover" pivot="center" sound="[paging_click]" />
+
+<!--
+					<rect pos="0,30">
+						<button   depth="3" name="btnMoveFillStacks"   sprite="ui_game_symbol_drop"          tooltip_key="lblStashFillStacks"   pos="6, -22" style="icon32px, press, hover" pivot="center" sound="[paging_click]" />
+						<button   depth="3" name="btnMoveSmart"        sprite="ui_game_symbol_drop"          tooltip_key="lblStashSmart"        pos="46, -22" style="icon32px, press, hover" pivot="center" sound="[paging_click]" />
+					</rect>
+-->
+				</rect>
+
+				<combobox depth="3" name="cbxLockedSlots" pos="105,-7" width="100" height="30" tooltip_key="xuiStashLockedSlots" type="ComboBoxInt" value_min="0" value_max="72" value_wrap="true" value_increment="1" />
+			</rect>
+
+			<label depth="2" pos="492,-8" width="80" height="28" text="{currencyamount}" justify="right" />
+			<sprite depth="4" name="costIcon" sprite="ui_game_symbol_coin" size="24,24" pos="577,-10" color="[white]" foregroundlayer="true" />
+		</panel>
+
+		<panel name="content" width="100%" height="303" depth="0" pos="0,-46" disableautobackground="true">
+				<!-- <sprite name="background" color="[black]" type="sliced" globalopacity="true"/> -->
+				<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="606" height="336" color="[black]" type="sliced" fillcenter="false" on_press="true"  gamepad_selectable="false"/>
+				<grid depth="10" name="inventory" rows="6" cols="12" pos="3,-3" cell_width="67" cell_height="67" controller="Backpack" repeat_content="true" >
+					<backpack_item_stack name="0"/>
+				</grid>
+		</panel>
+	</window>
+
+
+    <!-- Crafting Queue Slots increasement -->
+
+   <window name="windowCraftingQueue" width="397" height="78" panel="Left" cursor_area="true" >
+	<!--#$-IGS END.-$#-->
+		<rect depth="0" pos="96,0" width="303" controller="CraftingQueue">
+			<!-- <sprite name="background" color="[black]" type="sliced" pos="0,-10" /> -->
+			<grid name="queue" rows="2" cols="5" pos="-78,-9" cell_width="75" cell_height="75" repeat_content="true">
+				<recipe_stack name="0"/>
+			</grid>
+		</rect>
+	</window>
+
+    </append>
+    </configs>

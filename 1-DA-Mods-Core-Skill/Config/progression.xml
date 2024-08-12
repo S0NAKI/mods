@@ -1,0 +1,9 @@
+ <DAC>   
+    <append xpath="/progression/attributes">
+        <attribute name="attdamods" name_key="[E000FF]DA Mods" desc_key="[E000FF]DA Mods" icon="ui_da_mods_icon" min_level="1" max_level="1">
+            <effect_group>
+                <effect_description level="1" desc_base="Hover your mouse here for tips." long_desc_key="DAModsLongDescKey"/>
+            </effect_group>
+        </attribute>
+    </append>
+</DAC>

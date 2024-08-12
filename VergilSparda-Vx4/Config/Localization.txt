@@ -1,0 +1,107 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text
+
+<!-- More Clutter Version 1.3.0.1 June 2023 A21EXP -->
+
+drinkSodaBrewCola,items,Food,,,Brew Cola,,
+drinkSodaBrewColaDesc,items,Food,,,"Old can of Brew-Cola soda. More than likely flat.\n\nYou should probably only drink this if you're desperate."
+drinkSodaCitrus,items,Food,,,Citrus Splash,,
+drinkSodaCitrusDesc,items,Food,,,"Old can of Citrus Splash soda. More than likely flat.\n\nYou should probably only drink this if you're desperate."
+drinkSodaREGCola,items,Food,,,Fructosa Cola,,
+drinkSodaREGColaDesc,items,Food,,,"Old can of Fructosa Cola soda. More than likely flat.\n\nYou should probably only drink this if you're desperate."
+drinkSodaDIETCola,items,Food,,,Diet Fructosa Cola,,
+drinkSodaDIETColaDesc,items,Food,,,"Old can of Fructosa Cola soda, Diet version. More than likely flat.\n\nYou should probably only drink this if you're desperate."
+drinkSodaEnergyShot,items,Food,,,Energy Shot,,
+drinkSodaEnergyShotDesc,items,Food,,,"Old can of Energy Shot soda. More than likely flat.\n\nYou should probably only drink this if you're desperate."
+drinkSodaLemon,items,Food,,,Lemon Zip,,
+drinkSodaLemonDesc,items,Food,,,"Old can of Lemon Zip soda. More than likely flat.\n\nYou should probably only drink this if you're desperate."
+drinkSodaPeppy,items,Food,,,Peppy PhD,,
+drinkSodaPeppyDesc,items,Food,,,"Old can of Peppy PhD soda. More than likely flat.\n\nYou should probably only drink this if you're desperate."
+drinkSodaRootBeer,items,Food,,,Old Tyme Root Beer,,
+drinkSodaRootBeerDesc,items,Food,,,"Old can of Old Tyme Root Beer soda. More than likely flat.\n\nYou should probably only drink this if you're desperate."
+drinkSodaStarCola,items,Food,,,Star Cola,,
+drinkSodaStarColaDesc,items,Food,,,"Old can of Star Cola soda. More than likely flat.\n\nYou should probably only drink this if you're desperate."
+drinkSodaFizzCola,items,Food,,,Fizz Cola,,
+drinkSodaFizzColaDesc,items,Food,,,"Old can of Fizz Cola soda. More than likely flat.\n\nYou should probably only drink this if you're desperate."
+drinkSodaDietFizzCola,items,Food,,,Diet Fizz Cola,,
+drinkSodaDietFizzColaDesc,items,Food,,,"Old can of Fizz Cola soda, Diet version. More than likely flat.\n\nYou should probably only drink this if you're desperate."
+drinkSodaSirP,items,Food,,,Sir P.,,
+drinkSodaSirPDesc,items,Food,,,"Old can of Sir P. soda. More than likely flat.\n\nYou should probably only drink this if you're desperate."
+drinkSodaFrasRootBeer,items,Food,,,Fras Root Beer,,
+drinkSodaFrasRootBeerDesc,items,Food,,,"Old can of Fras Root Beer soda. More than likely flat.\n\nYou should probably only drink this if you're desperate."
+drinkSodaCitrussy,items,Food,,,Citrussy,,
+drinkSodaCitrussyDesc,items,Food,,,"Old can of Citrussy soda. More than likely flat.\n\nYou should probably only drink this if you're desperate."
+drinkOrangeJuice,items,Food,,,Orange Juice,,
+drinkOrangeJuiceDesc,items,Food,,,"Jar of Orange Juice made from Juice Aid concentrate.\n\nYout's quite delicious, even though the concentrate is old."
+drinkOrangeQuest,items,Food,,,Orange Quest,,
+drinkOrangeQuestDesc,items,Food,,,"Plastic bottle of Orange Quest flavored juice drink.\n\nYout's not too bad, even though it doesn't taste like real orange."
+drinkSportDrink,items,Food,,,Sport Drink,,
+drinkSportDrinkDesc,items,Food,,,"Dusty bottle of what appears to be a generic Sports Drink.\n\nThe electrolytes might be good for dehydration."
+drinkHerbalTonic,items,Food,,,Herbal Tonic,,
+drinkHerbalTonicDesc,items,Food,,,"Dusty can of Red Tea-flavored Herbal Tonic.\n\nHerbal tonics tend to give vigor and vitality. It's probably good for that.\n\n(Duration is total of both effects, 5min and 1min 30sec)"
+drinksSixPack,items,Food,,,Six Pack of Soda,,
+drinksSixPackDesc,items,Food,,,"Untouched, but old, six pack of soda. The label has worn off to reveal the bare aluminum.\nThey could be from any brand."
+drinkWineRed,items,Food,,,Red Wine,,
+drinkWineRedDesc,items,Food,,,"Dusty glass bottle of Red Impact Wine. The label reads BOLD FLAVOR.\n\nYout probably tastes like vinegar at this point.\n...But there's no harm in that, is there?"
+foodCanSeasoning,items,Food,,,Can of Cajun Seasoning,,
+foodCanSeasoningDesc,items,Food,,,"Sealed can of Cajun Pride Seasoning. Sounds spicy.\n\nYou probably shouldn't eat this, but you could if you wanted to."
+foodChips,items,Food,,,Can of Potato Chips,,
+foodChipsDesc,items,Food,,,"Sealed can of Diamond Chips.\n\nCrunch from a can? Maybe a few years ago..."
+foodChipsOopsClassic,items,Food,,,Bag of Classic Potato Chips,,
+foodChipsOopsClassicDesc,items,Food,,,"Sealed bag of Oops! All Air, Classic flavored potato chips.\n\nAll air? Hopefully that isn't completely true. There better be something inside."
+foodChipsOopsSourCream,items,Food,,,Bag of Sour Cream & Onion Potato Chips,,
+foodChipsOopsSourCreamDesc,items,Food,,,"Sealed bag of Oops! all Air, Sour Cream & Onion potato chips.\n\nAll air? Hopefully that isn't completely true. There better be something inside."
+foodChipsNachiosBlue,items,Food,,,Bag of Good Tortilla Chips,,
+foodChipsNachiosBlueDesc,items,Food,,,"Sealed bag of Nachios Tortilla Chips, Good Flavor.\n\nHopefully they are as delicious as they look on the package."
+foodChipsNachiosRed,items,Food,,,Bag of Gross Cheese Tortilla Chips,,
+foodChipsNachiosRedDesc,items,Food,,,"Sealed bag of Nachios Tortilla Chips, Gross 'Cheese' Flavor.\n\nWhy is 'Cheese' in quotes? It better not be fake..."
+foodDaBoxCereal,items,Food,,,Box of Cereal,,
+foodDaBoxCerealDesc,items,Food,,,"Sealed box of DaBox Cereal. Most likely stale.\n\nFood is food, though..."
+foodFlour,items,Food,,,Bag of All-Purpose Flour,,
+foodFlourDesc,items,Food,,,"Old, Sealed bag of generic, Pure Grain Flour.\n\nDon't eat it. Seriously. Raw flour could kill me.\n\n(This will actually, instantly kill you if you eat it.)"
+foodFrozenPizza,items,Food,,,Box of Pepperoni Pizza,,
+foodFrozenPizzaDesc,items,Food,,,"An old frozen pizza. The label reads Antonio's Crunchy Crust Pepperoni Pizza.\n\nYout's probably thawed by now, but food is food."
+foodFrozenVeg,items,Food,,,Bag of Mixed Vegetables,,
+foodFrozenVegDesc,items,Food,,,"Bag of once-frozen Mixed Vegetables. It says it contains carrots, corn, and peas,but the label\nhas worn off and the last vegetable is no longer legible.\n\nProbably safe to eat, right?"
+foodFrozenOJCon,items,Food,,,Gallon of Juice Concentrate,,
+foodFrozenOJConDesc,items,Food,,,"Rather large bottle of Juice Aid Concentrate. It's probably still good.\n\nYout could probably be used to make orange juice."
+foodFrozenSalsburySteak,items,Food,,,Box of Salsbury Steak,,
+foodFrozenSalsburySteakDesc,items,Food,,,"Box of Gourmet Man Frozen Salsbury Steak. It's best-by date is long past.\n\nBut it's probably safe to eat..."
+foodCanSoupTomato,items,Food,,,Can of Tomato Soup,,
+foodCanSoupTomatoDesc,items,Food,,,"A generic can of HOT Soup. It says it has Robust Flavor.\n\nYout's probably tomato, based on the color of the can."
+foodVanillaWafers,items,Food,,,Box of Wafers,,
+foodVanillaWafersDesc,items,Food,,,"Box of 'English Waffers'. The misspelling is probably a production error.\n\nThe wafer on the box looks like Vanilla flavor."
+foodBretzels,items,Food,,,Bag of Hard Pretzels,,
+foodBretzelsDesc,items,Food,,,"Sealed bag of Wagz branded Bretzels, baked with whole wheat.\n\nQui Diable Mange....it's difficult to make out the rest. Who the hell eats what?"
+foodBeefJerkyNicks,items,Food,,,Bag of Beef Jerky,,
+foodBeefJerkyNicksDesc,items,Food,,,"Sealed bag of Thick Nick's Beef Jerky, Original flavor.\n\nYout doesn't look half bad, and the bag says it's 100% beef. It better be."
+foodPrimeGranola,items,Food,,,Chocolate Chip Granola Bar,,
+foodPrimeGranolaDesc,items,Food,,,"Sealed package of Prime Bars Granola Bars.\n\nThe flavor says Chocolate with Granola Bits. Still, it's better than nothing."
+foodParadisPeanuts,items,Food,,,Bag of Salted Peanuts,,
+foodParadisPeanutsDesc,items,Food,,,"Sealed bag of Paradis Nuts branded Peanuts.\n\nLet's hope they aren't rancid."
+foodParadisAlmonds,items,Food,,,Bag of Salted Almonds,,
+foodParadisAlmondsDesc,items,Food,,,"Sealed bag of Paradis Nuts branded Almonds.\n\nLet's hope they aren't rancid."
+foodCrackersPeanutButter,items,Food,,,Peanut Butter Sandwich Crackers,,
+foodCrackersPeanutButterDesc,items,Food,,,"Sealed package of Off Da Fritz Sandwich Crackers, Peanut Butter flavor.\n\nThey're as dry as the desert, but they'll do in a pinch."
+foodCrackersCreamCheese,items,Food,,,Cream Cheese & Chives Sandwich Crackers,,
+foodCrackersCreamCheeseDesc,items,Food,,,"Sealed package of Off Da Fritz Sandwich Crackers, Cream Cheese and Chives flavor.\n\nThey're less dry than the peanut butter flavor."
+drinkSleepyTimeTeaBags,items,Food,,,Box of Tea Bags,,
+resourceSleepyBagDesc,items,Food,,,"Box of Sleepy Time tea bags. Probably safe to consume, though it won't taste good.\n\nYou should probably steep it in some boiled water first."
+drinkSleepyTimeTea,items,Food,,,Steeped Herbal Tea,,
+drinkSleepyTeaDesc,items,Food,,,"Steeped Sleepy Time Tea, still warm. Tastes like chamomile.\n\nCould use something more, though."
+drinkSleepyHoneyTea,items,Food,,, Steeped Tea With Honey,,
+drinkSleepyHoneyTeaDesc,items,Food,,,"Steeped Sleepy Time Tea, still warm, with fresh Honey. Tastes like chamomile.\n\nAdding honey was a great idea in the end."
+foodWhiteBread,items,Food,,,White Bread,,
+foodWhiteBreadDesc,items,Food,,,"A simple loaf of White Bread, made from Flour.\n\nYout doesn't look moldy, nor does it smell bad. Could be tasty."
+foodButterSpread,items,Food,,,Container of Spreadable Butter,,
+foodButterSpreadDesc,items,Food,,,"A plastic container of Butter Balance butter spread.\n\nThe seal inside is still air-tight, and it doesn't smell, so it may still be good for something."
+foodPotatoGranules,items,Food,,,Box of Potato Granules,,
+foodPotatoGranulesDesc,items,Food,,,"A box of Arizona Mashed Potato Granules.\n\nThe mashed potatoes on the box look inviting.\n\nThese could probably be used to make something."
+foodInstantMash,items,Food,,,Mashed Potatoes,,
+foodInstantMashDesc,items,Food,,,"A bowl of mashed potatoes, made from potato graunles.\n\nYout looks delicious, but it might be better with steak. Still, the warmth is inviting..."
+toolBundleNails,items,Item,,,Box of Nails,,
+toolBundleNailsDesc,items,Item,,,"A box of nails in mostly good condition.\n\nWhen shaken, there are still some inside."
+toolBundleImpact,items,Item,,,Impact Driver Box,,
+toolBundleImpactDesc,items,Item,,,"A POW-R TOOL branded box.\n\nThe box claims that it contains an Impact Driver inside, but that may not be true."
+toolBundleSet,items,Item,,,Box of Tools,,
+toolBundleSetDesc,items,Item,,,"A generic set of tools.\n\nWhen shaken, something rattles around. There might still be some tools, or something useful, still inside."
+drinkJarHoneyTeaSchematic,items,Food,,,(Schematic) Honey Tea Recipe,,

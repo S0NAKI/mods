@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<Name value="V1_OakravenCookingStations" />
+	<DisplayName value="V1.0 Oakraven Cooking Stations" />
+	<Description value="Adds a variety of Oakraven Cooking Stations" />
+	<Author value="oakraven, with support from arramus" />
+	<Version value="1.1.0.0" />
+	<Website value="" />
+</xml>

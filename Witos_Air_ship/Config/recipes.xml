@@ -1,0 +1,40 @@
+<Witos>
+  <append xpath="/recipes">
+
+<recipe name="structurewoodAirshipWitos" count="1" craft_time="600" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
+				<ingredient name="resourceForgedSteel" count="500"/>
+				<ingredient name="resourceMechanicalParts" count="200"/>
+				<ingredient name="resourceNail" count="500"/>
+				<ingredient name="resourceMetalPipe" count="12"/>
+				<ingredient name="resourceWood" count="50000"/>
+		</recipe>
+		
+		
+<recipe name="candles" count="1" craft_time="300" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
+				<ingredient name="resourceCloth" count="250"/>
+				<ingredient name="resourceWood" count="100"/>
+				<ingredient name="resourceDuctTape" count="50"/>
+				<ingredient name="resourceMetalPipe" count="30"/>
+				<ingredient name="resourceNail" count="30"/>
+		</recipe>
+		
+<recipe name="burner" count="1" craft_time="300" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
+				<ingredient name="resourceForgedSteel" count="500"/>
+				<ingredient name="resourceWood" count="100"/>
+				<ingredient name="resourceLegendaryParts" count="10"/>
+				<ingredient name="resourceRawDiamond" count="20"/>
+				<ingredient name="resourceAcid" count="30"/>
+</recipe>
+
+<recipe name="WitosAirShipplaceable" count="1" craft_time="1600" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="candles" count="6"/>
+		<ingredient name="structurewoodAirshipWitos" count="1"/>
+		<ingredient name="burner" count="1"/>
+		<ingredient name="resourceGlue" count="200"/>
+		<ingredient name="resourceNail" count="2000"/>
+		</recipe>
+
+
+    </append>
+
+  </Witos>

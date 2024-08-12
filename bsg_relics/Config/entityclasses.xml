@@ -1,0 +1,9 @@
+<Config>
+	<append xpath="/entity_classes/entity_class[@name='zombieTemplateMale']">
+		<property name="MapIcon" value="ui_game_symbol_zombie"/>
+	</append>
+
+	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='TrackerIcon']/@value">ui_buffRelicCorruptionTracker</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='CompassIcon']/@value">ui_buffRelicCorruptionTracker</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='NavObject']/@value">track_zombie</set>
+</Config>

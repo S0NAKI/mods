@@ -1,0 +1,7 @@
+<xml>
+		<Name value="Reclaim_Storage_Crates" />
+		<DisplayName value="Reclaim Storage Crates"/>
+		<Description value="Reclaim Storage Crates when harvested with tools"  />
+		<Author value="Rumobok" />
+		<Version value="1.0" />
+</xml>

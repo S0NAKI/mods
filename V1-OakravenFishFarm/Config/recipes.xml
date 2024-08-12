@@ -1,0 +1,134 @@
+<configs>
+
+	<append xpath="/recipes">
+	
+	<recipe name="FishOven" count="1" craft_area="workbench" craft_time="180" tags="workbenchCrafting">
+		<ingredient name="toolCookingPot" count="2"/>
+		<ingredient name="resourceForgedIron" count="10"/>
+		<ingredient name="resourceClayLump" count="200"/>
+		<ingredient name="resourceRockSmall" count="300"/>
+		<ingredient name="resourceScrapIron" count="55"/>
+	</recipe>
+	
+	<recipe name="FishFarmEmpty" count="1" craft_area="workbench" craft_time="120" tags="workbenchCrafting">
+		<ingredient name="resourceWood" count="100"/>
+		<ingredient name="resourceNail" count="50"/>
+		<ingredient name="drinkJarBoiledWater" count="30"/>
+		<ingredient name="resourceCobblestones" count="60"/>
+		<ingredient name="resourceYuccaFibers" count="20"/>
+	</recipe>	
+	
+	<recipe name="foodFishTacos" count="1" craft_area="FishOven">
+	<ingredient name="FishFillet" count="4"/>
+	<ingredient name="foodCornMeal" count="2"/>
+</recipe>
+
+<recipe name="foodTunaFishGravyToast" count="1" craft_area="FishOven">
+	<ingredient name="FreshTunaFillet" count="4"/>
+	<ingredient name="foodCornMeal" count="1"/>
+	<ingredient name="foodCornBread" count="2"/>
+	<ingredient name="resourceAnimalFat" count="3"/>
+	<ingredient name="foodCanPeas" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="4,5" operation="base_add" value="-1" tags="resourceAnimalFat"/>
+	</effect_group>
+</recipe>
+
+<recipe name="foodCanSalmon" count="1" craft_area="FishOven">
+	<ingredient name="FreshSalmonFillet" count="3"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+</recipe>
+
+<recipe name="foodCanTuna" count="1" craft_area="FishOven">
+	<ingredient name="FreshTunaFillet" count="4"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+</recipe>
+
+<recipe name="foodPerchPie" count="1" craft_area="FishOven">
+	<ingredient name="foodCanSham" count="1"/>
+	<ingredient name="PerchFish" count="1"/>
+	<ingredient name="foodCropCorn" count="2"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+</recipe>
+
+<recipe name="foodFishSpinePie" count="1" craft_area="FishOven">
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="foodCropCorn" count="2"/>
+	<ingredient name="MutantPiranha" count="1"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+</recipe>
+
+<recipe name="foodFishmeringue" count="1" craft_area="FishOven">
+	<ingredient name="FishFillet" count="5"/>
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="foodCropMushrooms" count="2"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+	<ingredient name="foodEgg" count="1"/>	
+</recipe>
+
+<recipe name="foodFishSoup" count="1" craft_area="FishOven">
+	<ingredient name="Salmon" count="1"/>
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="drinkJarBoiledWater" count="2"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="foodFishStew" count="1" craft_area="FishOven">
+	<ingredient name="FishFillet" count="5"/>
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="drinkJarBoiledWater" count="2"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="foodFishCurry" count="1" craft_area="FishOven">
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="foodCropCorn" count="2"/>
+	<ingredient name="FishFillet" count="4"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+</recipe>
+
+<recipe name="PiranhaOnAStick" count="1" craft_area="FishOven">
+	<ingredient name="MutantPiranha" count="1"/>
+	<ingredient name="FishStick" count="1"/>
+</recipe>
+
+<recipe name="PerchOnAStick" count="1" craft_area="FishOven">
+	<ingredient name="PerchFish" count="1"/>
+	<ingredient name="FishStick" count="1"/>
+</recipe>
+
+<recipe name="barramundiOnAStick" count="1" craft_area="FishOven">
+	<ingredient name="Barramundi" count="1"/>
+	<ingredient name="FishStick" count="1"/>
+</recipe>
+
+<recipe name="ShinerFishOnAStick" count="1" craft_area="FishOven">
+	<ingredient name="ShinerFish" count="1"/>
+	<ingredient name="FishStick" count="1"/>
+</recipe>
+
+<recipe name="tangfishOnAStick" count="1" craft_area="FishOven">
+	<ingredient name="Tangfish" count="1"/>
+	<ingredient name="FishStick" count="1"/>
+</recipe>
+
+<recipe name="ArramusOnAStick" count="1" craft_area="FishOven">
+	<ingredient name="ArramusFish" count="1"/>
+	<ingredient name="FishStick" count="1"/>
+</recipe>
+
+<recipe name="SearedSalmonFillet" count="2" craft_area="FishOven">
+	<ingredient name="FreshSalmonFillet" count="1"/>
+</recipe>
+
+<recipe name="FishStick" count="1">
+	<ingredient name="resourceWood" count="1"/>
+</recipe>
+
+	<recipe name="FishGrowingKit" count="1" craft_area="workbench" craft_time="180" tags="workbenchCrafting">
+		<ingredient name="oldCash" count="1000"/>
+	</recipe>
+	
+	</append>
+	
+</configs>

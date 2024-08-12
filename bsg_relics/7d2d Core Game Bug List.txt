@@ -1,0 +1,9 @@
+1) Ignite / Bleed / DoT kills seem to have some issue where those kills dont give XP.
+
+2) If Lockpick Timer is at or more than -100%, the timer stays at 0 and wont unlock an object.
+
+3) De-equip your armor, apply desired mods, then re-equip armor. (Buffs granted from mods may fall off if adding / removing mods while an item is equipped)
+
+4) If using archery and you get negative magazine value and are stuck in an animation, swap to a melee weapon, use a Power Attack, and swap back to archery and reload.
+
+5) Never log out with negative magazine value. It may cause issues.

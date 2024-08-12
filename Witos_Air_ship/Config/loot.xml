@@ -1,0 +1,6 @@
+<Witos>
+	<append xpath="/lootcontainers">
+		<lootcontainer id="181" name="carga140" count="0" size="14,10" sound_open="UseActions/open_vehicle" open_time="0" sound_close="UseActions/close_vehicle" loot_quality_template="qualBaseTemplate">
+		</lootcontainer>
+	</append>
+</Witos>

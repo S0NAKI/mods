@@ -1,0 +1,54 @@
+<configs>
+	<append xpath="/items">
+		<item name="vehicleBuggychassis">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="UnlockedBy" value="craftingVehicles"/>
+			<property name="CustomIcon" value="Buggychassis"/>
+			<property name="DescriptionKey" value="vehicleBuggychassisDesc"/>
+			<property name="EconomicValue" value="6000"/>
+			<property name="TraderStageTemplate" value="vehicleTier3"/>
+		</item>
+		<item name="vehicleBuggyaccessories">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="UnlockedBy" value="craftingVehicles"/>
+			<property name="CustomIcon" value="Buggyaccessories"/>
+			<property name="DescriptionKey" value="vehicleBuggyaccessoriesDesc"/>
+			<property name="EconomicValue" value="6000"/>
+			<property name="TraderStageTemplate" value="vehicleTier3"/>
+		</item>
+		<item name="vehicleBuggyplaceable">
+			<property name="Extends" value="vehicleTruck4x4Placeable"/>
+			<property name="Tags" value="vehicle,varmor,vseat,vengine,vfuel,vlight,canHaveCosmetic"/>
+			<property name="CustomIcon" value="Buggy"/>
+			<property name="DescriptionKey" value="vehicleBuggyplaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Buggy1.unity3d?Buggy.prefab"/>
+			<property name="EconomicValue" value="25000"/>
+			<property name="TraderStageTemplate" value="vehicleTier4"/>
+			<property class="Action1">
+				<property name="Vehicle" value="vehicleBuggy"/>
+				<property name="VehicleSize" value="4.7, 4.8, 5"/>
+			</property>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="6000"/>
+			</effect_group>
+		</item>
+		<item name="questRewardBuggyPartsBundle">
+			<property name="Extends" value="questRewardBundleMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="bundleVehicle4x4"/>
+			<property name="CustomIconTint" value="FFFFFF"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="DescriptionKey" value="questRewardVehicleBundleDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="vehiclesSkillMagazine,vehicleWheels,questRewardVehiclePartsBundle"/>
+				<property name="Create_item_count" value="3,4,1"/>
+				<property name="Random_item" value="vehicleBuggychassis,vehicleBuggyaccessories"/>
+				<property name="Random_item_count" value="1,1"/>
+				<property name="Random_count" value="1"/>
+				<property name="Unique_random_only" value="true"/>
+			</property>
+		</item>
+	</append>
+</configs>

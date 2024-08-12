@@ -1,0 +1,4 @@
+<VergilSpardaKillerQueen>
+		<!--Changes Flour Pallets to harvest Flour instead of cornmeal, since flour is, well, flour -->
+		<set xpath="/blocks/block[starts-with(@name, 'palletBagFlour')]/drop[@name='foodCornMeal']/@name">foodFlour</set>
+</VergilSpardaKillerQueen>

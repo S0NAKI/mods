@@ -1,0 +1,107 @@
+<Scomar82_ElementalAmmo>
+	<append xpath="/recipes">
+		<!--	Fire BULLETS	-->
+		<recipe name="ammo9mmFire" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceBulletTip" count="2"/>
+			<ingredient name="resourceGunPowder" count="2"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
+			<ingredient name="ammoGasCan" count="5"/>
+		</recipe>
+		<recipe name="ammo762mmFire" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceBulletTip" count="3"/>
+			<ingredient name="resourceGunPowder" count="3"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
+			<ingredient name="ammoGasCan" count="5"/>
+		</recipe>
+		<recipe name="ammo44MagnumFire" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceBulletTip" count="2"/>
+			<ingredient name="resourceGunPowder" count="2"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
+			<ingredient name="ammoGasCan" count="5"/>
+		</recipe>
+		<recipe name="ammoShotgunSlugFire" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceBulletTip" count="2"/>
+			<ingredient name="resourceGunPowder" count="5"/>
+			<ingredient name="resourceScrapPolymers" count="1"/>
+			<ingredient name="ammoGasCan" count="5"/>
+		</recipe>
+		
+		<!--	Lightning BULLETS	-->
+		<recipe name="ammo9mmLightning" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceBulletTip" count="1"/>
+			<ingredient name="resourceGunPowder" count="2"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
+			<ingredient name="resourcePotassiumNitratePowder" count="3"/>
+		</recipe>
+		<recipe name="ammo762mmLightning" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceBulletTip" count="1"/>
+			<ingredient name="resourceGunPowder" count="3"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
+			<ingredient name="resourcePotassiumNitratePowder" count="3"/>
+		</recipe>
+		<recipe name="ammo44MagnumLightning" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceBulletTip" count="1"/>
+			<ingredient name="resourceGunPowder" count="2"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
+			<ingredient name="resourcePotassiumNitratePowder" count="3"/>
+		</recipe>
+		<recipe name="ammoShotgunSlugLightning" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceBulletTip" count="1"/>
+			<ingredient name="resourceGunPowder" count="3"/>
+			<ingredient name="resourceScrapPolymers" count="1"/>
+			<ingredient name="resourcePotassiumNitratePowder" count="3"/>
+		</recipe>
+		
+		<!--	BUNDLES	-->
+		<recipe name="ammoBundle9mmFire" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceBulletTip" count="160"/>
+			<ingredient name="resourceGunPowder" count="160"/>
+			<ingredient name="resourceBulletCasing" count="80"/>
+			<ingredient name="ammoGasCan" count="400"/>
+		</recipe>
+		<recipe name="ammoBundle762mmFire" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceBulletTip" count="240"/>
+			<ingredient name="resourceGunPowder" count="240"/>
+			<ingredient name="resourceBulletCasing" count="80"/>
+			<ingredient name="ammoGasCan" count="400"/>
+		</recipe>
+		<recipe name="ammoBundle44MagnumFire" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceBulletTip" count="160"/>
+			<ingredient name="resourceGunPowder" count="160"/>
+			<ingredient name="resourceBulletCasing" count="80"/>
+			<ingredient name="ammoGasCan" count="400"/>
+		</recipe>
+		<recipe name="ammoBundleShotgunSlugFire" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceBulletTip" count="160"/>
+			<ingredient name="resourceGunPowder" count="400"/>
+			<ingredient name="resourceScrapPolymers" count="80"/>
+			<ingredient name="ammoGasCan" count="400"/>
+		</recipe>
+
+		<recipe name="ammoBundle9mmLightning" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceBulletTip" count="80"/>
+			<ingredient name="resourceGunPowder" count="160"/>
+			<ingredient name="resourceBulletCasing" count="80"/>
+			<ingredient name="resourcePotassiumNitratePowder" count="240"/>
+		</recipe>
+		<recipe name="ammoBundle762mmLightning" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceBulletTip" count="80"/>
+			<ingredient name="resourceGunPowder" count="240"/>
+			<ingredient name="resourceBulletCasing" count="80"/>
+			<ingredient name="resourcePotassiumNitratePowder" count="240"/>
+		</recipe>
+		<recipe name="ammoBundle44MagnumLightning" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceBulletTip" count="80"/>
+			<ingredient name="resourceGunPowder" count="160"/>
+			<ingredient name="resourceBulletCasing" count="80"/>
+			<ingredient name="resourcePotassiumNitratePowder" count="240"/>
+		</recipe>
+		<recipe name="ammoBundleShotgunSlugLightning" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceBulletTip" count="80"/>
+			<ingredient name="resourceGunPowder" count="240"/>
+			<ingredient name="resourceScrapPolymers" count="80"/>
+			<ingredient name="resourcePotassiumNitratePowder" count="240"/>
+		</recipe>
+		
+	</append>
+</Scomar82_ElementalAmmo>

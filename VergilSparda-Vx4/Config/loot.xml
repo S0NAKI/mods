@@ -1,0 +1,200 @@
+<VergilSpardaKillerQueen>
+<!-- lets pray I did this right... if you're here because you're nosy and I did something wrong or it's spaghetti code or it could be optimized please let me know because I am Stupid lol -->
+	<!-- If anything seems like the loot probability is too high please also let me know, I based these all off vanilla and I can't tell if they need tweaking -->
+		<!-- My thought process btw is that these foods are slightly more common because they're "worse", like finding radiated prewar food in Fallout -->
+
+
+<!-- ********************* CHANGED LOOT GROUPS (I THINK?) ********************* -->
+<!-- Freezer Items Lootgroup -->
+	<insertBefore xpath="/lootcontainers/lootgroup[@name='groupFoodCommon']">
+		<lootgroup name="groupFreezerCommon">
+			<item name="foodFrozenOJCon" loot_prob_template="Low"/>
+			<item name="foodFrozenPizza" loot_prob_template="med"/>
+			<item name="foodFrozenSalsburySteak" loot_prob_template="medLow"/>
+			<item name="foodFrozenVeg" loot_prob_template="med"/>
+			<item name="foodButterSpread" loot_prob_template="med"/>
+		</lootgroup>
+	</insertBefore>
+	
+		<!-- Freezer Food -->
+	<!-- <remove xpath="/lootcontainers/lootgroup[@name='groupShamwayFreezer01']/item[contains(@group, 'group')]"/> -->
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupShamwayFreezer01']">
+		<item group="groupFreezerCommon" loot_prob_template="med"/>
+		<item group="groupFoodTrashUncommon" loot_prob_template="med"/>
+		<item group="groupFoodTrashCommon" loot_prob_template="high"/>
+	</set>
+	
+<!-- ********************* APPENDED LOOT CONTAINERS (I THINK?) ********************* -->
+	<!-- Canned Goods -->
+	<append xpath="/lootcontainers/lootgroup[@name='cannedfood']">
+		<item name="foodCanSeasoning"/>
+		<item name="foodCanSoupTomato"/>
+	</append>
+	
+	<!-- Dumpster Food -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupDumpsterFood']">
+		<item name="foodCanSeasoning"/>
+		<item name="foodCanSoupTomato"/>
+		<item name="foodChips"/>
+		<item name="foodChips"/>
+		<item name="foodChipsOopsSourCream"/>
+		<item name="foodChipsNachiosBlue"/>
+		<item name="foodChipsNachiosRed"/>
+		<item name="foodVanillaWafers"/>
+		<item name="foodBretzels"/>
+		<item name="foodBeefJerkyNicks"/>
+		<item name="foodPrimeGranola"/>
+		<item name="foodParadisPeanuts"/>
+		<item name="foodParadisAlmonds"/>
+		<item name="foodCrackersPeanutButter"/>
+		<item name="foodCrackersCreamCheese"/>
+		<item name="foodDaBoxCereal"/>
+		<item name="foodFlour"/>
+		<item name="foodPotatoGranules"/>
+		<item name="foodFrozenPizza"/>
+		<item name="foodFrozenVeg"/>
+		<item name="foodFrozenSalsburySteak"/>
+	</append>
+	
+	<!-- drinks, all new -->
+	<!-- <append xpath="/lootcontainers/lootgroup[@name='drinks']">
+		<item name="drinkSodaBrewCola" loot_prob_template="medLow"/>
+		<item name="drinkSodaCitrus" loot_prob_template="medLow"/>
+		<item name="drinkSodaDIETCola" loot_prob_template="medLow"/>
+		<item name="drinkSodaEnergyShot" loot_prob_template="medLow"/>
+		<item name="drinkSodaLemon" loot_prob_template="medLow"/>
+		<item name="drinkSodaPeppy" loot_prob_template="medLow"/>
+		<item name="drinkSodaREGCola" loot_prob_template="medLow"/>
+		<item name="drinkSodaRootBeer" loot_prob_template="medLow"/>
+		<item name="drinkSodaStarCola" loot_prob_template="medLow"/>
+		<item name="drinkSportDrink" loot_prob_template="medLow"/>
+		<item name="drinkOrangeJuice" loot_prob_template="medLow"/>
+		<item name="drinkHerbalTonic" loot_prob_template="Low"/>
+		<item name="drinksSixPack" loot_prob_template="Low"/>
+		<item name="drinkWineRed" loot_prob_template="MedLow"/>
+	</append>
+	--> <!-- APPARENTLY THIS ENTIRE LOOT GROUP DOESNT EXIST ANYMORE? -->
+
+	<!-- Soda Fountain Container -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupSodaFountain01']">
+		<item name="drinkSodaBrewCola" loot_prob_template="med"/>
+		<item name="drinkSodaCitrus" loot_prob_template="med"/>
+		<item name="drinkSodaDIETCola" loot_prob_template="med"/>
+		<item name="drinkSodaEnergyShot" loot_prob_template="med"/>
+		<item name="drinkSodaLemon" loot_prob_template="med"/>
+		<item name="drinkSodaPeppy" loot_prob_template="med"/>
+		<item name="drinkSodaREGCola" loot_prob_template="med"/>
+		<item name="drinkSodaRootBeer" loot_prob_template="med"/>
+		<item name="drinkSodaFizzCola" loot_prob_template="med"/>
+		<item name="drinkSodaDietFizzCola" loot_prob_template="med"/>
+		<item name="drinkSodaSirP" loot_prob_template="med"/>
+		<item name="drinkSodaFrasRootBeer" loot_prob_template="med"/>
+		<item name="drinkSodaCitrussy" loot_prob_template="med"/>
+	</append>
+	
+	<!-- Food Groups -->
+		<!-- Common Foods -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupFoodCommon']">
+		<item name="foodCanSoupTomato"/>
+		<item name="foodChips"/>
+		<item name="foodVanillaWafers"/>
+		<item name="foodFlour"/>
+		<item name="drinkSleepyTimeTeaBags" loot_prob_template="medLow"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupFoodPileCommon']">
+		<item name="foodCanSoupTomato"/>
+		<item name="foodChips"/>
+		<item name="foodDaBoxCereal"/>
+		<item name="foodVanillaWafers"/>
+		<item name="foodFlour"/>
+		<item name="drinkSleepyTimeTeaBags" loot_prob_template="medLow"/>
+	</append>
+	
+		<!-- Uncommon Foods -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupFoodUncommon']">
+		<item name="foodCanSeasoning"/>
+		<item name="foodDaBoxCereal"/>
+		<item name="foodWhiteBread"/>
+		<item name="foodPotatoGranules"/>
+		<item name="drinkSleepyTimeTeaBags" loot_prob_template="medLow"/>
+	</append>
+	
+		<append xpath="/lootcontainers/lootgroup[@name='groupFoodRare']">
+		<item name="drinkSleepyTimeTeaBags" loot_prob_template="med"/>
+		<item name="foodInstantMash" loot_prob_template="med"/>
+	</append>
+	
+	<!-- Drink Groups -->
+		<!-- Common Drinks -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupDrinksCommon']">
+		<item name="drinkSportDrink" loot_prob_template="Med"/>
+		<item name="drinkSodaBrewCola" loot_prob_template="med"/>
+		<item name="drinkSodaCitrus" loot_prob_template="med"/>
+		<item name="drinkSodaDIETCola" loot_prob_template="med"/>
+		<item name="drinkSodaEnergyShot" loot_prob_template="med"/>
+		<item name="drinkSodaLemon" loot_prob_template="med"/>
+		<item name="drinkSodaPeppy" loot_prob_template="med"/>
+		<item name="drinkSodaREGCola" loot_prob_template="med"/>
+		<item name="drinkSodaRootBeer" loot_prob_template="med"/>
+		<item name="drinkSodaStarCola" loot_prob_template="med"/>
+		<item name="drinkSodaFizzCola" loot_prob_template="med"/>
+		<item name="drinkSodaDietFizzCola" loot_prob_template="med"/>
+		<item name="drinkSodaSirP" loot_prob_template="med"/>
+		<item name="drinkSodaFrasRootBeer" loot_prob_template="med"/>
+		<item name="drinkSodaCitrussy" loot_prob_template="med"/>
+		<item name="drinkOrangeQuest" loot_prob_template="med"/>
+	</append>
+	
+		<!-- Uncommon Drinks -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupDrinksUncommon']">
+		<item name="drinkHerbalTonic" loot_prob_template="medLow"/>
+		<item name="drinksSixPack" loot_prob_template="medLow"/>
+		<item name="drinkWineRed" loot_prob_template="medLow"/>
+		<item name="drinkOrangeQuest" loot_prob_template="medLow"/>
+	</append>
+	
+		<!-- Rare Drinks -->	
+	<append xpath="/lootcontainers/lootgroup[@name='groupDrinksRare']">
+		<item name="drinkWineRed" loot_prob_template="med"/>
+		<!-- <item name="drinkJarHoneyTeaSchematic" loot_prob_template="Low"/>--> <!-- NO LONGER NEEDED, SCHEMATICS DONT EXIST -->
+	</append>
+	
+	<!-- Wine (and eventually others) to Liquor Piles -->
+	<append xpath="lootcontainers/lootgroup[@name='groupLiquorSmall01']"> <!-- Liquor Pile Bonus, this is what adds the chance for liquor in liquor piles -->
+		<item name="drinkWineRed" count="1,2" loot_prob_template="med"/> <!-- Chance same as Beer -->
+	</append> 
+	
+	<!-- Uncommon Resources (Nails) -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupCraftingUncommon']">
+		<item name="toolBundleNails" loot_prob_template="medLow"/>
+		<item name="toolBundleSet" loot_prob_template="medLow"/>
+	</append>
+
+	<!-- Workbench Resources (Uncommon, 03) -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupWorkbenchLoot03']">
+		<item name="toolBundleNails" loot_prob_template="medLow"/>
+		<item name="toolBundleSet" loot_prob_template="medLow"/>
+	</append>
+	
+	<!-- Toolbox Loot (Uncommon, 02) -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupRollingToolbox02']">
+		<item name="toolBundleNails" loot_prob_template="medLow"/>
+		<item name="toolBundleSet" loot_prob_template="medLow"/>
+	</append>
+	
+	<!-- Construction Box (Common) -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupConstructionCrate01']">
+		<item name="toolBundleNails" loot_prob_template="low"/>
+		<item name="toolBundleSet" loot_prob_template="medLow"/>
+	</append>
+	
+	<!-- Honey Tea Schematic — DEPRECIATED AS OF ALPHA 21 UNLESS THEY RETURN TO THE SCHEMATIC SYSTEM
+	<append xpath="/lootcontainers/lootgroup[@name='farmingCookingRecipesT1']">
+		<item name="drinkJarHoneyTeaSchematic"/>
+	</append>
+	 -->
+	
+	
+</VergilSpardaKillerQueen>

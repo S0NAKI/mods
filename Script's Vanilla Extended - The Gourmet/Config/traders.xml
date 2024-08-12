@@ -1,0 +1,93 @@
+<ScriptsVanillaExtended-theGourmet>
+
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='cannedfood']">
+			<item name="foodCropSVETGRice"/>
+			<item name="foodSVETGSoySauce"/>
+			<item name="foodSVETGOliveOil"/>
+			<item name="foodSVETGMRE"/>
+			<item name="foodSVETGDsNuts"/>
+			<item name="foodSVETGTomatoSauce"/>
+			<item name="foodCanSVETGCoconutCream"/>
+			<item name="foodCanSVETGBoxOfCereal"/>
+			<item name="foodSVETGBagOfChips"/>
+			<item name="foodSVETGChocolate"/>
+			<item name="foodSVETGProteinBar"/>
+			<item name="foodSVETGPeanutButter"/>
+			<item name="foodSVETGJam"/>
+			<item name="foodSVETGCandyBag"/>
+			<item name="foodSVETGTurkishDelight"/>
+		</append>
+		
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='foodSupplies']">
+			<item name="foodCropSVETGCabbage" count="5,20"/>
+			<item name="foodCropSVETGLime" count="4,20"/>
+			<item name="foodCropSVETGMintLeaves" count="4,20"/>
+			<item name="foodCropSVETGOnion" count="4,18"/>
+			<item name="foodCropSVETGPaprika" count="4,18"/>
+			<item name="foodCropSVETGRedChilli" count="4,18"/>
+			<item name="foodCropSVETGTomato" count="4,18"/>
+			<item name="foodCropSVETGRice" count="4,18"/>
+			<item name="foodSVETGFishSalmon" count="1,4"/>
+			<item name="foodSVETGRawChicken" count="5,10"/>
+			<item name="foodSVETGRawSalmon" count="5,10"/>
+			<item name="foodSVETGRawPork" count="5,10"/>
+			<item name="foodSVETGRawBacon" count="5,10"/>
+			<item name="foodSVETGBread" count="5,10"/>
+			<item name="resourceSVETGDrinkingGlass" count="10,20"/>
+		</append>
+		
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='preparedFood']">
+			<item name="foodSVETGShawarma" count="1,2"/>
+			<item name="foodSVETGLasagna" count="1,2"/>
+			<item name="foodSVETGFishAndChips" count="1,2"/>
+			<item name="foodSVETGEggFriedRice" count="1,2"/>
+			<item name="foodSVETGSushi" count="1,2"/>
+			<item name="foodSVETGPeanutButterAndJam" count="1,2"/>
+			<item name="foodSVETGSashimi" count="1,2"/>
+			<item name="foodSVETGPierogi" count="1,2"/>
+		</append>
+		
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupDrinks']">
+			<item name="drinkSVETGMilk" count="5,10"/>
+			<item name="drinkSVETGLocaCona" count="5,10"/>
+			<item name="drinkSVETGValleyDed" count="5,10"/>
+			<item name="drinkSVETGCanta" count="5,10"/>
+			<item name="drinkSVETGSixDown" count="5,10"/>
+			<item name="drinkSVETGIceTea" count="5,10"/>
+			<item name="drinkSVETGOrangeJuice" count="5,20"/>
+			<item name="drinkSVETGPineAppleJuice" count="5,20"/>
+			<item name="foodCropSVETGTeaBag" count="10,30"/>
+		</append>
+
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupDrinksSpecial']">
+			<item name="drinkSVETGRum" count="1,2"/>
+			<item name="drinkSVETGVodka" count="1,2"/>
+			<item name="drinkSVETGTequila" count="1,2"/>
+			<item name="drinkSVETGTripleSec" count="1,2"/>
+			<item name="drinkSVETGWhiskey" count="1,2"/>
+			<item name="drinkSVETGBuccoSour" count="1,2" prob="0.05"/>
+			<item name="drinkSVETGGaramanOnTheBeach" count="1,2" prob="0.05"/>
+			<item name="drinkSVETGLykensRedemption" count="1,2" prob="0.05"/>
+			<item name="drinkSVETGXcalibersQuest" count="1,2" prob="0.05"/>
+			<item name="drinkSVETGCoffeeDeKlutz" count="1,2" prob="0.05"/>
+			<item name="drinkSVETGMarkosBane" count="1,2" prob="0.05"/>
+			<item name="drinkSVETGBlackTea" count="2,5"/>
+			<item name="drinkSVETGMintTea" count="2,5"/>
+		</append>
+		
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='tools']">
+			<item name="toolSVETGKitchenKnife" prob="1"/>
+			<item name="toolSVETGCocktailShaker" prob=".03"/>
+			<item name="toolSVETGPan" prob="1"/>
+			<item name="toolSVETGMoka" prob="1"/>
+			<item name="toolSVETGMortarPestle" prob="1"/>
+			<item name="toolSVETGKettle" prob="1"/>
+		</append>
+		
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='workstations']">
+			<item name="SVETGStove"/>
+			<item name="SVETGCuttingBoard"/>
+			<item name="SVETGBarCounter"/>
+		</append>
+
+</ScriptsVanillaExtended-theGourmet>

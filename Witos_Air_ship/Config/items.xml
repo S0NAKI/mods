@@ -1,0 +1,52 @@
+<Witos>
+    <append xpath="/items">
+	       
+		<item name="WitosAirShipplaceable">
+            <property name="Extends" value="vehicleGyrocopterPlaceable"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="WitosAirShipplaceableDesc"/>
+            <property name="CustomIcon" value="WitosAirShip"/>
+            <property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat"/>
+            <property name="Meshfile" value="#@modfolder:Resources/Airship.unity3d?Airship2"/>
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+            <property name="EconomicValue" value="10000"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="ShowQuality" value="false"/>
+            <property class="Action1">
+                <property name="Class" value="SpawnVehicle"/>
+                <property name="Vehicle" value="WitosAirShip"/>
+                <property name="VehicleSize" value="5, 5, 5"/>
+            </property>
+            <effect_group name="Base Effects">
+                <passive_effect name="ModSlots" operation="base_set" value="4"/>
+                <passive_effect name="ModPowerBonus" operation="base_add" tags="EconomicValue" value="300"/>
+                <passive_effect name="DegradationMax" operation="base_set" value="3500"/>
+            </effect_group>
+        </item>  
+
+		<item name="burner">
+            <property name="Extends" value="vehicleWheels"/>
+            <property name="UnlockedBy" value="craftingVehicles"/>
+            <property name="CustomIcon" value="burner"/>
+            <property name="EconomicValue" value="3000"/>
+            <property name="TraderStageTemplate" value="vehicleTier5"/>
+        </item>
+		
+        <item name="structurewoodAirshipWitos">
+            <property name="Extends" value="vehicleWheels"/>
+            <property name="UnlockedBy" value="craftingVehicles"/>
+            <property name="CustomIcon" value="structurewoodAirshipWitos"/>
+            <property name="EconomicValue" value="3000"/>
+            <property name="TraderStageTemplate" value="vehicleTier5"/>
+        </item>
+		
+		<item name="candles">
+            <property name="Extends" value="vehicleWheels"/>
+            <property name="UnlockedBy" value="craftingVehicles"/>
+            <property name="CustomIcon" value="candles"/>
+            <property name="EconomicValue" value="3000"/>
+            <property name="TraderStageTemplate" value="vehicleTier5"/>
+        </item>
+     
+    </append>
+</Witos>

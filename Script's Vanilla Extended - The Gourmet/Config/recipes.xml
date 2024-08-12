@@ -1,0 +1,881 @@
+<ScriptsVanillaExtended-theGourmet>
+
+		<remove xpath="recipes/recipe[@name='foodBaconAndEggs']"/>
+		<remove xpath="recipes/recipe[@name='foodMeatStew']"/>
+		<remove xpath="recipes/recipe[@name='foodPumpkinBread']"/>
+		<remove xpath="recipes/recipe[@name='foodBlueberryPie']"/>
+		<remove xpath="recipes/recipe[@name='foodPumpkinPie']"/>
+		<remove xpath="recipes/recipe[@name='foodPumpkinCheesecake']"/>
+		<remove xpath="recipes/recipe[@name='foodCornBread']"/>
+		<remove xpath="recipes/recipe[@name='foodChiliDog']"/>
+		<remove xpath="recipes/recipe[@name='foodFishTacos']"/>
+		<remove xpath="recipes/recipe[@name='foodGumboStew']"/>
+		<remove xpath="recipes/recipe[@name='foodShepardsPie']"/>
+		<remove xpath="recipes/recipe[@name='foodSpaghetti']"/>
+		<remove xpath="recipes/recipe[@name='foodVegetableStew']"/>
+		<remove xpath="recipes/recipe[@name='drinkJarBoiledWater']"/>
+		<remove xpath="recipes/recipe[@name='drinkJarPureMineralWater']"/>
+		<remove xpath="recipes/recipe[@name='drinkJarCoffee']"/>
+		<remove xpath="recipes/recipe[@name='drinkJarBlackStrapCoffee']"/>
+		<remove xpath="recipes/recipe[@name='drinkJarGoldenRodTea']"/>
+		<remove xpath="recipes/recipe[@name='drinkJarGrandpasAwesomeSauce']"/>
+		<remove xpath="recipes/recipe[@name='drinkJarGrandpasLearningElixir']"/>
+		<remove xpath="recipes/recipe[@name='drinkJarGrandpasMoonshine']"/>
+		<remove xpath="recipes/recipe[@name='drinkJarRedTea']"/>
+		<remove xpath="recipes/recipe[@name='drinkJarYuccaJuice']"/>
+		<remove xpath="recipes/recipe[@name='drinkYuccaJuiceSmoothie']"/>
+	
+	<append xpath="recipes">
+	
+	<!-- Vanilla Recipes -->
+	
+		<recipe name="foodBaconAndEggs" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGRawBacon" count="5"/>
+			<ingredient name="foodEgg" count="2"/>	
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>	
+		</recipe>
+		
+		<recipe name="foodBaconAndEggs" count="1" craft_area="SVETGStove" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGRawBacon" count="5"/>
+			<ingredient name="foodEgg" count="2"/>	
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>	
+		</recipe>
+		
+		<recipe name="foodMeatStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGRawBeefStripes" count="5"/>
+			<ingredient name="drinkJarBoiledWater" count="3"/>	
+			<ingredient name="foodCanStock" count="1"/>	
+			<ingredient name="foodSVETGTomatoSlices" count="5"/>
+			<ingredient name="resourceSVETGWoodenBowl" count="1"/>	
+		</recipe>
+		
+		<recipe name="foodMeatStew" count="1" craft_area="SVETGStove" craft_time="36" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGRawBeefStripes" count="5"/>
+			<ingredient name="drinkJarBoiledWater" count="3"/>	
+			<ingredient name="foodCanStock" count="1"/>	
+			<ingredient name="foodSVETGTomatoSlices" count="5"/>
+			<ingredient name="resourceSVETGWoodenBowl" count="1"/>	
+		</recipe>
+		
+		<recipe name="foodPumpkinBread" count="1" craft_area="SVETGStove" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropPumpkin" count="1"/>
+			<ingredient name="foodSVETGDough" count="1"/>	
+		</recipe>
+		
+		<recipe name="foodBlueberryPie" count="1" craft_area="SVETGStove" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropBlueberries" count="5"/>
+			<ingredient name="foodSVETGDough" count="1"/>
+			<ingredient name="foodEgg" count="2"/>	
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>			
+		</recipe>
+		
+		<recipe name="foodPumpkinPie" count="1" craft_area="SVETGStove" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropPumpkin" count="5"/>
+			<ingredient name="foodSVETGDough" count="1"/>
+			<ingredient name="foodEgg" count="2"/>	
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>			
+		</recipe>
+		
+		<recipe name="foodPumpkinCheesecake" count="1" craft_area="SVETGStove" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropPumpkin" count="2"/>
+			<ingredient name="foodSVETGDough" count="1"/>
+			<ingredient name="foodEgg" count="2"/>
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>			
+		</recipe>
+		
+		<recipe name="foodCornBread" count="1" craft_area="campfire" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGDough" count="1"/>
+			<ingredient name="foodCornMeal" count="1"/>			
+		</recipe>
+		
+		<recipe name="foodCornBread" count="1" craft_area="SVETGStove" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGDough" count="1"/>
+			<ingredient name="foodCornMeal" count="1"/>			
+		</recipe>
+		
+		<recipe name="foodChiliDog" count="1" craft_area="campfire" craft_tool="toolSVETGPan" tags="perkMasterChef,learnable">
+			<ingredient name="foodCanChili" count="1"/>
+			<ingredient name="foodSVETGCheese" count="1"/>	
+			<ingredient name="foodSVETGSausage" count="2"/>
+			<ingredient name="foodSVETGBread" count="1"/>
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>			
+		</recipe>
+		
+		<recipe name="foodChiliDog" count="1" craft_area="SVETGStove" craft_tool="toolSVETGPan" tags="perkMasterChef,learnable">
+			<ingredient name="foodCanChili" count="1"/>
+			<ingredient name="foodSVETGCheese" count="1"/>	
+			<ingredient name="foodSVETGSausage" count="2"/>
+			<ingredient name="foodSVETGBread" count="1"/>
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>			
+		</recipe>
+		
+		<recipe name="foodFishTacos" count="1" craft_area="SVETGStove" craft_time="12" craft_tool="toolSVETGPan" tags="perkMasterChef,learnable">
+			<ingredient name="foodCanSalmon" count="1"/>
+			<ingredient name="foodSVETGFlourTortilla" count="1"/>
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>
+		</recipe>
+		
+		<recipe name="foodFishTacos" count="1" craft_area="SVETGStove" craft_time="12" craft_tool="toolSVETGPan" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGRawSalmon" count="2"/>
+			<ingredient name="foodSVETGFlourTortilla" count="1"/>
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>
+		</recipe>
+		
+		<recipe name="foodFishTacos" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGRawSalmon" count="2"/>
+			<ingredient name="foodSVETGFlourTortilla" count="1"/>
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>
+		</recipe>
+
+		<recipe name="foodFishTacos" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,learnable">
+			<ingredient name="foodCanSalmon" count="1"/>
+			<ingredient name="foodSVETGFlourTortilla" count="1"/>
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>
+		</recipe>
+		
+		<recipe name="foodGumboStew" count="1" craft_area="SVETGStove" craft_time="36" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodCanBeef" count="1"/>
+			<ingredient name="foodCanPeas" count="1"/>
+			<ingredient name="foodCanStock" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceSVETGWoodenBowl" count="1"/>
+		</recipe>
+		
+		<recipe name="foodGumboStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodCanBeef" count="1"/>
+			<ingredient name="foodCanPeas" count="1"/>
+			<ingredient name="foodCanStock" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceSVETGWoodenBowl" count="1"/>
+		</recipe>
+		
+		<recipe name="foodGumboStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGRawBeefStripes" count="5"/>
+			<ingredient name="foodCanPeas" count="1"/>
+			<ingredient name="foodCanStock" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceSVETGWoodenBowl" count="1"/>
+		</recipe>
+		
+		<recipe name="foodGumboStew" count="1" craft_area="SVETGStove" craft_time="36" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGRawBeefStripes" count="5"/>
+			<ingredient name="foodCanPeas" count="1"/>
+			<ingredient name="foodCanStock" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceSVETGWoodenBowl" count="1"/>
+		</recipe>		
+		
+		<recipe name="foodShepardsPie" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodCanLamb" count="1"/>
+			<ingredient name="foodCanPeas" count="1"/>
+			<ingredient name="foodCropCorn" count="1"/>
+			<ingredient name="foodCropPotato" count="1"/>
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>
+		</recipe>
+		
+		<recipe name="foodShepardsPie" count="1" craft_area="SVETGStove" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodCanLamb" count="1"/>
+			<ingredient name="foodCanPeas" count="1"/>
+			<ingredient name="foodCropCorn" count="1"/>
+			<ingredient name="foodCropPotato" count="1"/>
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>
+		</recipe>
+		
+		<recipe name="foodSpaghetti" count="1" craft_area="SVETGStove" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGRawBeefGround" count="5"/>
+			<ingredient name="foodSVETGRawPasta" count="1"/>
+			<ingredient name="foodSVETGTomatoSauce" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceSVETGWoodenBowl" count="1"/>
+		</recipe>
+		
+		<recipe name="foodSpaghetti" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGRawBeefGround" count="5"/>
+			<ingredient name="foodSVETGRawPasta" count="1"/>
+			<ingredient name="foodSVETGTomatoSauce" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceSVETGWoodenBowl" count="1"/>
+		</recipe>
+		
+		<recipe name="foodVegetableStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropPotato" count="2"/>
+			<ingredient name="foodSVETGOnionSlices" count="2"/>
+			<ingredient name="foodCropMushrooms" count="2"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceSVETGWoodenBowl" count="1"/>
+		</recipe>
+		
+		<recipe name="foodVegetableStew" count="1" craft_area="SVETGStove" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropPotato" count="2"/>
+			<ingredient name="foodSVETGOnionSlices" count="2"/>
+			<ingredient name="foodCropMushrooms" count="2"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceSVETGWoodenBowl" count="1"/>
+		</recipe>
+		
+		<recipe name="foodBoiledMeat" count="1" craft_area="SVETGStove" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodRawMeat" count="5"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="1,3" operation="base_add" value="-1,-2" tags="foodRawMeat"/>
+			</effect_group>
+		</recipe>
+		
+		<recipe name="foodCharredMeat" count="1" craft_area="SVETGStove" tags="perkMasterChef">
+			<ingredient name="foodRawMeat" count="5"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="1,3" operation="base_add" value="-1,-2" tags="foodRawMeat"/>
+			</effect_group>
+		</recipe>
+		
+		<recipe name="foodCornOnTheCob" count="1" craft_area="SVETGStove" craft_tool="toolSVETGPan" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropCorn" count="1"/>
+		</recipe>
+		
+		<recipe name="foodEggBoiled" count="1" craft_area="SVETGStove" craft_tool="toolCookingPot" tags="perkMasterChef">
+			<ingredient name="foodEgg" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+		
+		<recipe name="foodGrilledMeat" count="1" craft_area="SVETGStove" craft_tool="toolSVETGPan" tags="perkMasterChef,learnable">
+			<ingredient name="foodRawMeat" count="5"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="1,3" operation="base_add" value="-1,-2" tags="foodRawMeat"/>
+			</effect_group>
+		</recipe>
+		
+		
+	<!-- Vanilla Drinks -->
+		
+		<recipe name="drinkJarBoiledWater" count="1" craft_area="SVETGStove" craft_tool="toolCookingPot" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+			<ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>
+		
+		<recipe name="drinkJarBoiledWater" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+			<ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>
+		
+		<recipe name="drinkJarBoiledWater" count="1" craft_area="SVETGBarCounter" craft_tool="toolSVETGKettle" craft_time="2" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+			<ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>
+
+		<recipe name="drinkJarPureMineralWater" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceCoal" count="1"/>
+			<ingredient name="resourceCropGoldenrodPlant" count="1"/>
+			<ingredient name="resourceCropChrysanthemumPlant" count="1"/>
+		</recipe>
+
+		<recipe name="drinkJarPureMineralWater" count="1" craft_area="SVETGStove" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceCoal" count="1"/>
+			<ingredient name="resourceCropGoldenrodPlant" count="1"/>
+			<ingredient name="resourceCropChrysanthemumPlant" count="1"/>
+		</recipe>
+
+		<recipe name="drinkJarCoffee" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="resourceCropCoffeeBeans" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+		
+		<recipe name="drinkJarCoffee" count="1" craft_area="SVETGStove" craft_tool="toolSVETGMoka" tags="perkMasterChef,learnable">
+			<ingredient name="resourceCropCoffeeBeans" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+
+		<recipe name="drinkJarBlackStrapCoffee" count="1" craft_area="SVETGStove" craft_tool="toolSVETGMoka" tags="perkMasterChef,learnable">
+			<ingredient name="resourceCropCoffeeBeans" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceGunPowder" count="5"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="1,3" operation="base_add" value="-1,-2" tags="resourceGunPowder"/>
+			</effect_group>
+		</recipe>
+
+		<recipe name="drinkJarGoldenRodTea" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="resourceCropGoldenrodPlant" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+		
+		<recipe name="drinkJarGoldenRodTea" count="1" craft_area="SVETGBarCounter" craft_time="12" craft_tool="toolSVETGKettle" tags="perkMasterChef,learnable">
+			<ingredient name="resourceCropGoldenrodPlant" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+
+		<recipe name="drinkJarGrandpasAwesomeSauce" count="1" craft_area="SVETGBarCounter" craft_time="12" craft_tool="toolSVETGCocktailShaker" tags="perkMasterChef,learnable">
+			<ingredient name="casinoCoin" count="50"/>
+			<ingredient name="foodHoney" count="5"/>
+			<ingredient name="foodCropMushrooms" count="5"/>
+			<ingredient name="ammoGasCan" count="10"/>
+			<ingredient name="foodCropGraceCorn" count="1"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="1,3" operation="perc_add" value="-.2,-.4" tags="casinoCoin,foodHoney,foodCropMushrooms,ammoGasCan"/>
+			</effect_group>
+		</recipe>
+
+		<recipe name="drinkJarGrandpasLearningElixir" count="1" craft_area="SVETGBarCounter" craft_time="12" craft_tool="toolSVETGCocktailShaker" tags="perkMasterChef,learnable">
+			<ingredient name="foodCanDogfood" count="2"/>
+			<ingredient name="drinkJarRedTea" count="2"/>
+			<ingredient name="resourceAcid" count="1"/>
+			<ingredient name="drinkJarBeer" count="1"/>
+			<ingredient name="foodCropGraceCorn" count="1"/>
+		</recipe>
+
+		<recipe name="drinkJarGrandpasMoonshine" count="1" craft_area="SVETGBarCounter" craft_time="12" craft_tool="toolSVETGCocktailShaker" tags="perkMasterChef,learnable">
+			<ingredient name="foodCornMeal" count="5"/>
+			<ingredient name="drinkJarBeer" count="1"/>
+			<ingredient name="foodCropBlueberries" count="5"/>
+			<ingredient name="resourceAcid" count="1"/>
+			<ingredient name="foodCropGraceCorn" count="1"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="1,3" operation="base_add" value="-1,-2" tags="foodCornMeal,foodCropBlueberries"/>
+			</effect_group>
+		</recipe>
+
+		<recipe name="drinkJarRedTea" count="1" craft_area="SVETGBarCounter" craft_time="12" craft_tool="toolSVETGKettle" tags="perkMasterChef,learnable">
+			<ingredient name="resourceCropChrysanthemumPlant" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+		
+		<recipe name="drinkJarRedTea" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="resourceCropChrysanthemumPlant" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+
+		<!-- <recipe name="drinkJarRiverWater" count="1" craft_area="campfire" tags="perkMasterChef"> -->
+			<!-- <ingredient name="resourceSnowBall" count="1"/> -->
+			<!-- <ingredient name="drinkJarEmpty" count="1"/> -->
+		<!-- </recipe> -->
+
+		<recipe name="drinkJarYuccaJuice" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropYuccaFruit" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+		
+		<recipe name="drinkJarYuccaJuice" count="1" craft_area="SVETGBarCounter" craft_time="12" craft_tool="toolSVETGKettle" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropYuccaFruit" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+
+		<recipe name="drinkYuccaJuiceSmoothie" count="1" craft_area="SVETGBarCounter" craft_time="12" craft_tool="toolSVETGCocktailShaker" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropYuccaFruit" count="4"/>
+			<ingredient name="foodCropBlueberries" count="4"/>
+			<ingredient name="resourceSnowBall" count="1"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="1,3" operation="base_add" value="-1,-2" tags="foodCropYuccaFruit,foodCropBlueberries"/>
+			</effect_group>
+		</recipe>
+		
+ <!-- New Stuff -->
+	
+		<recipe name="toolSVETGKitchenKnife" count="1" craft_area="forge" tags="learnable">
+			<ingredient name="resourceScrapIron" count="50"/>
+		</recipe>
+		
+		<recipe name="foodSVETGRawSalmon" count="5" craft_area="SVETGCuttingBoard" craft_tool="toolSVETGKitchenKnife">
+			<ingredient name="foodSVETGFishSalmon" count="1"/>
+		</recipe>
+		
+		<recipe name="foodSVETGRawChickenStripes" count="5" craft_area="SVETGCuttingBoard" craft_tool="toolSVETGKitchenKnife">
+			<ingredient name="foodSVETGRawChicken" count="5"/>
+		</recipe>
+		
+		<recipe name="foodSVETGRawBeefStripes" count="5" craft_area="SVETGCuttingBoard" craft_tool="toolSVETGKitchenKnife">
+			<ingredient name="foodRawMeat" count="5"/>
+		</recipe>
+		
+		<recipe name="foodSVETGRawBeefGround" count="5" craft_area="SVETGCuttingBoard" craft_tool="toolSVETGKitchenKnife">
+			<ingredient name="foodRawMeat" count="5"/>
+		</recipe>
+		
+		<recipe name="foodSVETGRawPasta" count="2" craft_area="SVETGCuttingBoard" craft_tool="toolSVETGKitchenKnife" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGDough" count="1"/>
+		</recipe>
+		
+		<recipe name="foodSVETGDough" count="1" craft_area="SVETGCuttingBoard" craft_time="8" tags="perkMasterChef,learnable">
+			<ingredient name="foodEgg" count="2"/>
+			<ingredient name="foodCornMeal" count="2"/>
+		</recipe>
+		
+		<recipe name="foodSVETGTomatoSauce" count="2" craft_area="SVETGCuttingBoard" craft_tool="toolSVETGMortarPestle" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropSVETGTomato" count="10"/>
+			<ingredient name="resourceSVETGDrinkingGlass" count="2"/>
+		</recipe>
+		
+		<recipe name="foodSVETGFlourTortilla" count="5" craft_area="SVETGCuttingBoard" tags="perkMasterChef,learnable">
+			<ingredient name="foodCornMeal" count="2"/>
+			<ingredient name="foodSVETGDough" count="1"/>
+		</recipe>
+		
+		<recipe name="foodSVETGSausage" count="10" craft_area="SVETGCuttingBoard" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGRawBeefGround" count="5"/>
+		</recipe>
+		
+		<recipe name="foodSVETGCroissant" count="3" craft_area="SVETGStove" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGDough" count="1"/>
+		</recipe>
+		
+		<recipe name="foodSVETGCereal" count="1" craft_area="SVETGCuttingBoard">
+			<ingredient name="drinkSVETGMilk" count="1"/>
+			<ingredient name="foodCanSVETGBoxOfCereal" count="1"/>
+			<ingredient name="resourceSVETGWoodenBowl" count="1"/>			
+		</recipe>
+		
+		<recipe name="resourceSVETGWoodenBowl" count="1">
+			<ingredient name="resourceWood" count="3"/>
+		</recipe>
+		
+		<recipe name="resourceSVETGWoodenPlate" count="1">
+			<ingredient name="resourceWood" count="3"/>
+		</recipe>
+
+		<recipe name="resourceSVETGDrinkingGlass" material_based="true" count="1" craft_area="forge">
+			<ingredient name="unit_glass" count="10"/>
+		</recipe>
+		
+		<recipe name="foodSVETGSashimi" count="1" craft_area="SVETGCuttingBoard" craft_tool="toolSVETGKitchenKnife" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGRawSalmon" count="5"/>
+			<ingredient name="foodCropSVETGLime" count="2"/>		
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>				
+		</recipe>
+		
+		<recipe name="foodSVETGSushi" count="1" craft_area="SVETGCuttingBoard" craft_tool="toolSVETGKitchenKnife" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGRawSalmon" count="5"/>
+			<ingredient name="foodCropSVETGRice" count="1"/>	
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>				
+		</recipe>
+		
+		<recipe name="foodSVETGEggFriedRice" count="1" craft_area="SVETGStove" craft_tool="toolSVETGPan" tags="perkMasterChef,learnable">
+			<ingredient name="foodEgg" count="5"/>
+			<ingredient name="foodCropSVETGRice" count="1"/>	
+			<ingredient name="foodSVETGSoySauce" count="1"/>	
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>				
+		</recipe>
+		
+		<recipe name="foodSVETGTomatoSoup" count="1" craft_area="SVETGStove" craft_time="28" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="drinkJarBoiledWater" count="2"/>
+			<ingredient name="foodCropSVETGTomato" count="5"/>	
+			<ingredient name="resourceSVETGWoodenBowl" count="1"/>				
+		</recipe>
+		
+		<recipe name="foodSVETGPotatoSoup" count="1" craft_area="SVETGStove" craft_time="28" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="drinkJarBoiledWater" count="2"/>
+			<ingredient name="foodCropPotato" count="5"/>	
+			<ingredient name="resourceSVETGWoodenBowl" count="1"/>				
+		</recipe>
+		
+		<recipe name="foodSVETGGrilledPorkchop" count="1" craft_area="SVETGStove" craft_tool="toolSVETGPan" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGRawPork" count="5"/>
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>				
+		</recipe>
+		
+		<recipe name="foodSVETGStirFry" count="1" craft_area="SVETGStove" craft_tool="toolSVETGPan" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGOnionSlices" count="2"/>	
+			<ingredient name="foodCropSVETGPaprika" count="2"/>	
+			<ingredient name="foodCropSVETGRedChilli" count="2"/>
+			<ingredient name="foodSVETGRawBeefStripes" count="5"/>	
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>					
+		</recipe>
+		
+		<recipe name="foodSVETGStirFry" count="1" craft_area="SVETGStove" craft_tool="toolSVETGPan" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGOnionSlices" count="2"/>	
+			<ingredient name="foodCropSVETGPaprika" count="2"/>	
+			<ingredient name="foodCropSVETGRedChilli" count="2"/>
+			<ingredient name="foodSVETGRawChickenStripes" count="5"/>
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>					
+		</recipe>
+		
+		<recipe name="foodSVETGBurgerAndFries" count="1" craft_area="SVETGStove" craft_tool="toolSVETGPan" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGCabbageLeaves" count="2"/>	
+			<ingredient name="foodCornBread" count="2"/>	
+			<ingredient name="foodSVETGRawBeefGround" count="5"/>
+			<ingredient name="foodSVETGTomatoSlices" count="2"/>			
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>					
+		</recipe>
+		
+		<recipe name="foodSVETGFishAndChips" count="1" craft_area="SVETGStove" craft_time="28" craft_tool="toolSVETGPan" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGRawSalmon" count="5"/>
+			<ingredient name="foodCropPotato" count="5"/>	
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>					
+		</recipe>
+		
+		<recipe name="foodSVETGFullEnglish" count="1" craft_area="SVETGStove" craft_tool="toolSVETGPan" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGSausage" count="5"/>
+			<ingredient name="foodSVETGTomatoSlices" count="2"/>	
+			<ingredient name="foodCanChili" count="1"/>		
+			<ingredient name="foodSVETGRawBacon" count="5"/>	
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>					
+		</recipe>
+		
+		<recipe name="foodSVETGLasagna" count="1" craft_area="SVETGStove" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGRawBeefGround" count="5"/>
+			<ingredient name="foodSVETGRawPasta" count="3"/>	
+			<ingredient name="foodSVETGTomatoSauce" count="1"/>	
+			<ingredient name="foodSVETGCheese" count="2"/>	
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>					
+		</recipe>
+		
+		<recipe name="foodSVETGPizza" count="1" craft_area="SVETGStove" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropMushrooms" count="5"/>
+			<ingredient name="foodSVETGOliveOil" count="1"/>	
+			<ingredient name="foodSVETGTomatoSauce" count="2"/>	
+			<ingredient name="foodSVETGCheese" count="2"/>	
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>					
+		</recipe>
+		
+		<recipe name="foodSVETGSchnitzel" count="1" craft_area="SVETGStove" craft_time="40" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGRawChicken" count="5"/>
+			<ingredient name="foodCropSVETGLime" count="2"/>	
+			<ingredient name="foodCropPotato" count="5"/>	
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>					
+		</recipe>
+		
+		<recipe name="foodSVETGRamen" count="1" craft_area="SVETGStove" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGSoySauce" count="1"/>
+			<ingredient name="foodCanMiso" count="1"/>	
+			<ingredient name="foodSVETGRawBeefStripes" count="5"/>	
+			<ingredient name="foodSVETGRawPasta" count="2"/>
+			<ingredient name="resourceSVETGWoodenBowl" count="1"/>	
+		</recipe>
+		
+		<recipe name="foodSVETGRamen" count="1" craft_area="SVETGStove" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGSoySauce" count="1"/>
+			<ingredient name="foodCanMiso" count="1"/>	
+			<ingredient name="foodSVETGRawChickenStripes" count="5"/>	
+			<ingredient name="foodSVETGRawPasta" count="2"/>
+			<ingredient name="resourceSVETGWoodenBowl" count="1"/>	
+		</recipe>
+		
+		<recipe name="foodSVETGShawarma" count="1" craft_area="SVETGStove" craft_tool="toolSVETGPan" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGCabbageLeaves" count="2"/>
+			<ingredient name="foodSVETGTomatoSlices" count="2"/>
+			<ingredient name="foodSVETGRawChickenStripes" count="5"/>
+			<ingredient name="foodSVETGFlourTortilla" count="2"/>	
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>	
+		</recipe>
+		
+		<recipe name="foodSVETGShawarma" count="1" craft_area="SVETGStove" craft_tool="toolSVETGPan" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGCabbageLeaves" count="2"/>	
+			<ingredient name="foodSVETGTomatoSlices" count="2"/>
+			<ingredient name="foodSVETGRawBeefStripes" count="5"/>
+			<ingredient name="foodSVETGFlourTortilla" count="2"/>	
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>	
+		</recipe>
+		
+		<recipe name="drinkSVETGIceTea" count="1" craft_area="SVETGBarCounter" tags="perkMasterChef,learnable">
+			<ingredient name="drinkSVETGBlackTea" count="2"/>
+			<ingredient name="drinkSVETGIceCubes" count="5"/>	
+			<ingredient name="resourceSVETGDrinkingGlass" count="1"/>	
+		</recipe>
+		
+		<recipe name="drinkSVETGBlackTea" count="1" craft_area="campfire" craft_tool="toolCookingPot">
+			<ingredient name="foodCropSVETGTeaBag" count="2"/>
+			<ingredient name="drinkJarBoiledWater" count="2"/>	
+			<ingredient name="resourceSVETGDrinkingGlass" count="1"/>	
+		</recipe>
+		
+		<recipe name="drinkSVETGBlackTea" count="1" craft_area="SVETGBarCounter" craft_tool="toolSVETGKettle">
+			<ingredient name="foodCropSVETGTeaBag" count="2"/>
+			<ingredient name="drinkJarBoiledWater" count="2"/>	
+			<ingredient name="resourceSVETGDrinkingGlass" count="1"/>	
+		</recipe>
+		
+		<recipe name="drinkSVETGMintTea" count="1" craft_area="SVETGBarCounter" craft_tool="toolSVETGKettle">
+			<ingredient name="foodCropSVETGTeaBag" count="2"/>
+			<ingredient name="drinkJarBoiledWater" count="2"/>	
+			<ingredient name="foodCropSVETGMintLeaves" count="5"/>
+			<ingredient name="resourceSVETGDrinkingGlass" count="1"/>	
+		</recipe>
+		
+		<recipe name="drinkSVETGMintTea" count="1" craft_area="campfire" craft_tool="toolCookingPot">
+			<ingredient name="foodCropSVETGTeaBag" count="2"/>
+			<ingredient name="drinkJarBoiledWater" count="2"/>	
+			<ingredient name="foodCropSVETGMintLeaves" count="5"/>
+			<ingredient name="resourceSVETGDrinkingGlass" count="1"/>	
+		</recipe>
+		
+		<recipe name="drinkSVETGBuccoSour" count="1" craft_area="SVETGBarCounter" craft_time="12" craft_tool="toolSVETGCocktailShaker" tags="perkMasterChef,learnable">
+			<ingredient name="drinkSVETGVodka" count="1"/>
+			<ingredient name="drinkSVETGIceCubes" count="5"/>	
+			<ingredient name="drinkSVETGOrangeJuice" count="1"/>
+			<ingredient name="foodCropSVETGLime" count="3"/>
+			<ingredient name="resourceSVETGDrinkingGlass" count="1"/>	
+		</recipe>
+		
+		<recipe name="drinkSVETGGaramanOnTheBeach" count="1" craft_area="SVETGBarCounter" craft_time="12" craft_tool="toolSVETGCocktailShaker" tags="perkMasterChef,learnable">
+			<ingredient name="drinkSVETGRum" count="1"/>
+			<ingredient name="drinkSVETGIceCubes" count="1"/>
+			<ingredient name="foodCropSVETGMintLeaves" count="3"/>
+			<ingredient name="foodCropBlueberries" count="5"/>
+			<ingredient name="resourceSVETGDrinkingGlass" count="1"/>	
+		</recipe>
+		
+		<recipe name="drinkSVETGLykensRedemption" count="1" craft_area="SVETGBarCounter" craft_time="12" craft_tool="toolSVETGCocktailShaker" tags="perkMasterChef,learnable">
+			<ingredient name="drinkSVETGRum" count="1"/>
+			<ingredient name="drinkSVETGIceCubes" count="5"/>	
+			<ingredient name="drinkSVETGLocaCona" count="1"/>
+			<ingredient name="foodCanSVETGCoconutCream" count="1"/>
+			<ingredient name="resourceSVETGDrinkingGlass" count="1"/>	
+		</recipe>
+		
+		<recipe name="drinkSVETGXcalibersQuest" count="1" craft_area="SVETGBarCounter" craft_time="12" craft_tool="toolSVETGCocktailShaker" tags="perkMasterChef,learnable">
+			<ingredient name="drinkSVETGGin" count="1"/>
+			<ingredient name="drinkSVETGIceCubes" count="5"/>	
+			<ingredient name="drinkSVETGPineAppleJuice" count="1"/>
+			<ingredient name="foodCanSVETGCoconutCream" count="1"/>
+			<ingredient name="resourceSVETGDrinkingGlass" count="1"/>	
+		</recipe>
+		
+		<recipe name="drinkSVETGCoffeeDeKlutz" count="1" craft_area="SVETGBarCounter" craft_time="12" craft_tool="toolSVETGCocktailShaker" tags="perkMasterChef,learnable">
+			<ingredient name="drinkSVETGWhiskey" count="1"/>
+			<ingredient name="drinkSVETGIceCubes" count="5"/>	
+			<ingredient name="drinkJarCoffee" count="2"/>
+			<ingredient name="foodCanSVETGCoconutCream" count="1"/>
+			<ingredient name="resourceSVETGDrinkingGlass" count="1"/>	
+		</recipe>
+		
+		<recipe name="drinkSVETGMarkosBane" count="1" craft_area="SVETGBarCounter" craft_time="12" craft_tool="toolSVETGCocktailShaker" tags="perkMasterChef,learnable">
+			<ingredient name="drinkSVETGTequila" count="1"/>
+			<ingredient name="drinkSVETGIceCubes" count="5"/>	
+			<ingredient name="foodCropBlueberries" count="10"/>
+			<ingredient name="drinkSVETGPineAppleJuice" count="1"/>
+			<ingredient name="resourceSVETGDrinkingGlass" count="1"/>	
+		</recipe>
+		
+		<recipe name="drinkSVETGFilbertsDelight" count="1" craft_area="SVETGBarCounter" craft_time="12" craft_tool="toolSVETGCocktailShaker" tags="perkMasterChef,learnable">
+			<ingredient name="drinkSVETGMilk" count="1"/>
+			<ingredient name="drinkSVETGIceCubes" count="5"/>	
+			<ingredient name="foodSVETGDsNuts" count="1"/>
+			<ingredient name="drinkSVETGVodka" count="1"/>
+			<ingredient name="resourceSVETGDrinkingGlass" count="1"/>	
+		</recipe>
+		
+		<recipe name="drinkSVETGWolfOnTheIce" count="1" craft_area="SVETGBarCounter" craft_time="12" craft_tool="toolSVETGCocktailShaker" tags="perkMasterChef,learnable">
+			<ingredient name="drinkSVETGWhiskey" count="1"/>
+			<ingredient name="drinkSVETGIceCubes" count="5"/>	
+			<ingredient name="resourceBone" count="10"/>
+			<ingredient name="drinkSVETGOrangeJuice" count="1"/>
+			<ingredient name="resourceSVETGDrinkingGlass" count="1"/>	
+		</recipe>
+		
+		<recipe name="drinkSVETGDadricksIslandBreeze" count="1" craft_area="SVETGBarCounter" craft_time="12" craft_tool="toolSVETGCocktailShaker" tags="perkMasterChef,learnable">
+			<ingredient name="drinkSVETGGin" count="1"/>
+			<ingredient name="drinkSVETGIceCubes" count="5"/>	
+			<ingredient name="foodCropBlueberries" count="10"/>
+			<ingredient name="drinkSVETGLocaCona" count="1"/>
+			<ingredient name="resourceSVETGDrinkingGlass" count="1"/>	
+		</recipe>
+		
+		<recipe name="drinkSVETGJTKePartyPunch" count="1" craft_area="SVETGBarCounter" craft_time="12" craft_tool="toolSVETGCocktailShaker" tags="perkMasterChef,learnable">
+			<ingredient name="drinkSVETGTripleSec" count="1"/>
+			<ingredient name="drinkSVETGIceCubes" count="5"/>	
+			<ingredient name="foodSVETGCandyBag" count="10"/>
+			<ingredient name="drinkSVETGCanta" count="1"/>
+			<ingredient name="resourceSVETGDrinkingGlass" count="1"/>	
+		</recipe>
+		
+		<recipe name="drinkSVETGJivaiiRocketFuel" count="1" craft_area="SVETGBarCounter" craft_time="12" craft_tool="toolSVETGCocktailShaker" tags="perkMasterChef,learnable">
+			<ingredient name="drinkSVETGIceCubes" count="5"/>
+			<ingredient name="drinkSVETGVodka" count="1"/>	
+			<ingredient name="ammoGasCan" count="25"/>
+			<ingredient name="drinkSVETGSixDown" count="1"/>
+			<ingredient name="resourceSVETGDrinkingGlass" count="1"/>	
+		</recipe>
+
+		<recipe name="drinkSVETGJensColdBrew" count="1" craft_area="SVETGBarCounter" craft_time="12" craft_tool="toolSVETGCocktailShaker" tags="perkMasterChef,learnable">
+			<ingredient name="drinkSVETGValleyDed" count="1"/>
+			<ingredient name="drinkSVETGTequila" count="1"/>	
+			<ingredient name="drinkJarBlackStrapCoffee" count="25"/>
+			<ingredient name="drinkSVETGIceCubes" count="5"/>
+			<ingredient name="resourceSVETGDrinkingGlass" count="1"/>	
+		</recipe>
+		
+		<recipe name="drinkSVETGScriptsMoistElixir" count="1" craft_area="SVETGBarCounter" craft_time="12" craft_tool="toolSVETGCocktailShaker" tags="perkMasterChef,learnable">
+			<ingredient name="drinkSVETGVodka" count="1"/>
+			<ingredient name="drinkSVETGTequila" count="1"/>	
+			<ingredient name="drinkSVETGWhiskey" count="1"/>
+			<ingredient name="drugRockBusters" count="1"/>
+			<ingredient name="resourceSVETGDrinkingGlass" count="1"/>	
+		</recipe>
+
+	<!-- New Recipes -->
+	
+		<recipe name="foodSVETGPeanutButterAndJam" count="1" craft_area="SVETGCuttingBoard" craft_tool="toolSVETGKitchenKnife" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGBread" count="1"/>
+			<ingredient name="foodSVETGJam" count="1"/>	
+			<ingredient name="foodSVETGPeanutButter" count="1"/>
+		</recipe>	
+		
+		<recipe name="foodSVETGBread" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGDough" count="1"/>
+			<ingredient name="foodEgg" count="2"/>		
+		</recipe>	
+		
+		<recipe name="foodSVETGBread" count="1" craft_area="SVETGStove" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGDough" count="1"/>
+			<ingredient name="foodEgg" count="2"/>		
+		</recipe>	
+		
+		<recipe name="foodSVETGGrilledSausage" count="1" craft_area="campfire" craft_tool="toolCookingGrill">
+			<ingredient name="foodSVETGSausage" count="5"/>		
+		</recipe>	
+
+		<recipe name="foodSVETGGrilledSausage" count="1" craft_area="SVETGStove" craft_tool="toolSVETGPan">
+			<ingredient name="foodSVETGSausage" count="5"/>		
+		</recipe>	
+		
+		<recipe name="foodSVETGCookedBacon" count="1" craft_area="SVETGStove" craft_tool="toolSVETGPan">
+			<ingredient name="foodSVETGRawBacon" count="5"/>		
+		</recipe>
+		
+		<recipe name="foodSVETGCookedBacon" count="1" craft_area="campfire" craft_tool="toolCookingGrill">
+			<ingredient name="foodSVETGRawBacon" count="5"/>		
+		</recipe>
+
+		<recipe name="foodSVETGCookedRice" count="1" craft_area="SVETGStove" craft_tool="toolCookingPot">
+			<ingredient name="foodCropSVETGRice" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>			
+		</recipe>	
+		
+		<recipe name="foodSVETGCookedRice" count="1" craft_area="campfire" craft_tool="toolCookingPot">
+			<ingredient name="foodCropSVETGRice" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>			
+		</recipe>	
+
+		<recipe name="foodSVETGGrilledChicken" count="1" craft_area="SVETGStove" craft_tool="toolSVETGPan">
+			<ingredient name="foodSVETGRawChicken" count="5"/>		
+		</recipe>
+
+		<recipe name="foodSVETGGrilledChicken" count="1" craft_area="campfire" craft_tool="toolCookingGrill">
+			<ingredient name="foodSVETGRawChicken" count="5"/>		
+		</recipe>
+
+		<recipe name="foodSVETGGrilledSalmon" count="1" craft_area="SVETGStove" craft_tool="toolSVETGPan">
+			<ingredient name="foodSVETGRawSalmon" count="5"/>		
+		</recipe>
+
+		<recipe name="foodSVETGGrilledSalmon" count="1" craft_area="campfire" craft_tool="toolCookingGrill">
+			<ingredient name="foodSVETGRawSalmon" count="5"/>		
+		</recipe>
+
+		<recipe name="foodSVETGJam" count="1" craft_area="campfire" craft_tool="toolCookingPot">
+			<ingredient name="foodCropBlueberries" count="10"/>		
+		</recipe>		
+		
+		<recipe name="foodSVETGJam" count="1" craft_area="SVETGStove" craft_tool="toolCookingPot">
+			<ingredient name="foodCropBlueberries" count="10"/>		
+		</recipe>				
+		
+		<recipe name="foodSVETGCabbageLeaves" count="5" craft_area="SVETGCuttingBoard" craft_tool="toolSVETGKitchenKnife">
+			<ingredient name="foodCropSVETGCabbage" count="1"/>	
+		</recipe>
+		
+		<recipe name="foodSVETGOnionSlices" count="5" craft_area="SVETGCuttingBoard" craft_tool="toolSVETGKitchenKnife">
+			<ingredient name="foodCropSVETGOnion" count="1"/>	
+		</recipe>
+		
+		<recipe name="foodSVETGTomatoSlices" count="5" craft_area="SVETGCuttingBoard" craft_tool="toolSVETGKitchenKnife">
+			<ingredient name="foodCropSVETGTomato" count="1"/>	
+		</recipe>
+		
+		<recipe name="foodSVETGPierogi" count="5" craft_area="SVETGStove" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+			<ingredient name="foodCropPotato" count="3"/>	
+			<ingredient name="foodEgg" count="1"/>	
+			<ingredient name="foodSVETGDough" count="1"/>	
+			<ingredient name="foodSVETGCheese" count="1"/>	
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>	
+		</recipe>
+		
+		<recipe name="foodSVETGBruschetta" count="5" craft_area="SVETGCuttingBoard" craft_tool="toolSVETGKitchenKnife" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGTomatoSlices" count="5"/>	
+			<ingredient name="foodSVETGBread" count="1"/>	
+			<ingredient name="foodSVETGOliveOil" count="1"/>	
+			<ingredient name="foodSVETGCheese" count="1"/>	
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>	
+		</recipe>
+		
+		<recipe name="foodSVETGFrenchFries" count="5" craft_area="SVETGStove" craft_tool="toolCookingPot">
+			<ingredient name="foodCropPotato" count="5"/>	
+			<ingredient name="resourceAnimalFat" count="1"/>	
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>	
+		</recipe>
+		
+		<recipe name="foodSVETGKöfte" count="5" craft_area="SVETGStove" craft_tool="toolSVETGPan" tags="perkMasterChef,learnable">
+			<ingredient name="foodSVETGRawBeefGround" count="5"/>	
+			<ingredient name="foodCropSVETGPaprika" count="2"/>	
+			<ingredient name="foodCropSVETGRedChilli" count="2"/>	
+			<ingredient name="foodEgg" count="1"/>	
+			<ingredient name="resourceSVETGWoodenPlate" count="1"/>	
+		</recipe>
+		
+		<recipe name="drinkSVETGIceCubes" count="5" craft_area="SVETGBarCounter">
+			<ingredient name="resourceSnowBall" count="25"/>	
+		</recipe>
+		
+	<!-- Recipes -->
+		
+		<recipe name="toolSVETGCocktailShaker" count="1" material_based="true" craft_area="forge" craft_tool="toolAnvil" tags="learnable">
+			<ingredient name="unit_iron" count="50"/>	
+		</recipe>
+		
+		<recipe name="toolSVETGPan" count="1" material_based="true" craft_area="forge" craft_tool="toolAnvil" tags="learnable">
+			<ingredient name="unit_iron" count="100"/>	
+		</recipe>
+		
+		<recipe name="toolSVETGMoka" count="1" material_based="true" craft_area="forge" craft_tool="toolAnvil" tags="learnable">
+			<ingredient name="unit_iron" count="100"/>	
+		</recipe>
+		
+		<recipe name="toolSVETGMortarPestle" material_based="true" count="1" craft_area="forge" craft_tool="toolAnvil" tags="learnable">
+			<ingredient name="unit_stone" count="100"/>	
+		</recipe>
+		
+		<recipe name="SVETGStove" count="1" craft_area="workbench" tags="learnable">
+			<ingredient name="resourceForgedIron" count="25"/>
+			<ingredient name="resourceMetalPipe" count="5"/>
+			<ingredient name="resourceElectricParts" count="50"/>
+			<ingredient name="resourceMechanicalParts" count="20"/>
+			<ingredient name="resourceHeadlight" count="5"/>
+		</recipe>
+		
+		<recipe name="toolSVETGKettle" count="1" craft_area="workbench" tags="learnable">
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceMetalPipe" count="2"/>
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceMechanicalParts" count="5"/>
+			<ingredient name="resourceHeadlight" count="1"/>
+		</recipe>
+		
+		<recipe name="SVETGBarCounter" count="1" craft_area="workbench" tags="learnable">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceMetalPipe" count="2"/>
+			<ingredient name="resourceWood" count="250"/>
+		</recipe>
+		
+		<recipe name="SVETGCuttingBoard" count="1">
+			<ingredient name="resourceWood" count="50"/>	
+		</recipe>
+		
+		<recipe name="seedSVETGTomato" count="1" tags="learnable" craft_time="1">
+			<ingredient name="foodCropSVETGTomato" count="5"/>
+		</recipe>
+
+		<recipe name="seedSVETGOnion" count="1" tags="learnable" craft_time="1">
+			<ingredient name="foodCropSVETGOnion" count="5"/>
+		</recipe>
+
+		<recipe name="seedSVETGCabbage" count="1" tags="learnable" craft_time="1">
+			<ingredient name="foodCropSVETGCabbage" count="5"/>
+		</recipe>
+
+		<recipe name="seedSVETGPaprika" count="1" tags="learnable" craft_time="1">
+			<ingredient name="foodCropSVETGPaprika" count="5"/>
+		</recipe>
+		
+		<recipe name="seedSVETGRedChillies" count="1" tags="learnable" craft_time="1">
+			<ingredient name="foodCropSVETGRedChilli" count="5"/>
+		</recipe>
+
+	</append>
+	
+</ScriptsVanillaExtended-theGourmet>
