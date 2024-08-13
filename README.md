@@ -21,6 +21,8 @@
 - [VergilSparda-Vx4](https://7daystodiemods.com/vergilspardas-various-victuals)
 - [Witos_Air_ship](https://7daystodiemods.com/witos-air-ship)
 - [WMMIncreaseAmmoStackSize](https://www.nexusmods.com/7daystodie/mods/4175)
+- [Byteblazars7DaysOfInsomnia](https://www.nexusmods.com/7daystodie/mods/5439)
+- [BR_ELITE_Zombies](https://7daystodiemods.com/elite-zombie-server-side/)
 
 <br>
 <br>
