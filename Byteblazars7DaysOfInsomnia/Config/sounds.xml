@@ -1,0 +1,84 @@
+<Byteblazar>
+
+<append xpath="Sounds">
+	<SoundDataNode name="bb7doi_soundMrSandman"> <AudioSource name="Sounds/AudioSource_Screamer"/>
+		<Noise ID="0" noise="120" time="2" heat_map_strength="100" heat_map_time="100"/>
+		<AudioClip ClipName="Sounds/Enemies/Scout_Zombie/zombiefemalescoutroam1"/>
+		<LowestPitch name="0.95"/>
+		<HighestPitch name="1.05"/>
+		<LocalCrouchVolumeScale value="0"/> <CrouchNoiseScale value="1.0"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="3"/> </SoundDataNode>
+		
+	<SoundDataNode name="bb7doi_soundSnore"> <AudioSource name="Sounds/AudioSource_ZombieHazmatRoam"/>
+		<Noise ID="5" noise="120" time="4"/>
+		<AudioClip ClipName="Sounds/Enemies/Zombie_Hazmat/zombie_hazmat_roam_03"/>
+		<AudioClip ClipName="Sounds/Enemies/Zombie_Hazmat/zombie_hazmat_roam_07"/>
+		<AudioClip ClipName="Sounds/Enemies/Zombie_Hazmat/zombie_hazmat_roam_08"/>
+		<AudioClip ClipName="Sounds/Enemies/Zombie_Hazmat/zombie_hazmat_roam_09"/>
+		<AudioClip ClipName="Sounds/Enemies/Zombie_Hazmat/zombie_hazmat_roam_10"/>
+		<AudioClip ClipName="Sounds/Enemies/Zombie_Hazmat/zombie_hazmat_roam_11"/>
+		<AudioClip ClipName="Sounds/Enemies/Zombie_Hazmat/zombie_hazmat_roam_12"/>
+		<AudioClip ClipName="Sounds/Enemies/Zombie_Hazmat/zombie_hazmat_roam_13"/>
+		<Channel name="Mouth"/>
+		<Priority name="0"/>
+		<maxVoicesPerEntity value="1"/>
+		<LowestPitch name="0.95"/>
+		<HighestPitch name="1.05"/>
+		<LocalCrouchVolumeScale value="2"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="2"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+		
+	<SoundDataNode name="bb7doi_soundBloodmoon"> <AudioSource name="Sounds/AudioSource_VO_TraderRekt"/>	
+		<AudioClip ClipName="Sounds/VO/Trader/Rekt/trader_rekt_greetbloodmoon_01" Subtitle="trader_rekt_greetbloodmoon_01"/>
+		<LowestPitch name="0.95"/>
+		<HighestPitch name="1.05"/>
+		<LocalCrouchVolumeScale value="1"/> <CrouchNoiseScale value="1.0"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="3"/> </SoundDataNode>
+
+	<SoundDataNode name="bb7doi_soundGiggle"> <AudioSource name="Sounds/AudioSource_VO_TraderJen"/>	
+		<AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_giggle_01" Subtitle="trader_jen_giggle_01"/>
+		<AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_giggle_02" Subtitle="trader_jen_giggle_02"/>
+		<AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_giggle_03" Subtitle="trader_jen_giggle_03"/>
+		<AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_giggle_04" Subtitle="trader_jen_giggle_04"/>
+		<AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_giggle_05" Subtitle="trader_jen_giggle_05"/>
+		<AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_giggle_06" Subtitle="trader_jen_giggle_06"/>
+		<AudioClip ClipName="Sounds/VO/Trader/Jen/trader_jen_giggle_07" Subtitle="trader_jen_giggle_07"/>
+		<LowestPitch name="0.95"/>
+		<HighestPitch name="1.05"/>
+		<LocalCrouchVolumeScale value="1"/> <CrouchNoiseScale value="1.0"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="3"/> </SoundDataNode>
+
+	<SoundDataNode name="bb7doi_soundJumpscare"> <AudioSource name="Sounds/AudioSource_Twitch_Loud"/>
+		<!-- <AudioClip ClipName="Sounds/Twitch/twitch_jumpscare_17"/> --> <!-- boo -->
+		<AudioClip ClipName="Sounds/Twitch/twitch_jumpscare_05"/>
+		<AudioClip ClipName="Sounds/Twitch/twitch_jumpscare_10"/>
+		<AudioClip ClipName="Sounds/Twitch/twitch_jumpscare_12"/>
+		<AudioClip ClipName="Sounds/Twitch/twitch_jumpscare_15"/>
+		<AudioClip ClipName="Sounds/Twitch/twitch_jumpscare_18"/>
+		<AudioClip ClipName="Sounds/Twitch/twitch_jumpscare_19"/>
+		<AudioClip ClipName="Sounds/Twitch/twitch_jumpscare_21"/>
+		<AudioClip ClipName="Sounds/Twitch/twitch_jumpscare_24"/>
+		<AudioClip ClipName="Sounds/Twitch/twitch_jumpscare_25"/>
+		<AudioClip ClipName="Sounds/Twitch/twitch_jumpscare_26"/>
+		<LowestPitch name="0.95"/>
+		<HighestPitch name="1.05"/>
+		<LocalCrouchVolumeScale value="1"/> <CrouchNoiseScale value="1.0"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="3"/> </SoundDataNode>
+
+	<SoundDataNode name="bb7doi_glassdestroy"> <AudioSource name="Sounds/AudioSource_Impact"/>
+		<AudioClip ClipName="Sounds/DestroyBlock/glassdestroy1"/>
+		<AudioClip ClipName="Sounds/DestroyBlock/glassdestroy2"/>
+		<AudioClip ClipName="Sounds/DestroyBlock/glassdestroy3"/>
+		<LowestPitch name="0.9"/>
+		<HighestPitch name="1.0"/>
+		<LocalCrouchVolumeScale value="1"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+
+		<SoundDataNode name="bb7doi_trapWoodTrigger"> <AudioSource name="Sounds/AudioSource_Impact_Large"/>
+		<AudioClip ClipName="Sounds/Traps/trapWoodTrigger1"/>
+		<AudioClip ClipName="Sounds/Traps/trapWoodTrigger2"/>
+		<AudioClip ClipName="Sounds/Traps/trapWoodTrigger3"/>
+		<AudioClip ClipName="Sounds/Traps/trapWoodTrigger4"/>
+		<LocalCrouchVolumeScale value="1"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+
+	<SoundDataNode name="bb7doi_bicycle_horn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+		<AudioClip ClipName="Sounds/Vehicles/Bicycle/bicycle_horn"/>
+		<AudioClip ClipName="Sounds/Twitch/Silly/Silly Vehicle Sounds/bike_silly_horn" AltSound="true"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+
+</append>
+
+</Byteblazar>

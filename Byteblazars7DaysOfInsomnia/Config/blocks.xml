@@ -1,0 +1,20 @@
+<Byteblazar>
+	<append xpath="/blocks/block[@name='bed02']">
+		<property name="BuffsWhenWalkedOn" value="bb7doi_buffS0Quality"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='bedroll' or @name='bunkBedMade' or @name='gurneyBed' or @name='hospitalBed' or starts-with(@name,'mattress')]" >
+		<property name="BuffsWhenWalkedOn" value="bb7doi_buffS0"/>
+	</append>
+
+	<append xpath="/blocks/block[starts-with(@name,'couch') and not(contains(@name,'arm')) and not(contains(@name, 'Arm'))]" >
+		<property name="BuffsWhenWalkedOn" value="bb7doi_buffS0"/>
+	</append>
+	
+	<remove xpath="/blocks/block[contains(@name,'Sofa')]/property[@name='BuffsWhenWalkedOn']"/>
+	<append xpath="/blocks/block[contains(@name,'Sofa')]">
+		<property name="BuffsWhenWalkedOn" value="bb7doi_buffS0"/>
+	</append>
+	
+</Byteblazar>
+

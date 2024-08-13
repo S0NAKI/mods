@@ -1,0 +1,11 @@
+<Byteblazar>
+
+<insertAfter xpath="//item[@name='drugPainkillers']">
+	<item name="bb7doi_drugSedatives"/>
+</insertAfter>
+
+<insertAfter xpath="//item[@name='drugFortBites']">
+	<item name="bb7doi_drugStimulants"/>
+</insertAfter>
+
+</Byteblazar>

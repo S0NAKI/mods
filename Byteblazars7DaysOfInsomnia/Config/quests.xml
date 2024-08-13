@@ -1,0 +1,17 @@
+<Byteblazar>
+<insertAfter xpath="//quest[@id='quest_reward_demolition_zombie_slayer']">
+	<quest id="bb7doi_challengegroup_reward_7daysOfInsomnia" template="challengegroup_reward_homesteading">
+		<variable name="name" value="bb7doi7daysOfInsomnia_name"/>
+		<variable name="subtitle" value="bb7doi7daysOfInsomnia_subtitle"/>
+		<variable name="description" value="bb7doi7daysOfInsomnia_desc"/>
+		<variable name="completion" value="bb7doi7daysOfInsomnia_completion"/>
+		<reward type="Exp" value="10000"/>
+		
+		<reward type="LootItem" id="groupChallengeRewardSkillMagazinesAll" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupChallengeRewardSkillMagazinesAll" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupChallengeRewardSkillMagazinesAll" ischosen="true" value="1"/>
+		<reward type="LootItem" id="schematicsModsAndGeneralCommon" ischosen="true" value="1"/>
+		<reward type="LootItem" id="perkBooks" ischosen="true" value="1"/>
+	</quest>
+</insertAfter>
+</Byteblazar>
