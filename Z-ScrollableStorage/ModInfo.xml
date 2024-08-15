@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-    <Name value="ScrollableStorage_A88" />
-    <DisplayName value="Scrollable Storage" />
-    <Description value="Converts the backpack, loot and vehicle storage to a scrollable slot inventory." />
-    <Author value="A88" />
-	<Website value="" />
-	<Version value="1.0.2" />
-</xml>
