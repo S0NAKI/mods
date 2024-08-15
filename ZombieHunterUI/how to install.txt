@@ -1,2 +1,0 @@
-To install this mod simply move all mods from "Mods" folder into your mods folder.
-All mods are required together.
