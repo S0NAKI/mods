@@ -1,0 +1,51 @@
+<xSteel>
+	<setattribute xpath="//buff[@name='buffElementWet']" name="showonhud">false</setattribute>
+	<!-- <setattribute xpath="//buff[@name='buffAnimalTracker']" name="showonhud">false</setattribute> -->
+	<!-- <setattribute xpath="//buff[@name='buffAnimalTrackerAcquired']" name="showonhud">false</setattribute> -->
+	<!-- <remove xpath="//triggered_effect[@message_key='buffAnimalTrackerNoneTooltip']"></remove> -->
+	<!-- <remove xpath="//triggered_effect[@message_key='buffPerkAnimalTrackerLostTooltip']"></remove> -->
+
+	<set xpath="/buffs/buff[@name='buffAutoWeaponsComplete']/@showonhud">true</set>
+	<set xpath="/buffs/buff[@name='buffUrbanCombatAdrenalineRush']/@showonhud">true</set>
+	<set xpath="/buffs/buff[@name='buffEnforcerCriminalPursuit']/@showonhud">true</set>
+
+	<setattribute xpath="//buff[contains(@name,'SetBonus')]" name="showonhud">false</setattribute>
+	<setattribute xpath="//buff[@name='buffInfectionCureDisplay']" name="showonhud">false</setattribute>
+	<setattribute xpath="//buff[@name='buffDysenteryCureDisplay']" name="showonhud">false</setattribute>
+	<setattribute xpath="//buff[@name='buffHealHealth']" name="showonhud">false</setattribute>
+	<setattribute xpath="//buff[@name='buffHealFood']" name="showonhud">false</setattribute>
+	<setattribute xpath="//buff[@name='buffHealWaterMax']" name="showonhud">false</setattribute>
+	
+	<setattribute xpath="//buff[@name='buffBatterupStealingBases']" name="showonhud">false</setattribute>
+	<setattribute xpath="//buff[@name='buffEnforcerCriminalPursuit']" name="showonhud">false</setattribute>
+	
+	<setattribute xpath="//buff[@name='buffPerkPummelPete']" name="showonhud">false</setattribute>
+	<setattribute xpath="//buff[@name='buffPerkPummelPeteBonus']" name="showonhud">false</setattribute>
+	
+	<setattribute xpath="//buff[@name='buffPerkGunslinger']" name="showonhud">false</setattribute>
+	<setattribute xpath="//buff[@name='buffPerkGunslingerBonus']" name="showonhud">false</setattribute>
+
+	<setattribute xpath="//buff[@name='buffRedTea']" name="icon">ui_game_symbol_freshdrink</setattribute>
+	<setattribute xpath="//buff[@name='buffDrugVitamins']" name="icon">ui_game_symbol_pill</setattribute>
+	<setattribute xpath="//buff[@name='buffFoodStaminaBonus']" name="icon">ui_game_symbol_meal</setattribute>
+	<setattribute xpath="//buff[@name='buffShamChowder']" name="icon">ui_game_symbol_pot</setattribute>
+	<setattribute xpath="//buff[@name='buffMegaCrush']" name="icon">ui_game_symbol_battery1</setattribute>
+	
+	<setattribute xpath="//buff[@name='buffMegaCrush']" name="icon_color">0,250,0</setattribute>
+
+	<setattribute xpath="//buff[@name='buffDrugRecog']" name="icon_color">0,250,0</setattribute>
+	
+	<append xpath="/buffs/buff[@name='buffAutoWeaponsComplete']">
+		<display_value value="duration" />
+	</append>
+	<append xpath="/buffs/buff[@name='buffUrbanCombatAdrenalineRush']">
+		<display_value value="duration" />
+	</append>
+	<append xpath="/buffs/buff[@name='buffEnforcerCriminalPursuit']">
+		<display_value value="duration" />
+	</append>
+	
+	
+	
+
+</xSteel>

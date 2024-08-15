@@ -1,0 +1,12 @@
+<xSteel>
+
+	<append xpath="/entity_classes/entity_class[@name='zombieTemplateMale' or @name='zombieRegularTemplate' or @name='animalTemplateHostile']">
+		<effect_group name="BloodMoon Kill Count">
+			<triggered_effect trigger="onOtherKilledSelf" action="ModifyCVar" cvar="BloodMoon_KillCount" operation="add" value="1" target="other" tags="player" >
+				<requirement name="CVarCompare" target="other"  cvar="BloodMoonActive" operation="Equals" value="1" />
+				<requirement name="EntityTagCompare" tags="zombie"/>
+			</triggered_effect>
+		</effect_group>
+	</append>
+	
+</xSteel>

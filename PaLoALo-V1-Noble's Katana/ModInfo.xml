@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+	<Name value="NoblesKatana"/>
+	<DisplayName value="Noble's Katana" />
+	<Description value="Adds in a balanced craftable Katana"/>
+	<Author value="original author Noblegases; restored by PaLoALo"/>
+	<Version value="2.0.8" compat="1.0" />
+	<Website value="https://7daystodiemods.com/" />
+	<SkipWithAntiCheat value="true" />
+</xml>

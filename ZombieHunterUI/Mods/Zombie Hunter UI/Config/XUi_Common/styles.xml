@@ -1,0 +1,68 @@
+<configs>
+<append xpath="styles">
+<style name="style_statbar_shadowbg" type="sprite">
+<style_entry name="sprite" value="ui_statbar_bg_shadow"/>
+<style_entry name="color" value="0,0,0"/>
+<style_entry name="height" value="32"/>
+<style_entry name="width" value="176"/>
+<style_entry name="pos" value="-3,2"/>
+</style>
+
+<style name="ui_StatBar.PcR" type="sprite">
+<style_entry name="color" value="0,0,0,230"/>
+<style_entry name="sprite" value="ui_StatBar_PcR6"/>
+</style>
+
+<style name="style_label_normal" type="label">
+<style_entry name="font_size" value="22"/>
+<style_entry name="color" value="[white]"/>
+<style_entry name="crispness" value="OnDesktop"/>
+<style_entry name="effect" value="outline"/>
+<style_entry name="effect_distance" value="1,1"/>
+<style_entry name="effect_color" value="20,20,20,230"/>
+</style>
+
+<style name="style_PcRlabel_StatBar1" type="label">
+<style_entry name="font_size" value="20"/>
+<style_entry name="justify" value="center"/>
+<style_entry name="pos" value="5,-15"/>
+</style>
+
+<style name="style_PcRlabel_StatBar2" type="label">
+<style_entry name="font_size" value="15"/>
+<style_entry name="justify" value="left"/>
+<style_entry name="pos" value="108,-15"/>
+<style_entry name="color" value="200,200,200"/>
+</style>
+
+<style name="style_statbar_statline" type="sprite">
+<style_entry name="sprite" value="ui_StatBarPcR2"/>
+<style_entry name="color" value="0,0,0"/>
+<style_entry name="height" value="32"/>
+<style_entry name="width" value="176"/>
+<style_entry name="pos" value="-3,2"/>
+</style>
+
+<style name="style_PcRlabel_Outline" type="label">
+<style_entry name="font_size" value="22"/>
+<style_entry name="color" value="[white]"/>
+<style_entry name="crispness" value="OnDesktop"/>
+<style_entry name="effect" value="Outline8"/>
+<style_entry name="effect_distance" value="1,1"/>
+<style_entry name="effect_color" value="20,20,20,230"/>
+</style>
+
+<style name="style_window_paging_buttons_PcR" type="button">
+<style_entry name="sprite" value="ui_MenuTabButtonSelected_PcR"/>
+<style_entry name="depth" value="2"/>
+<style_entry name="width" value="147"/>
+<style_entry name="height" value="50"/>
+<style_entry name="hoverscale" value="1"/>
+<style_entry name="collider_scale" value="1.0"/>
+<style_entry name="defaultcolor" value="0,0,0,1"/>
+<style_entry name="disabledcolor" value="0,0,0"/>
+<style_entry name="globalopacitymod" value="1.2"/>
+<style_entry name="sound" value="[paging_click]"/>
+</style>
+</append>
+</configs>

@@ -1,0 +1,8 @@
+<CraftableSolarPanel>
+  <!--erweitern um Unlock by-->
+  <append xpath="/blocks/block[@name='solarbank']">
+    <property name="UnlockedBy" value="solarbankschematic,craftingElectrician"/>
+    <property name="Tags" value="workstationSkill"/>
+  </append>
+
+</CraftableSolarPanel>

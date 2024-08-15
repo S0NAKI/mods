@@ -1,0 +1,83 @@
+<xSteel>
+
+		<set xpath="//nav_object_class[@name='NOJunkDrone']/onscreen_settings/property[@name='min_distance']/@value">100</set>
+		<set xpath="//nav_object_class[@name='NOJunkDrone']/onscreen_settings/property[@name='max_distance']/@value">101</set>
+		
+		<set xpath="//nav_object_class[@name='bicycle']/onscreen_settings/property[@name='min_distance']/@value">100</set>
+		<set xpath="//nav_object_class[@name='bicycle']/onscreen_settings/property[@name='max_distance']/@value">101</set>
+
+
+		<set xpath="//nav_object_class[@name='sleeper_volume']">
+			<property name="requirement_type" value="NoTag" />
+			<property name="requirement_name" value="Sleeper" />
+
+			<compass_settings>
+				<property name="sprite_name" value="symbol_map_ring" />
+				<property name="up_sprite_name" value="symbol_map_ring_up" />
+				<property name="down_sprite_name" value="symbol_map_ring_down" />
+				<property name="min_distance" value="0" />
+				<property name="max_distance" value="500" />
+				<property name="max_scale_distance" value="32" />
+				<property name="color" value="255,180,0,200" />
+				<property name="has_pulse" value="false" />
+				<property name="icon_clamped" value="true" />
+			</compass_settings>
+
+			<onscreen_settings>
+				<property name="sprite_name" value="symbol_map_ring" />
+				<property name="min_distance" value="0" />
+				<property name="max_distance" value="120" />
+				<property name="color" value="255,180,0,100" />
+				<property name="has_pulse" value="true" />
+				<property name="text_type" value="Distance" />
+				<property name="offset" value="0,0,0" />
+			</onscreen_settings>
+		</set>
+		
+	
+		
+		<remove xpath="//nav_object_class[@name='clear_sleeper']"></remove>
+		<append xpath="/nav_object_classes">
+			<nav_object_class name="clear_sleeper" >
+				<property name="requirement_type" value="QuestBounds" />
+				<property name="tag" value="Sleeper" />
+				<compass_settings>
+					<property name="sprite_name" value="ui_game_symbol_map_cursor" />
+					<property name="up_sprite_name" value="symbol_map_ring_up" />
+					<property name="down_sprite_name" value="symbol_map_ring_down" />
+					<property name="min_distance" value="0" />
+					<property name="max_distance" value="100" />
+					<property name="color" value="255,0,0,255" />
+					<property name="has_pulse" value="false" />
+					<property name="icon_clamped" value="false" />
+				</compass_settings>
+			</nav_object_class>
+		</append>			
+		
+		
+		<set xpath="//nav_object_class[@name='party']">
+			<property name="requirement_type" value="InParty" />
+			<map_settings>
+				<property name="sprite_name" value="ui_game_symbol_player" />
+				<property name="color" value="255,255,255,255" />
+				<property name="use_rotation" value="false" />
+			</map_settings>
+
+			<compass_settings>
+				<property name="sprite_name" value="ui_game_symbol_player" />
+				<property name="color" value="255,255,255,255" />
+			</compass_settings>
+
+			<onscreen_settings>
+				<property name="sprite_name" value="ui_game_symbol_player" />
+				<property name="min_distance" value="6.5" />
+				<property name="max_distance" value="-1" />
+				<property name="color" value="255,0,0,255" />
+				<property name="has_pulse" value="false" />
+				<property name="text_type" value="Distance" />
+				<property name="offset" value="0,-0.65,0" />
+			</onscreen_settings>
+		</set>	
+		
+
+</xSteel>

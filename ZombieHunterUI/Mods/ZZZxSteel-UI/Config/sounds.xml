@@ -1,0 +1,31 @@
+<xSteel>
+	
+	<remove xpath="//SoundDataNode[@name='open_inventory']"></remove>
+	<remove xpath="//SoundDataNode[@name='close_inventory']"></remove>
+	<append xpath="/Sounds">
+	
+		<SoundDataNode name="open_inventory">
+			<AudioSource name="Sounds/AudioSource_Notifications"/>
+			<AudioClip ClipName="Sounds/Misc/quest_note_offer"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxEntities name="30"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+
+		<SoundDataNode name="close_inventory">
+			<AudioSource name="Sounds/AudioSource_Notifications"/>
+			<AudioClip ClipName="Sounds/Misc/quest_note_decline"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxEntities name="30"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		
+	</append>
+	
+</xSteel>

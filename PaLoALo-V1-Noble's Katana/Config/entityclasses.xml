@@ -1,0 +1,5 @@
+<configs>
+
+<csv xpath="//entity_class[@name='playerMale']/property[starts-with(@name, 'ItemsOnEnterGame')]/@value" delim="," op="add" >q_PathOfTheSamurai</csv>
+
+</configs>

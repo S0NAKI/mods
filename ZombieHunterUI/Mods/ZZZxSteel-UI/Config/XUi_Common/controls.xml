@@ -1,0 +1,15 @@
+<xSteel>
+	
+	<remove xpath="/controls/pager//sprite[@name='background']"></remove>
+	
+	
+	<setattribute xpath="/controls/combobox//sprite[@name='background']" name="globalopacitymod">0.8</setattribute>		
+	
+	<setattribute xpath="/controls/textfield//sprite[@name='background']" name="color">[lightGrey]</setattribute>
+	<setattribute xpath="/controls/textfield//sprite[@name='background']" name="globalopacitymod">0.35</setattribute>
+	
+	<setattribute xpath="/controls/simplebutton" name="defaultcolor">40,40,40,200</setattribute>
+	<setattribute xpath="/controls/simplebutton//button" name="disabledcolor">0,0,0,220</setattribute>
+	<setattribute xpath="/controls/simplebutton//label" name="style">style_label_outline</setattribute>
+
+</xSteel>

@@ -1,0 +1,109 @@
+<xSteel>
+
+	<append xpath="//quest[@id='tier1_fetch']">
+			<property name="subtitle_key" value="quest_tier1_fetch" param1="subtitle_key" />
+	</append>	
+	<append xpath="//quest[@id='tier2_fetch']">
+			<variable name="subtitle_key" value="quest_tier2_fetch" />
+	</append>	
+	<append xpath="//quest[@id='tier3_fetch']">
+			<variable name="subtitle_key" value="quest_tier3_fetch" />
+	</append>	
+	<append xpath="//quest[@id='tier4_fetch']">
+			<variable name="subtitle_key" value="quest_tier4_fetch" />
+	</append>	
+	<append xpath="//quest[@id='tier5_fetch']">
+			<variable name="subtitle_key" value="quest_tier5_fetch" />
+	</append>	
+	<append xpath="//quest[@id='tier6_fetch']">
+			<variable name="subtitle_key" value="quest_tier6_fetch" />
+	</append>	
+	
+	
+	
+	<append xpath="//quest[@id='tier1_clear']">
+			<property name="subtitle_key" value="quest_tier1_clear" param1="subtitle_key" />
+	</append>	
+	<append xpath="//quest[@id='tier2_clear']">
+			<variable name="subtitle_key" value="quest_tier2_clear" />
+	</append>	
+	<append xpath="//quest[@id='tier3_clear']">
+			<variable name="subtitle_key" value="quest_tier3_clear" />
+	</append>	
+	<append xpath="//quest[@id='tier4_clear']">
+			<variable name="subtitle_key" value="quest_tier4_clear" />
+	</append>	
+	<append xpath="//quest[@id='tier5_clear']">
+			<variable name="subtitle_key" value="quest_tier5_clear" />
+	</append>	
+	<append xpath="//quest[@id='tier6_clear']">
+			<variable name="subtitle_key" value="quest_tier6_clear" />
+	</append>	
+	
+	
+	
+	<append xpath="//quest[@id='tier2_clear_infested']">
+			<property name="subtitle_key" value="quest_tier2_infested_clear" param1="subtitle_key" />
+	</append>	
+	<append xpath="//quest[@id='tier3_clear_infested']">
+			<variable name="subtitle_key" value="quest_tier3_infested_clear" />
+	</append>	
+	<append xpath="//quest[@id='tier4_clear_infested']">
+			<variable name="subtitle_key" value="quest_tier4_infested_clear" />
+	</append>	
+	<append xpath="//quest[@id='tier5_clear_infested']">
+			<variable name="subtitle_key" value="quest_tier5_infested_clear" />
+	</append>	
+	<append xpath="//quest[@id='tier6_clear_infested']">
+			<variable name="subtitle_key" value="quest_tier6_infested_clear" />
+	</append>	
+	<append xpath="//quest[@id='tier1_clear_infested' or @id='tier2_clear_infested']">
+			<variable name="subtitle_key" value="quest_infestation_subtitle" />
+	</append>	
+	
+	
+	
+		
+	<append xpath="//quest[@id='tier2_restore_power']">
+			<property name="subtitle_key" value="quest_tier2_restore_power" param1="subtitle_key" />
+	</append>		
+	<append xpath="//quest[@id='tier3_restore_power']">
+			<variable name="subtitle_key" value="quest_tier3_restore_power" />
+	</append>	
+	<append xpath="//quest[@id='tier4_restore_power']">
+			<variable name="subtitle_key" value="quest_tier4_restore_power" />
+	</append>		
+	
+	
+	
+		
+	<append xpath="//quest[@id='tier2_fetch_clear']">
+			<property name="subtitle_key" value="quest_tier2_fetch_clear" param1="subtitle_key" />
+	</append>	
+	<append xpath="//quest[@id='tier3_fetch_clear']">
+			<variable name="subtitle_key" value="quest_tier3_fetch_clear" />
+	</append>	
+	<append xpath="//quest[@id='tier4_fetch_clear']">
+			<variable name="subtitle_key" value="quest_tier4_fetch_clear" />
+	</append>	
+	<append xpath="//quest[@id='tier5_fetch_clear']">
+			<variable name="subtitle_key" value="quest_tier5_fetch_clear" />
+	</append>	
+	<append xpath="//quest[@id='tier6_fetch_clear']">
+			<variable name="subtitle_key" value="quest_tier6_fetch_clear" />
+	</append>	
+	
+	
+	
+	
+	<append xpath="//quest[@id='tier1_buried_supplies']">
+			<property name="subtitle_key" value="quest_tier1_buried_supplies" param1="subtitle_key" />
+	</append>	
+	<append xpath="//quest[@id='tier2_buried_supplies']">
+			<variable name="subtitle_key" value="quest_tier2_buried_supplies" />
+	</append>	
+	<append xpath="//quest[@id='tier3_buried_supplies']">
+			<variable name="subtitle_key" value="quest_tier3_buried_supplies" />
+	</append>	
+
+</xSteel>

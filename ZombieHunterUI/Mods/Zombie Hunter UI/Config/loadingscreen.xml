@@ -1,0 +1,8 @@
+<configs>
+
+<set xpath="/doc/backgrounds/tex[1]/@file">@modfolder:UIAtlases/ItemIconAtlas/ZombieHunterMain_image.png</set>
+<set xpath="/doc/backgrounds/tex[2]/@file">@modfolder:UIAtlases/ItemIconAtlas/ZombieHunterMain_image.png</set>
+<set xpath="/doc/backgrounds/tex[3]/@file">@modfolder:UIAtlases/ItemIconAtlas/ZombieHunterMain_image.png</set>
+<set xpath="/doc/backgrounds/tex[4]/@file">@modfolder:UIAtlases/ItemIconAtlas/ZombieHunterMain_image.png</set>
+
+</configs>

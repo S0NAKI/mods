@@ -1,0 +1,17 @@
+<configs>
+
+<insertAfter xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_Melee']/item[@name='meleeWpnBladeT1HuntingKnife']">
+	<item name="M9_Bayonet" loot_prob_template="low"/>
+</insertAfter>
+<insertBefore xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_Melee']/item[@name='meleeWpnSpearT3SteelSpear']">
+	<item name="NobleShortSword" loot_prob_template="veryLow"/>
+</insertBefore>
+<insertAfter xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_Melee']/item[@name='meleeWpnBatonT2StunBaton']">
+	<item name="NobleKatanaSword" loot_prob_template="veryLow"/>
+</insertAfter>
+
+<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT2']">
+	<item name="modMeleeSharpenedBladeSchematic" count="1" loot_prob_template="med"/>
+</append>
+
+</configs>

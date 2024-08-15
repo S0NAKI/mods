@@ -1,0 +1,209 @@
+<DW420_DeXp_Loot>
+<append xpath="/lootcontainers/lootgroup[@name='dyes']">
+<!--BASIC-->
+	<item name="modDyeBasicAmber420"/>
+	<item name="modDyeBasicBlue420"/>
+	<item name="modDyeBasicBrown420"/>
+	<item name="modDyeBasicFuchsia420"/>
+	<item name="modDyeBasicGreen420"/>
+	<item name="modDyeBasicGrey420"/>
+	<item name="modDyeBasicIndigo420"/>
+	<item name="modDyeBasicLime420"/>
+	<item name="modDyeBasicOrange420"/>
+	<item name="modDyeBasicPink420"/>
+	<item name="modDyeBasicPurple420"/>
+	<item name="modDyeBasicRed420"/>
+	<item name="modDyeBasicRose420"/>
+	<item name="modDyeBasicSilver420"/>
+	<item name="modDyeBasicTeal420"/>
+	<item name="modDyeBasicTrueBlack420"/>
+	<item name="modDyeBasicBlack420"/>
+	<item name="modDyeBasicViolet420"/>
+	<item name="modDyeBasicYellow420"/>
+<!--ARMED FORCES-->		
+	<item name="modDyeAFGreyAsh420"/>
+	<item name="modDyeAFGreyBlackCoral420"/>
+	<item name="modDyeAFGreyCadet420"/>
+	<item name="modDyeAFGreyCharcoal420"/>
+	<item name="modDyeAFGreyDarkSlate420"/>
+	<item name="modDyeAFGreyGunmetal420"/>
+	<item name="modDyeAFGreenArmy420"/>
+	<item name="modDyeAFGreenArtichoke420"/>
+	<item name="modDyeAFGreenDarkJungle420"/>
+	<item name="modDyeAFGreenDarkMoss420"/>
+	<item name="modDyeAFGreenHunter420"/>
+	<item name="modDyeAFGreenMustard420"/>
+	<item name="modDyeAFGreenOldMoss420"/>
+	<item name="modDyeAFGreenBlackOlive420"/>
+	<item name="modDyeAFGreenOlive420"/>
+	<item name="modDyeAFGreenOliveLight420"/>
+	<item name="modDyeAFBrownKhaki420"/>
+	<item name="modDyeAFBrownDarkKhaki420"/>
+	<item name="modDyeAFBrownSand420"/>
+	<item name="modDyeAFBrownDesert420"/>
+	<item name="modDyeAFBrownDirt420"/>
+	<item name="modDyeAFBrownEcru420"/>
+	<item name="modDyeAFBrownFieldDrab420"/>
+	<item name="modDyeAFBluePolice420"/>
+	<item name="modDyeAFBluePrussian420"/>
+	<item name="modDyeAFBlueQueen420"/>
+	<item name="modDyeAFBlueNavy420"/>
+	<item name="modDyeAFBlueIndigo420"/>
+	<item name="modDyeAFBlueMaastricht420"/>
+<!--LEATHER-->
+	<item name="modDyeLeatherBlack420"/>
+	<item name="modDyeLeatherTanned420"/>
+	<item name="modDyeLeatherDarkRed420"/>
+	<item name="modDyeLeatherBrown420"/>
+	<item name="modDyeLeatherSeal420"/>
+	<item name="modDyeLeatherRusset420"/>
+	<item name="modDyeLeatherDeer420"/>
+	<item name="modDyeLeatherTuscan420"/>
+	<item name="modDyeLeatherSaddle420"/>
+	<item name="modDyeLeatherSienna420"/>
+<!--MAXIMUM-->
+	<item name="modDyeMaximumBlue420"/>
+	<item name="modDyeMaximumBlueGreen420"/>
+	<item name="modDyeMaximumBluePurple420"/>
+	<item name="modDyeMaximumGreen420"/>
+	<item name="modDyeMaximumGreenYellow420"/>
+	<item name="modDyeMaximumOrange420"/>
+	<item name="modDyeMaximumPurple420"/>
+	<item name="modDyeMaximumPink420"/>
+	<item name="modDyeMaximumRed420"/>
+	<item name="modDyeMaximumRedPurple420"/>
+	<item name="modDyeMaximumViolet420"/>
+	<item name="modDyeMaximumYellow420"/>
+	<item name="modDyeMaximumYellowRed420"/>
+<!--METALLIC-->
+	<item name="modDyeMetallicBlue420"/>
+	<item name="modDyeMetallicBronze420"/>
+	<item name="modDyeMetallicBrown420"/>
+	<item name="modDyeMetallicGold420"/>
+	<item name="modDyeMetallicGreen420"/>
+	<item name="modDyeMetallicOrange420"/>
+	<item name="modDyeMetallicPink420"/>
+	<item name="modDyeMetallicRed420"/>
+	<item name="modDyeMetallicSeaweed420"/>
+	<item name="modDyeMetallicSilver420"/>
+	<item name="modDyeMetallicSunburst420"/>
+	<item name="modDyeMetallicViolet420"/>
+	<item name="modDyeMetallicYellow420"/>
+<!--NEON-->
+	<item name="modDyeNeonBlue420"/>
+	<item name="modDyeNeonCyan420"/>
+	<item name="modDyeNeonFuchsia420"/>
+	<item name="modDyeNeonGreen420"/>
+	<item name="modDyeNeonLime420"/>
+	<item name="modDyeNeonOrange420"/>
+	<item name="modDyeNeonPink420"/>
+	<item name="modDyeNeonPurple420"/>
+	<item name="modDyeNeonRed420"/>
+	<item name="modDyeNeonTurquoise420"/>
+	<item name="modDyeNeonYellow420"/>
+<!--PALE-->
+	<item name="modDyePaleAqua420"/>
+	<item name="modDyePaleBlue420"/>
+	<item name="modDyePaleBrown420"/>
+	<item name="modDyePaleCarmine420"/>
+	<item name="modDyePaleCerulean420"/>
+	<item name="modDyePaleChestnut420"/>
+	<item name="modDyePaleCopper420"/>
+	<item name="modDyePaleCornflower420"/>
+	<item name="modDyePaleCyan420"/>
+	<item name="modDyePaleGold420"/>
+	<item name="modDyePaleGoldenrod420"/>
+	<item name="modDyePaleGreen420"/>
+	<item name="modDyePaleLavender420"/>
+	<item name="modDyePaleMagenta420"/>
+	<item name="modDyePaleRose420"/>
+	<item name="modDyePalePink420"/>
+	<item name="modDyePalePlum420"/>
+	<item name="modDyePaleRed420"/>
+	<item name="modDyePaleRobinEgg420"/>
+	<item name="modDyePaleSilver420"/>
+	<item name="modDyePaleSpringBud420"/>
+	<item name="modDyePaleTaupe420"/>
+	<item name="modDyePaleTurquoise420"/>
+	<item name="modDyePaleViolet420"/>
+<!--PASTEL-->
+	<item name="modDyePastelBlue420"/>
+	<item name="modDyePastelBrown420"/>
+	<item name="modDyePastelGrey420"/>
+	<item name="modDyePastelGreen420"/>
+	<item name="modDyePastelMagenta420"/>
+	<item name="modDyePastelOrange420"/>
+	<item name="modDyePastelPink420"/>
+	<item name="modDyePastelPurple420"/>
+	<item name="modDyePastelRed420"/>
+	<item name="modDyePastelViolet420"/>
+	<item name="modDyePastelYellow420"/>
+<!--PERSIAN-->
+	<item name="modDyePersianBlue420"/>
+	<item name="modDyePersianGreen420"/>
+	<item name="modDyePersianIndigo420"/>
+	<item name="modDyePersianOrange420"/>
+	<item name="modDyePersianPink420"/>
+	<item name="modDyePersianPlum420"/>
+	<item name="modDyePersianRed420"/>
+	<item name="modDyePersianRose420"/>
+<!--PHILLIPINE-->
+	<item name="modDyePhillipineBlue420"/>
+	<item name="modDyePhillipineBronze420"/>
+	<item name="modDyePhillipineBrown420"/>
+	<item name="modDyePhillipineGold420"/>
+	<item name="modDyePhillipineGreen420"/>
+	<item name="modDyePhillipineGoldenYellow420"/>
+	<item name="modDyePhillipineGrey420"/>
+	<item name="modDyePhillipineIndigo420"/>
+	<item name="modDyePhillipineOrange420"/>
+	<item name="modDyePhillipinePink420"/>
+	<item name="modDyePhillipineRed420"/>
+	<item name="modDyePhillipineSilver420"/>
+	<item name="modDyePhillipineSkyBlue420"/>
+	<item name="modDyePhillipineViolet420"/>
+	<item name="modDyePhillipineYellow420"/>
+<!--ROYAL-->
+	<item name="modDyeRoyalAzure420"/>
+	<item name="modDyeRoyalBlue420"/>
+	<item name="modDyeRoyalBrown420"/>
+	<item name="modDyeRoyalFuchsia420"/>
+	<item name="modDyeRoyalGreen420"/>
+	<item name="modDyeRoyalOrange420"/>
+	<item name="modDyeRoyalPink420"/>
+	<item name="modDyeRoyalPurple420"/>
+	<item name="modDyeRoyalRed420"/>
+	<item name="modDyeRoyalYellow420"/>
+<!--SPANISH-->
+	<item name="modDyeSpanishBlue420"/>
+	<item name="modDyeSpanishBistre420"/>
+	<item name="modDyeSpanishCarmine420"/>
+	<item name="modDyeSpanishCrimson420"/>
+	<item name="modDyeSpanishGreen420"/>
+	<item name="modDyeSpanishOrange420"/>
+	<item name="modDyeSpanishPink420"/>
+	<item name="modDyeSpanishRed420"/>
+	<item name="modDyeSpanishGrey420"/>
+	<item name="modDyeSpanishPurple420"/>
+	<item name="modDyeSpanishViridian420"/>
+	<item name="modDyeSpanishViolet420"/>
+	<item name="modDyeSpanishYellow420"/>
+<!--USER_REQUESTS-->  
+	<item name="modDyeBubbleGumPink420"/>
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT0']">
+<!--SCHEMATICS-->  
+	<item name="DyesExpBasicSchematic"/>
+	<item name="DyesExpAFSchematic"/>
+	<item name="DyesExpLeatherSchematic"/>
+	<item name="DyesExpMaximumSchematic"/>
+	<item name="DyesExpMetallicSchematic"/>
+	<item name="DyesExpNeonSchematic"/>
+	<item name="DyesExpPaleSchematic"/>
+	<item name="DyesExpPastelSchematic"/>
+	<item name="DyesExpPersianSchematic"/>
+	<item name="DyesExpPhillipineSchematic"/>
+	<item name="DyesExpRoyalSchematic"/>
+	<item name="DyesExpSpanishSchematic"/>
+</append>
+</DW420_DeXp_Loot>

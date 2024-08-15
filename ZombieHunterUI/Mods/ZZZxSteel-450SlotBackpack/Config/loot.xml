@@ -1,0 +1,3 @@
+<xSteel>
+	<set xpath="//lootcontainer[@name='playerBackpack']/@size">9,55</set>
+</xSteel>
