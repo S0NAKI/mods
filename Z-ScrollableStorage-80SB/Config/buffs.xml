@@ -1,0 +1,14 @@
+<config>
+	
+	<!-- ********************************* -->
+	<!-- // God Mode Buff Conversion -->
+	<set xpath="/buffs/buff[@name='god']/effect_group/passive_effect[@name='CarryCapacity']/@value">80</set>
+	<!-- // Steroid Buff Conversion -->
+	<set xpath="/buffs/buff[@name='buffDrugSteroids']/effect_group/passive_effect[@name='CarryCapacity']/@value">80</set>
+
+	<!-- // Twitch Buff Conversions -->
+	<set xpath="/buffs/buff[@name='twitch_buffPackMule']/effect_group/passive_effect[@name='CarryCapacity']/@value">80</set>
+	<set xpath="/buffs/buff[@name='twitch_buffEncumbered']/effect_group/passive_effect[@name='CarryCapacity']/@value">16</set>
+	<!-- ********************************* -->
+	
+</config>

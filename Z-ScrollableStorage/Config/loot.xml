@@ -1,0 +1,258 @@
+<config>
+	
+	<!-- **************** Max Size: 8,50 or 10,40 ***************** -->
+	<!-- Player Backpack size increase 240 -->
+	<set xpath="/lootcontainers/lootcontainer[@name='playerBackpack']/@size">8,30</set>
+	
+	<!-- Drone storage -->
+	<set xpath="/lootcontainers/lootcontainer[@name='roboticDrone']/@size">8,30</set>
+	<!-- vehicleBicycle storage -->
+	<set xpath="/lootcontainers/lootcontainer[@name='vehicleBicycle']/@size">8,30</set>
+	<!-- vehicleMinibike storage -->
+	<set xpath="/lootcontainers/lootcontainer[@name='vehicleMinibike']/@size">8,30</set>
+	<!-- vehicleMotorcycle storage -->
+	<set xpath="/lootcontainers/lootcontainer[@name='vehicleMotorcycle']/@size">8,30</set>
+	<!-- vehicle4x4Truck storage -->
+	<set xpath="/lootcontainers/lootcontainer[@name='vehicle4x4Truck']/@size">8,30</set>
+	<!-- vehicleGyrocopter storage -->
+	<set xpath="/lootcontainers/lootcontainer[@name='vehicleGyrocopter']/@size">8,30</set>
+	
+	<!--  -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='playerStorage']/@size">12,20</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='storageCrate']/@size">8,30</set> -->
+	<set xpath="/lootcontainers/lootcontainer[@name='playerDrawer']/@size">8,30</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='playerWoodWritableStorage']/@size">8,30</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='playerIronWritableStorage']/@size">8,30</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='playerSteelWritableStorage']/@size">8,30</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='playerSmallSafes']/@size">8,30</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='playerGunSafe']/@size">8,30</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='playerTrash']/@size">8,30</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='playerFileCabinet']/@size">8,30</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='playerProduce']/@size">8,30</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='playerCooler']/@size">8,30</set>
+	
+	<set xpath="/lootcontainers/lootcontainer[@name='nightstandNOPOP']/@size">8,30</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='mailbox']/@size">8,30</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='sinks']/@size">8,30</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='cupboard']/@size">8,30</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='shamwayFreezer']/@size">8,30</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='shamwayDrinks']/@size">8,30</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='woodenDesk']/@size">8,30</set>
+	<!-- backpack, place where people stash things, -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='cntBackpack']/@size">8,30</set> -->
+	<!-- garbage, cntTrashPile -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='junk']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='junkNOPOP']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='oven']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='ovenNOPOP']/@size">8,30</set> -->
+	<!-- POI storage box that looks like the player-built one -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='poiStorageBox']/@size">8,15</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='laundryBasket']/@size">8,10</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='PObox']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='cardboardBox']/@size">8,10</set> -->
+	<!-- metal garbage can-->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='garbage']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='pigTrough']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='rollingTrashBin']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='laundry']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='laundryNOPOP']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='trashShelves']/@size">8,15</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='microwave']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='microwaveNOPOP']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='metalDesk']/@size">8,15</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='woodenDeskNOPOP']/@size">8,15</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='metalDeskNOPOP']/@size">8,15</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='birdNest']/@size">8,30</set> -->
+	<set xpath="/lootcontainers/lootcontainer[@name='coffins']/@size">8,30</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='caskets']/@size">8,30</set>
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='woodenChest']/@size">8,15</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='rottenChest']/@size">8,15</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='oldWestChest']/@size">8,15</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='footlocker']/@size">8,15</set> -->
+	<set xpath="/lootcontainers/lootcontainer[@name='militaryFootlocker']/@size">8,15</set>
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='superCornFootlocker']/@size">8,15</set> -->
+	<set xpath="/lootcontainers/lootcontainer[@name='militaryShelves']/@size">8,30</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='militaryGoods']/@size">8,30</set>
+	<!-- Supply Crate General, the normal airdrop -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='airDrop']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='luggage']/@size">8,15</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='bathtub']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='shamwaySafe']/@size">8,15</set> -->
+	<set xpath="/lootcontainers/lootcontainer[@name='munitions']/@size">8,30</set>
+	
+	<set xpath="/lootcontainers/lootcontainer[@name='nightstand']/@size">8,15</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='lockers']/@size">8,15</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='lockersNOPOP']/@size">8,15</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='fileCabinet']/@size">8,15</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='cooler']/@size">8,15</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='trashCompactor']/@size">8,15</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='dishwasher']/@size">8,15</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='dishwasherNOPOP']/@size">8,15</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='refrigerator']/@size">8,30</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='refrigeratorNOPOP']/@size">8,30</set>
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='purse']/@size">8,30</set> -->
+	<set xpath="/lootcontainers/lootcontainer[@name='bookcase']/@size">8,15</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='shotgunMessiahCrate']/@size">8,15</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='popnpillsCrate']/@size">8,15</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='beerCooler']/@size">8,15</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='workingStiffsCrate']/@size">8,15</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='shoppingCart']/@size">8,15</set>
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='cashRegister']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='charcoalGrill']/@size">8,30</set> -->
+	<set xpath="/lootcontainers/lootcontainer[@name='shoppingBasket']/@size">8,10</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='shamwayCrate']/@size">8,15</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='bookShelves']/@size">8,15</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='gasPump']/@size">8,15</set>
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='toilet']/@size">8,30</set> -->
+	<set xpath="/lootcontainers/lootcontainer[@name='dumpster']/@size">8,15</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='morticianDrawer']/@size">8,15</set>
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='gasGrill']/@size">8,30</set> -->
+	<!-- metal clothes rack, pants -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='pants']/@size">8,30</set> -->
+	<!-- metal clothes rack, shirts -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='shirts']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='militaryPants']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='militaryShirts']/@size">8,30</set> -->
+	<set xpath="/lootcontainers/lootcontainer[@name='shamwayShelves']/@size">8,15</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='savageCountryCrate']/@size">8,15</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='constructionCrate']/@size">8,15</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='crackabookCrate']/@size">8,15</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='passngasCrate']/@size">8,15</set>
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='collapsedDewCollector']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='collapsedForge']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='collapsedWorkbench']/@size">8,30</set> --> 
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='collapsedCementMixer']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='collapsedChemistryStation']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='hiddenStash']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='collapsedBatteryBank']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='collapsedGeneratorBank']/@size">8,30</set> -->
+	<set xpath="/lootcontainers/lootcontainer[@name='waterCooler']/@size">8,10</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='weaponsBagSmall']/@size">8,10</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='weaponsBagLarge']/@size">8,15</set>
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='buriedSuppliesT1']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='buriedSuppliesT2']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='buriedTreasure']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='buriedTreasureBroken']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='prefabEditorBox']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='weaponTestLoot']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='toolTestLoot']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='testItemsLoot']/@size">8,30</set> -->
+	<set xpath="/lootcontainers/lootcontainer[@name='popnpillsShelves']/@size">8,15</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='medicalPillCase']/@size">8,15</set>
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='ammoPileSmall']/@size">8,10</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='ammoPileMed']/@size">8,15</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='ammoPileLarge']/@size">8,15</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='foodPileSmall']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='foodPileMed']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='foodPileLarge']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='medicalPileSmall']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='medicalPileMedium']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='medicalPileLarge']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='liquorPileSmall']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='liquorPileMed']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='liquorPileLarge']/@size">8,30</set> -->
+	<set xpath="/lootcontainers/lootcontainer[@name='utilityCart']/@size">8,15</set>
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='coffeeMaker']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='sodaFountain']/@size">8,30</set> -->
+	<set xpath="/lootcontainers/lootcontainer[@name='gasBarrel']/@size">8,15</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='closet']/@size">8,15</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='rollingToolBox']/@size">8,15</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='toolBox']/@size">8,15</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='workingStiffsShelves']/@size">8,15</set>
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='shamwayProduce']/@size">8,15</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='medicineCabinet']/@size">8,30</set> -->
+	<set xpath="/lootcontainers/lootcontainer[@name='ammoDisplay']/@size">8,15</set>
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='shoesShelves']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='shoes']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='bookPile']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='singleBooks']/@size">8,30</set> -->
+	<set xpath="/lootcontainers/lootcontainer[@name='crackabookShelves']/@size">8,15</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='armorRack']/@size">8,15</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='gunRack']/@size">8,15</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='mopowerShelves']/@size">8,15</set>
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='shirtsShelves']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='pantsShelves']/@size">8,30</set> -->
+	<set xpath="/lootcontainers/lootcontainer[@name='wineBarrel']/@size">8,30</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='workingStiffsTruck']/@size">8,30</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='ambulance']/@size">8,30</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='fireTruck']/@size">8,30</set>
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='roboticTurret']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='atmLoot']/@size">8,30</set> -->
+	<set xpath="/lootcontainers/lootcontainer[@name='mopowerCrate']/@size">8,15</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='reinforcedChestT1']/@size">8,30</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='reinforcedChestT2']/@size">8,30</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='reinforcedChestT3']/@size">8,30</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='hardenedChestT4']/@size">8,30</set>
+	<set xpath="/lootcontainers/lootcontainer[@name='hardenedChestT5']/@size">8,30</set>
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='chemPileSmall']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='chemPileMed']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='chemPileLarge']/@size">8,30</set> -->
+	<set xpath="/lootcontainers/lootcontainer[@name='mopowerTruck']/@size">8,30</set>
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='questRewardSkillMagazines']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_tier0weapon']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_tier1weapon']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_tier2weapon']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_tier3weapon']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_tool1']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_tool2']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_tool3']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_medicine1']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_medicine2']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_medicine3']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_resources0']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_resources1']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_resources2']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_resources3']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_builder_box1']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_builder_box2']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_builder_box3']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_farmer_box1']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_farmer_box2']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_ammo0']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_ammo1']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_ammo2']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_ammo3']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_ammospecial0']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_ammospecial1']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_books1']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_books2']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_books3']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_utilitysupplies1']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_utilitysupplies2']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_candysupplies']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_treasuresupplies']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_tier0armorplus']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_tier1armorplus']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_tier2armorplus']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_foodanddrinkT0']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_foodanddrinkT1']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_foodanddrinkT2']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_foodanddrinkT3']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_bicycle']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_minibike']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_motorcycle']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_4x4']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_explosivesT0']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_explosivesT1']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_explosivesT2']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_explosivesT3']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_robo0']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_robo1']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_robo2']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_tier1mods']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_tier2mods']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_tier3mods']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_electrical1']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_electrical2']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_vote_rewardsT1']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_vote_rewardsT2']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_vote_rewardsT3']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_vote_rewardsT4']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_home_run_rewardsT1']/@size">8,30</set> --> 
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_home_run_rewardsT2']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_home_run_rewardsT3']/@size">8,30</set> -->
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_home_run_rewardsT4']/@size">8,30</set> --> 
+	<!-- <set xpath="/lootcontainers/lootcontainer[@name='twitch_home_run_rewardsT5']/@size">8,30</set> -->
+	<!-- ********************************* -->
+	
+</config>

@@ -1,0 +1,49 @@
+<config>
+	
+	
+	<!-- ********************************* -->
+	<append xpath="/styles/global">
+		<style_entry name="ss_style_scrollbar_background" value="0,0,0" />
+		<style_entry name="ss_style_scrollbar_background_hover" value="7,7,7" />
+		<style_entry name="ss_style_scrollbar_handler" value="224,224,224" />
+		<style_entry name="ss_style_scrollbar_handler_hover" value="255,255,255" />				
+		
+		<style_entry name="ss_style_slot_frame_locked" value="175,30,25,255" />
+		<style_entry name="ss_style_slot_frame_search" value="255,144,24,255" />
+		<style_entry name="ss_style_slot_disabled" value="64,64,64" />
+		
+		<style_entry name="ss_style_element_input_frame" value="255,255,255" />
+	</append>
+	
+	<append xpath="/styles">
+		<style name="ss_style_item_stack">
+			<style_entry name="select_color" value="[beige]"/>
+			<style_entry name="press_color" value="[limeGreen]"/>
+			<style_entry name="final_pressed_color" value="[lightGrey]"/>
+			<style_entry name="background_color" value="[mediumGrey]"/>
+			<style_entry name="highlight_color" value="[hoverColor]"/>
+			<style_entry name="holding_color" value="[white]"/>
+			<style_entry name="width" value="75"/>
+			<style_entry name="height" value="75"/>
+			<style_entry name="hover_icon_grow" value="1.5"/>
+			<style_entry name="on_press" value="true"/>
+			<style_entry name="sound_volume" value="0.75"/>
+			<style_entry name="pickup_sound" value="[pickup_click]"/>
+			<style_entry name="place_sound" value="[place_click]"/>
+			<style_entry name="lockedslot_color" value="[ss_style_slot_frame_locked]"/>
+			<style_entry name="search_color" value="[ss_style_slot_frame_search]"/>
+			<style_entry name="nomatch_iconcolor" value="[ss_style_slot_disabled]"/>
+		</style>
+	</append>
+	
+	<append xpath="/styles">
+		<style type="button" name="icon32px_rollover">
+			<style_entry name="width" value="32"/>
+			<style_entry name="height" value="32"/>
+			<style_entry name="foregroundlayer" value="true" />
+			<style_entry name="hovercolor" value="[green]" />
+		</style>
+	</append>
+	<!-- ********************************* -->
+	
+</config>

@@ -1,0 +1,236 @@
+<config>
+	
+	<!-- ********************************* -->
+	<!-- // Backpack Storage Window -->
+	<setattribute xpath="/windows/window[@name='windowBackpack']" name="depth">1</setattribute>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/rect[@controller='ContainerStandardControls']/button[@name='btnSort']/@pos">261,-77</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/rect[@controller='ContainerStandardControls']/button[@name='btnSort']/@depth">8</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/rect[@controller='ContainerStandardControls']/button[@name='btnSort']/@style">icon32px_rollover</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/rect[@controller='ContainerStandardControls']//button[@name='btnMoveFillAndSmart' or @name='btnMoveQuickRestock']/@pos">261,-121</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/rect[@controller='ContainerStandardControls']//button[@name='btnMoveFillAndSmart' or @name='btnMoveQuickRestock']/@depth">8</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/rect[@controller='ContainerStandardControls']//button[@name='btnMoveFillAndSmart' or @name='btnMoveQuickRestock']/@style">icon32px_rollover</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/rect[@controller='ContainerStandardControls']//button[@name='btnMoveAll' or @name='btnMoveQuickStack']/@pos">261,-165</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/rect[@controller='ContainerStandardControls']//button[@name='btnMoveAll' or @name='btnMoveQuickStack']/@depth">8</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/rect[@controller='ContainerStandardControls']//button[@name='btnMoveAll' or @name='btnMoveQuickStack']/@style">icon32px_rollover</set>
+	
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/rect[@controller='ContainerStandardControls']//button[@name='btnClearInventory']/@pos">-155, -22</set>
+	
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/rect[@controller='ContainerStandardControls']//button[@name='btnToggleLockMode']/@pos">-100, -22</set>
+	
+	<!-- <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/@pos">0,-46</set> -->
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/sprite[@name='backgroundMain']/@height">338</set> <!-- 336 -->
+	
+	<append xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/rect[@controller='ContainerStandardControls']">
+		<rect name="ss_search" depth="5" pos="-115,-7" width="200" height="35">
+			<rect pos="0,0" width="200">
+				<!-- <sprite name="searchIcon" depth="4" pos="20,-20" size="40,40" sprite="ui_game_symbol_search" pivot="center" color="[ss_style_element_iconcolor_1]" globalopacitymod="1.2" /> -->
+				<sprite name="searchInputFrame" depth="1" pos="48,3" width="154" height="35" sprite="menu_empty2px" type="sliced" fillcenter="false" color="[ss_style_element_input_frame]" globalopacity="true" />
+				<textfield name="searchInput" depth="2" pos="50,1" width="150" height="31" search_field="true" virtual_keyboard_prompt="vkPromptSearchTerm" close_group_on_tab="true" clear_button="true" />
+			</rect>
+		</rect>
+	</append>
+	
+	<!--  -->
+	<!-- <set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/rect[@controller='ContainerStandardControls']/@controller">Quartz.ContainerStandardControls, Quartz</set> -->
+	
+	<!--  -->
+	<remove xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']"/>
+	<append xpath="/windows/window[@name='windowBackpack']/panel[@name='content']">
+		<!-- <sprite depth="0" name="backgroundshade" pos="0,0" width="550" height="336" color="[black]" type="sliced" globalopacity="true" /> -->
+		<!-- <sprite depth="1" name="scrollbarBackground" sprite="menu_empty3px" pos="552,-168" height="333" width="14" color="[ss_style_scrollbar_background]" pivot="center" type="sliced" fillcenter="true" globalopacity="true"/> -->
+		<scrollbar	name="scrollbar"
+							depth="6"
+							pos="552,-169"
+							width="14"
+							height="334"
+							padding="4"
+							foregroundname="handler"
+							backgroundname="background"
+							globalopacity="true">
+			<button name="handler" sprite="menu_empty3px" pivot="center" hovercolor="[ss_style_scrollbar_handler_hover]" color="[ss_style_scrollbar_handler]" defaultcolor="[ss_style_scrollbar_handler]" hoverscale="1" type="sliced" fillcenter="true" />
+			<button name="background" sprite="quartz_scrollbar_background" pivot="center" hovercolor="[ss_style_scrollbar_background_hover]" defaultcolor="[ss_style_scrollbar_background]" hoverscale="1" sound_play_on_press_down="[paging_click]" color="[ss_style_scrollbar_background]" />
+		</scrollbar>
+		<scrollview name="scrollview" depth="5" pos="0,0" width="546" height="336" scrollbar="scrollbar" reset_position="true" over_scroll="false" scroll_speed="2.5">
+			<grid depth="10" name="inventory" pos="3,-35" height="336" rows="9" cols="5" cell_width="68" cell_height="68" controller="Quartz.Backpack, Quartz" repeat_content="true" >
+				<backpack_item_stack name="0" cell_width="68" cell_height="68"/>
+			</grid><!-- 8col ss=68  9col default=67 ss=60 -->
+		</scrollview>
+		<rect name="rightsidecontent" pos="0,0" >
+			<sprite depth="1" name="rightsideBackground" pos="558,0" height="336" width="48" color="[mediumGrey]" type="sliced"/>
+		</rect>
+	</append>
+	
+	<!-- // Backpack Storage Window Conversion -->
+	<!-- Default: 9,5 >45 slot< -->
+	<!-- 8,25 >200 slot< -->
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/scrollview[@name='scrollview']/grid[@name='inventory']/@rows">25</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/scrollview[@name='scrollview']/grid[@name='inventory']/@cols">8</set>
+	<!-- ********************************* -->
+	
+	
+	<!-- ********************************* -->
+	<!-- // Looting Storage Window -->
+	<setattribute xpath="/windows/window[@name='windowLooting']" name="depth">0</setattribute>
+	<set xpath="/windows/window[@name='windowLooting']/panel/sprite[@name='headerbackground']/@anchor_left">queue,0,-3</set>
+	<set xpath="/windows/window[@name='windowLooting']/panel/sprite[@name='headerbackground']/@anchor_right">queue,1,15</set>
+	<removeattribute xpath="/windows/window[@name='windowLooting']/panel/rect/@visible"/>
+	<set xpath="/windows/window[@name='windowLooting']/panel/label[@name='lootName']/@pos">39,-6</set>
+	<set xpath="/windows/window[@name='windowLooting']/panel/label[@name='lootName']/@anchor_left">queue,0,63</set>
+	<set xpath="/windows/window[@name='windowLooting']/panel/label[@name='lootName']/@anchor_right">queue,1,-106</set>
+	<set xpath="/windows/window[@name='windowLooting']//rect[@controller='ContainerStandardControls']/@anchor_left">queue,1,-302</set>
+	<set xpath="/windows/window[@name='windowLooting']//rect[@controller='ContainerStandardControls']/@anchor_right">queue,1,12</set>
+	
+	<append xpath="/windows/window[@name='windowLooting']//rect[@controller='ContainerStandardControls']">
+		<rect name="ss_search" depth="5" pos="-10,-747" width="200" height="36">
+			<rect pos="0,0" width="200">
+				<!-- <sprite name="searchIcon" depth="4" pos="20,-20" size="40,40" sprite="ui_game_symbol_search" pivot="center" color="[ss_style_element_iconcolor_1]" globalopacitymod="1.2" /> -->
+				<sprite name="searchInputFrame" depth="1" pos="48,2" width="154" height="35" sprite="menu_empty2px" type="sliced" fillcenter="false" color="[ss_style_element_input_frame]" globalopacity="true" />
+				<textfield name="searchInput" depth="2" pos="50,1" width="150" height="31" search_field="true" virtual_keyboard_prompt="vkPromptSearchTerm" close_group_on_tab="true" clear_button="true" />
+			</rect>
+		</rect>
+		
+		<combobox depth="3" name="cbxLockedSlots" pos="200,-746" width="100" height="30" tooltip_key="xuiStashLockedSlots" type="ComboBoxInt" value_min="0" value_max="{container_slots}" value_wrap="true" value_increment="1" />
+	</append>
+	
+	<set xpath="/windows/window[@name='windowLooting']/rect[@name='content']/@pos">-16,-47</set> <!-- 3,-49 -->
+	
+	<insertAfter xpath="/windows/window[@name='windowLooting']/rect[@name='content']">
+		<rect name="footer" pos="-16,-739">
+			<!-- sprite="ui_game_panel_header" -->
+			<sprite name="footerbackground" height="46" depth="-1" color="[mediumGrey]" anchor_left="queue,0,-3" anchor_right="queue,1,13" />
+		</rect>
+	</insertAfter>
+	
+	<!--  -->
+	<set xpath="/windows/window[@name='windowLooting']//rect[@controller='ContainerStandardControls']/@controller">Quartz.ContainerStandardControls, Quartz</set>
+	
+	<!--  -->
+	<remove xpath="/windows/window[@name='windowLooting']/rect[@name='content']/grid[@name='queue']"/>
+	<append xpath="/windows/window[@name='windowLooting']/rect[@name='content']">
+		<sprite depth="0" name="bgshade" pos="0,0" height="693" color="[black]" type="sliced" anchor_left="queue,0,-3" anchor_right="queue,1,14" globalopacity="true" />
+		
+		<rect pos="{windowWidth},-309">
+			<!-- <sprite name="scrollbarbackground" depth="0" pos="8,-2" width="10" height="618" pivot="center" color="[ss_style_scrollbar_background]" globalopacity="true" /> -->
+			
+			<scrollbar	name="scrollbar"
+							depth="3"
+							pos="8,-38"
+							width="14"
+							height="691"
+							padding="4"
+							foregroundname="handler"
+							backgroundname="background"
+							globalopacity="true">
+				<button name="handler" sprite="menu_empty3px" pivot="center" hovercolor="[ss_style_scrollbar_handler_hover]" color="[ss_style_scrollbar_handler]" defaultcolor="[ss_style_scrollbar_handler]" hoverscale="1" type="sliced" fillcenter="true" />
+				<button name="background" sprite="quartz_scrollbar_background" pivot="center" hovercolor="[ss_style_scrollbar_background_hover]" defaultcolor="[ss_style_scrollbar_background]" hoverscale="1" sound_play_on_press_down="[paging_click]" color="[ss_style_scrollbar_background]" />
+			</scrollbar>
+		</rect>
+		<scrollview name="scrollview" depth="1" pos="-34,-2" width="818" height="689" scrollbar="scrollbar" reset_position="true" over_scroll="false" scroll_speed="2.5">
+			<grid depth="2" name="queue" pos="36,-35" width="818" height="689" rows="10" cols="9" cell_width="75" cell_height="75" repeat_content="true" controller="Quartz.LootContainer, Quartz">
+				<item_stack name="0"/>
+			</grid>
+		</scrollview>
+		<rect depth="0" pos="{windowWidth},0">
+			<!-- Mask width and scrollview width works down to 5 columns minimum. width476/68 is 7 slots 12 slot max.  -->
+			<sprite name="scrolloverflowmask" depth="2" pos="0,0" sprite="menu_empty" width="486" height="689" color="255,255,255,1" on_press="true"/>
+		</rect>
+	</append>
+	
+	<!-- // Looting Storage Window Conversion -->
+	<set xpath="/windows/window[@name='windowLooting']/rect[@name='content']/scrollview[@name='scrollview']/grid[@name='queue']/@rows">50</set>
+	<set xpath="/windows/window[@name='windowLooting']/rect[@name='content']/scrollview[@name='scrollview']/grid[@name='queue']/@cols">8</set>
+	
+	<!--  -->
+	<set xpath="/windows/window[@name='windowLooting']/rect[@name='content']/sprite[@name='bg']/@sprite">menu_empty3px</set>
+	<set xpath="/windows/window[@name='windowLooting']/rect[@name='content']/sprite[@name='bg']/@color">[black]</set>
+	<setattribute xpath="/windows/window[@name='windowLooting']/rect[@name='content']/sprite[@name='bg']" name="fillcenter">false</setattribute>
+	<set xpath="/windows/window[@name='windowLooting']/rect[@name='content']/sprite[@name='bg']/@anchor_left">queue,0,-3</set>
+	<set xpath="/windows/window[@name='windowLooting']/rect[@name='content']/sprite[@name='bg']/@anchor_right">queue,1,14</set>
+	<removeattribute xpath="/windows/window[@name='windowLooting']/rect[@name='content']/sprite[@name='bg']/@anchor_top" />
+	<removeattribute xpath="/windows/window[@name='windowLooting']/rect[@name='content']/sprite[@name='bg']/@anchor_bottom" />
+	<setattribute xpath="/windows/window[@name='windowLooting']/rect[@name='content']/sprite[@name='bg']" name="width">606</setattribute> <!-- 606 -->
+	<setattribute xpath="/windows/window[@name='windowLooting']/rect[@name='content']/sprite[@name='bg']" name="height">740</setattribute> <!-- 605 -->
+	<!-- <set xpath="/windows/window[@name='windowLooting']/rect[@name='content']/sprite[@name='bg']/@on_press">false</set> -->
+	<!-- ********************************* -->
+	
+	
+	
+	<!-- ********************************* -->
+	<!-- // Vehicle Storage Window -->
+	<setattribute xpath="/windows/window[@name='windowVehicleStorage']" name="depth">0</setattribute>
+	<!-- -->
+	<set xpath="/windows/window[@name='windowVehicleStorage']/@controller">Quartz.VehicleContainer, Quartz</set>
+	
+	<set xpath="/windows/window[@name='windowVehicleStorage']/panel/sprite[@name='headerbackground']/@anchor_left">queue,0,-3</set>
+	<set xpath="/windows/window[@name='windowVehicleStorage']/panel/sprite[@name='headerbackground']/@anchor_right">queue,1,15</set>
+	<removeattribute xpath="/windows/window[@name='windowVehicleStorage']/panel/rect/@visible"/>
+	<set xpath="/windows/window[@name='windowVehicleStorage']/panel/label[@name='lootName']/@pos">39,-6</set>
+	<set xpath="/windows/window[@name='windowVehicleStorage']/panel/label[@name='lootName']/@anchor_left">queue,0,63</set>
+	<set xpath="/windows/window[@name='windowVehicleStorage']/panel/label[@name='lootName']/@anchor_right">queue,1,-106</set>
+	<set xpath="/windows/window[@name='windowVehicleStorage']/panel/rect[@controller='ContainerStandardControls']/@anchor_left">queue,1,-302</set>
+	<set xpath="/windows/window[@name='windowVehicleStorage']/panel/rect[@controller='ContainerStandardControls']/@anchor_right">queue,1,12</set>
+	
+	<append xpath="/windows/window[@name='windowVehicleStorage']/panel/rect[@controller='ContainerStandardControls']">
+		<rect name="ss_search" depth="5" pos="-10,-747" width="200" height="36">
+			<rect pos="0,0" width="200">
+				<!-- <sprite name="searchIcon" depth="4" pos="20,-20" size="40,40" sprite="ui_game_symbol_search" pivot="center" color="[ss_style_element_iconcolor_1]" globalopacitymod="1.2" /> -->
+				<sprite name="searchInputFrame" depth="1" pos="48,2" width="154" height="35" sprite="menu_empty2px" type="sliced" fillcenter="false" color="[ss_style_element_input_frame]" globalopacity="true" />
+				<textfield name="searchInput" depth="2" pos="50,1" width="150" height="31" search_field="true" virtual_keyboard_prompt="vkPromptSearchTerm" close_group_on_tab="true" clear_button="true" />
+			</rect>
+		</rect>
+		
+		<combobox depth="3" name="cbxLockedSlots" pos="200,-746" width="100" height="30" tooltip_key="xuiStashLockedSlots" type="ComboBoxInt" value_min="0" value_max="{container_slots}" value_wrap="true" value_increment="1" />
+	</append>
+	
+	<!--  -->
+	<set xpath="/windows/window[@name='windowVehicleStorage']/panel/rect[@controller='ContainerStandardControls']/@controller">Quartz.ContainerStandardControls, Quartz</set>
+	
+	<!--  -->
+	<remove xpath="/windows/window[@name='windowVehicleStorage']/grid[@name='queue']"/>
+	<append xpath="/windows/window[@name='windowVehicleStorage']">
+		<rect name="content" pos="-16,-47">
+			<sprite depth="0" name="bgshade" pos="0,0" height="693" color="[black]" type="sliced" anchor_left="queue,0,-3" anchor_right="queue,1,14" globalopacity="true" />
+			<sprite depth="1" name="bg" width="606" height="740" color="[black]" type="sliced" sprite="menu_empty3px" anchor_left="queue,0,-3" anchor_right="queue,1,14" fillcenter="false" />
+			
+			<rect pos="{windowWidth},-309">
+				<!-- <sprite name="scrollbarbackground" depth="0" pos="8,-2" width="10" height="618" pivot="center" color="[ss_style_scrollbar_background]" globalopacity="true" /> -->
+				
+				<scrollbar	name="scrollbar"
+							depth="3"
+							pos="8,-38"
+							width="14"
+							height="691"
+							padding="4"
+							foregroundname="handler"
+							backgroundname="background"
+							globalopacity="true">
+					<button name="handler" sprite="menu_empty3px" pivot="center" hovercolor="[ss_style_scrollbar_handler_hover]" color="[ss_style_scrollbar_handler]" defaultcolor="[ss_style_scrollbar_handler]" hoverscale="1" type="sliced" fillcenter="true" />
+					<button name="background" sprite="quartz_scrollbar_background" pivot="center" hovercolor="[ss_style_scrollbar_background_hover]" defaultcolor="[ss_style_scrollbar_background]" hoverscale="1" sound_play_on_press_down="[paging_click]" color="[ss_style_scrollbar_background]" />
+				</scrollbar>
+			</rect>
+			<scrollview name="scrollview" depth="1" pos="-34,-2" width="818" height="689" scrollbar="scrollbar" reset_position="true" over_scroll="false" scroll_speed="2.5">
+				<grid depth="2" name="queue" pos="36,-35" width="818" height="689" rows="10" cols="9" cell_width="75" cell_height="75" repeat_content="true">
+					<item_stack name="0"/>
+				</grid>
+			</scrollview>
+			<rect depth="0" pos="{windowWidth},0">
+				<!-- Mask width and scrollview width works down to 5 columns minimum. 7 slots 12 slot max.  -->
+				<sprite name="scrolloverflowmask" depth="2" pos="0,0" sprite="menu_empty" width="486" height="689" color="255,255,255,1" on_press="true"/>
+			</rect>
+		</rect>
+	</append>
+	
+	<!-- // Vehicle Storage Window Conversion -->
+	<set xpath="/windows/window[@name='windowVehicleStorage']/rect[@name='content']/scrollview[@name='scrollview']/grid[@name='queue']/@rows">50</set>
+	<set xpath="/windows/window[@name='windowVehicleStorage']/rect[@name='content']/scrollview[@name='scrollview']/grid[@name='queue']/@cols">8</set>
+	
+	<!--  -->
+	<insertAfter xpath="/windows/window[@name='windowVehicleStorage']/rect[@name='content']">
+		<rect name="footer" pos="-16,-739">
+			<!-- sprite="ui_game_panel_header" -->
+			<sprite name="footerbackground" height="46" depth="-1" color="[mediumGrey]" anchor_left="queue,0,-3" anchor_right="queue,1,13" />
+		</rect>
+	</insertAfter>
+	<!-- ********************************* -->
+	
+</config>

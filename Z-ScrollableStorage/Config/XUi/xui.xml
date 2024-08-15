@@ -1,0 +1,38 @@
+<configs>
+	
+	<!-- ********************************* -->
+	<!-- // These values restore the UI to it's default scale settings to try and override other mods that might set scales that will mess with the UI. -->
+	<set xpath="/xui/ruleset/@name">default</set>			
+	<set xpath="/xui/ruleset[@name='default']/@ignore_missing_class">false</set>
+	
+	<!-- // Backpack Window -->
+	<set xpath="/xui/ruleset[@name='default']/window_group[@name='backpack']">
+		<window name="itemInfoPanel" />
+		<window name="emptyInfoPanel" />
+		<window name="windowBackpack" />
+	</set>
+	
+	<setattribute xpath="/xui//window_group[@name='backpack']" name="actionSet">false</setattribute>
+	
+	<!-- // Loot Window -->
+	<set xpath="/xui/ruleset[@name='default']/window_group[@name='looting']">
+		<window name="windowLooting" />
+		<window name="windowNonPagingHeader" />
+	</set>
+	
+	<setattribute xpath="/xui//window_group[@name='looting']" name="left_panel_valign_top">false</setattribute>
+	<setattribute xpath="/xui//window_group[@name='looting']" name="controller">XUiC_LootWindowGroup</setattribute>
+	<setattribute xpath="/xui//window_group[@name='looting']" name="close_compass_on_open">true</setattribute>
+	
+	<!-- // Vehicle Storage -->
+	<set xpath="/xui/ruleset[@name='default']/window_group[@name='vehicleStorage']">
+		<window name="windowVehicleStorage" />
+		<window name="windowNonPagingHeader" />
+	</set>
+	
+	<setattribute xpath="/xui//window_group[@name='vehicleStorage']" name="controller">XUiC_VehicleStorageWindowGroup</setattribute>
+	<setattribute xpath="/xui//window_group[@name='vehicleStorage']" name="open_backpack_on_open">true</setattribute>
+	<setattribute xpath="/xui//window_group[@name='vehicleStorage']" name="close_compass_on_open">true</setattribute>
+	<!-- ********************************* -->
+
+</configs>
