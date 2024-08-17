@@ -1,0 +1,328 @@
+<configs>
+
+<!-- Entities -->
+	
+	<append xpath="/buffs">	
+	
+		<buff name="zombieSpiderFeralBomberPLUSDeco" hidden="true">
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/Junk Drone/junkDrone_Prefab.prefab" local_offset="0,0.5,-0.4" local_rotation="-57,0,0" parent_transform="Spine"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Electrical/smallGeneratorPrefab" local_offset="-0.03,0.52,-0.42" local_rotation="-57,0,0" parent_transform="Spine"/>				
+			</effect_group>
+		</buff>
+	
+		<buff name="zombieSpiderFeralGliderPLUSDeco" hidden="true">
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Animals/Vulture/animalVultureStandard" local_offset="0,-.3,.25" local_rotation="-45,0,0" parent_transform="Spine"/> <!-- A19 Oakraven -->
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false"  parent_transform="Spine" transform_path="body_mesh"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_torch_wall" local_offset="0.2,0,0" local_rotation="0,0,0" parent_transform="RightHand"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_torch_wall" local_offset="-0.1,-0.15,0" local_rotation="0,0,0" parent_transform="LeftHand"/>			
+			</effect_group>
+		</buff>
+		
+		<buff name="animalZombieChickenPLUSDeco" hidden="true">
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/OutdoorDecor/cowSkullPrefab" local_offset="-0.3,-0.04,0" local_rotation="235,90,0" parent_transform="CHICKEN_ Head"/> <!-- -0.1,-0.02,0 -->
+			</effect_group>
+		</buff>
+		
+		<buff name="animalPaindeerPLUSDeco" hidden="true">
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/Axe/steelAxePrefab.prefab" local_offset="0,0.2,0.27" local_rotation="50,0,0" parent_transform="Head"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Misc/snowball_FP_Prefab.prefab" local_offset="0,-0.03,0.27" local_rotation="0,0,0" parent_transform="Head"/>			
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Entities/Zombies/Zombies/corpse3Prefab.prefab" local_offset="0,0.5,0" local_rotation="0,0,0" parent_transform="Spine1"/>			
+			</effect_group>
+		</buff>
+		
+		<buff name="zombieM60DemolitionPLUSDeco" hidden="true">
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/MachineGun/m60MachinegunPrefab.prefab" local_offset="0.18,0.03,-0.07" local_rotation="187,-80,90" parent_transform="RightHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down -->
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/MachineGun/m60MachinegunPrefab.prefab" local_offset="-0.18,-0.03,0.07" local_rotation="7,-80,-90" parent_transform="LeftHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down --> <!-- Local Rotation Exorcist Spin/Nodding/Thinking -->	
+			</effect_group>
+		</buff>
+		
+		<buff name="zombieSMGArlenePLUSDeco" hidden="true">
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/SMG/smgPrefab.prefab" local_offset="-0.3,-0.045,0.0975" local_rotation="7,-80,-90" parent_transform="LeftHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down -->
+			</effect_group>
+		</buff>
+
+		<buff name="zombieTARifleSoldierPLUSDeco" hidden="true">
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/Tactical Assault Rifle/tacticalAssaultRiflePrefab.prefab" local_offset="0.3,0.03,-0.1" local_rotation="187,-80,90" parent_transform="RightHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down -->
+			</effect_group>
+		</buff>
+
+		<buff name="zombieBatonHazmatPLUSDeco" hidden="true">
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/TaserBaton/TaserBatonPrefab.prefab" local_offset="0.1,0.04,0" local_rotation="270,180,-180" parent_transform="RightHand"/> <!-- Local Offset Up-Down/Front-Back/Left-Right -->				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_right" local_offset="0.09,0.06,-0.55" local_rotation="270,180,-180" parent_transform="RightHand"/>
+			</effect_group>
+		</buff>
+		
+		<buff name="zombieSteelAxeLumberjackPLUSDeco" hidden="true">
+			<effect_group>								
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/Axe/steelAxePrefab.prefab" local_offset="0.1,0.02,0.0" local_rotation="187,-80,90" parent_transform="RightHand"/> <!-- Local Offset Up-Down/Left-Right/Front-Back -->
+			</effect_group>
+		</buff>
+		
+		<buff name="zombieMachetePartyGirlPLUSDeco" hidden="true">
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/Knives/machetePrefab.prefab" local_offset="0.1,0.04,0" local_rotation="270,180,-180" parent_transform="RightHand"/> <!-- Local Offset Up-Down/Front-Back/Left-Right -->				
+			</effect_group>
+		</buff>
+		
+		<buff name="zombiePistolBusinessManPLUSDeco" hidden="true">
+			<effect_group>								
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/Pistol/PistolPrefab.prefab" local_offset="0.2,0.035,-0.038" local_rotation="187,-80,90" parent_transform="RightHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down -->
+			</effect_group>
+		</buff>
+		
+		<buff name="zombieNailgunUtilityWorkerPLUSDeco" hidden="true">
+			<effect_group>								
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Tools/nailgunPrefab.prefab" local_offset="0.17,0.035,-0.038" local_rotation="180,0,180" parent_transform="RightHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down -->
+			</effect_group>
+		</buff>
+	
+		<buff name="zombieSniperBoePLUSDeco" hidden="true">
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/Sharp Shooter/sharpShooterGunPrefab.prefab" local_offset="0.19,0.03,-0.06" local_rotation="187,-55,90" parent_transform="RightHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down -->
+			</effect_group>
+		</buff>
+		
+		<buff name="zombieChainsawMoePLUSDeco" hidden="true">
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/Chainsaw/chainsawPrefab.prefab" local_offset="0.17,0.05,-0.1" local_rotation="0,150,270" parent_transform="RightHand"/>
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="chainsaw_idle" />
+			</effect_group>
+		</buff>
+		
+		<buff name="zombieDesertVultureTomClarkPLUSDeco" hidden="true">
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/Desert Eagle/desertEaglePrefab.prefab" local_offset="0.17,0.03,-0.04" local_rotation="187,-80,90" parent_transform="RightHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down -->
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/Desert Eagle/desertEaglePrefab.prefab" local_offset="-0.17,-0.03,0.04" local_rotation="7,-80,-90" parent_transform="LeftHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down --> <!-- Local Rotation Exorcist Spin/Nodding/Thinking -->	
+			</effect_group>
+		</buff>
+
+		<buff name="zombiePumpShotgunBikerPLUSDeco" hidden="true">
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/Pump Shotgun/pumpShotgunPrefab.prefab" local_offset="0.25,0.06,-0.25" local_rotation="187,-25,90" parent_transform="RightHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down -->
+			</effect_group>
+		</buff>
+
+		<buff name="zombieBatonFatCopPLUSDeco" hidden="true">
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/PipeBaton/pipeBatonPrefab.prefab" local_offset="0.09,0.06,-0.05" local_rotation="0,-25,90" parent_transform="RightHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down -->
+			</effect_group>
+		</buff>
+
+		<buff name="zombieSteelClubFemaleFatPLUSDeco" hidden="true">
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/ClubIron/clubIronPrefab.prefab" local_offset="0.09,0.03,-0.03" local_rotation="90,-90,90" parent_transform="RightHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down -->
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/ClubIron/clubIronPrefab.prefab" local_offset="-0.09,-0.03,0" local_rotation="-90,-90,270" parent_transform="LeftHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down -->
+			</effect_group>
+		</buff>
+
+		<buff name="zombieBoltNursePLUSDeco" hidden="true">
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/Bows/Arrows/bolt_steelPrefab.prefab" local_offset="0.06,0.015,-0.09" local_rotation="0,180,90" parent_transform="RightHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down -->
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/Bows/Arrows/bolt_steelPrefab.prefab" local_offset="-0.06,-0.015,0.09" local_rotation="0,0,270" parent_transform="LeftHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down -->
+			</effect_group>
+		</buff>
+
+		<buff name="zombieSteelSledgehammerFatHawaiianPLUSDeco" hidden="true">
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Melee/SledgeHammer/steelSledgehammerPrefab.prefab" local_offset="0.12,0.02,-0.2" local_rotation="0,270,90" parent_transform="RightHand"/> <!-- Local Offset Front-Back/Left-Right/Up-Down -->
+			</effect_group>
+		</buff>
+		
+		<buff name="zombieWightRadiationShowerPLUSAOE" hidden="true">
+			<damage_type value="radiation"/>
+			<stack_type value="replace"/>
+			<duration value="0"/>
+			<update_rate value="1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="4" buff="zombieWightRadiationShowerPLUSAOEEffect">
+					<requirement name="!EntityTagCompare" target="other" tags="vehicle,zombie,turret,drone"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="zombieWightRadiationShowerPLUSAOEEffect" icon="ui_game_symbol_radiation" icon_color="255,0,0" icon_blink="true">
+			<damage_type value="radiation"/>
+			<stack_type value="replace"/>
+			<duration value="4"/>
+			<update_rate value="1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="subtract" value=".5"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="RadiationSignal" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="RadiationSignal" operation="set" value="0">
+					<requirement name="CVarCompare" cvar="RadiationSignal" operation="Equals" value="2"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="RadiationSignal" operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyScreenEffect" intensity=".15" fade=".5" effect_name="Hot">
+					<requirement name="CVarCompare" cvar="RadiationSignal" operation="Equals" value="1"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyScreenEffect" intensity="0" fade=".5" effect_name="Hot">
+					<requirement name="CVarCompare" cvar="RadiationSignal" operation="Equals" value="0"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Hot"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" effect_name="Radiation" intensity=".3" fade="2"/>
+				<triggered_effect trigger="onSelfDied" action="ModifyScreenEffect" effect_name="Radiation" intensity="0" fade="0"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" effect_name="Radiation" intensity="0" fade="2"/>
+			</effect_group>
+		</buff>
+		
+		<buff name="zombieBogeymanPLUSDeco" hidden="true">
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Industrial/barrelRadiatedPrefab" local_offset="0.12,.3,0.1" local_rotation="0,0,0" parent_transform="Spine"/> <!-- Local Offset Up-Down/Front-Back/Left-Right -->
+			</effect_group>
+		</buff>
+
+		<buff name="zombieCrispyPLUSDeco" hidden="true">
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Furniture/woodBurningStovePrefab" local_offset="0,0.15,0" local_rotation="0,0,0" parent_transform="Spine"/> <!-- Local Offset Up-Down/Front-Back/Left-Right -->				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_torch_wall" local_offset="0,0,0.2" local_rotation="0,0,0" parent_transform="Spine"/>
+			</effect_group>
+		</buff>
+		
+<!-- SNUFKIN IMPORT -->
+
+		<buff name="zombieScorcherPLUSDeco" hidden="true">
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/JunkTurret/junkTurret_Prefab.prefab" parent_transform="LeftShoulder" local_offset=".25,-.80,0" local_rotation="0,0,0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/JunkTurret/junkTurret_Prefab.prefab" parent_transform="RightShoulder" local_offset="-.25,.80,0" local_rotation="180,0,0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Industrial/barrelOilPrefab" local_offset=".45,.35,-.2" local_rotation="0,0,0" parent_transform="Spine"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Industrial/barrelGasPrefab" local_offset="-.15,.35,-.2" local_rotation="0,0,0" parent_transform="Spine"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false"  parent_transform="RightShoulder" transform_path="BaseMesh"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false"  parent_transform="RightShoulder" transform_path="turret_cone"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false"  parent_transform="RightShoulder" transform_path="DiscMesh"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false"  parent_transform="RightShoulder" transform_path="turret_laser"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false"  parent_transform="LeftShoulder" transform_path="BaseMesh"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false"  parent_transform="LeftShoulder" transform_path="turret_cone"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false"  parent_transform="LeftShoulder" transform_path="DiscMesh"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false"  parent_transform="LeftShoulder" transform_path="turret_laser"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false"  transform_path="Detonator"/>
+			</effect_group>
+		</buff>
+		
+		<buff name="zombieScorcherRadiatedPLUSDeco" hidden="true">
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/JunkTurret/junkTurret_Prefab.prefab" parent_transform="LeftShoulder" local_offset=".25,-.80,0" local_rotation="0,0,0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/JunkTurret/junkTurret_Prefab.prefab" parent_transform="RightShoulder" local_offset="-.25,.80,0" local_rotation="180,0,0"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Industrial/barrelOilPrefab" local_offset=".45,.35,-.2" local_rotation="0,0,0" parent_transform="Spine"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Industrial/barrelGasPrefab" local_offset="-.15,.35,-.2" local_rotation="0,0,0" parent_transform="Spine"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_torch_wall" local_offset="-0.11,-0.12,1" local_rotation="-90,0,0" parent_transform="LeftShoulder"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_torch_wall" local_offset="0.11,0.12,-1" local_rotation="90,0,0" parent_transform="RightShoulder"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false"  parent_transform="RightShoulder" transform_path="BaseMesh"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false"  parent_transform="RightShoulder" transform_path="turret_cone"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false"  parent_transform="RightShoulder" transform_path="DiscMesh"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false"  parent_transform="RightShoulder" transform_path="turret_laser"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false"  parent_transform="LeftShoulder" transform_path="BaseMesh"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false"  parent_transform="LeftShoulder" transform_path="turret_cone"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false"  parent_transform="LeftShoulder" transform_path="DiscMesh"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false"  parent_transform="LeftShoulder" transform_path="turret_laser"/>
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false"  transform_path="Detonator"/>
+			</effect_group>
+		</buff>
+
+		<buff name="zombieRocketPLUSDeco" hidden="true">
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/RocketLauncher/rocketlauncherPrefab.prefab" local_offset="-.15,.13,0" local_rotation="0,-180,0" parent_transform="LeftShoulder"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="@:Other/Items/Tools/Auger/augerPrefab.prefab" local_offset=".125,0,0" local_rotation="0,90,0" parent_transform="RightHand"/>
+				<triggered_effect trigger="onSelfRangedBurstShotEnd" action="AddBuff" target="self" buff="zombieRocketPLUSMuzzle"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="buffInjuryKnockdown01Cooldown"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="Auger_Idle" />
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false"  transform_path="Detonator"/>
+			</effect_group>
+		</buff>
+		<buff name="zombieRocketRadiatedPLUSDeco" hidden="true">
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Other/Items/Weapons/Ranged/RocketLauncher/rocketlauncherPrefab.prefab" local_offset="-.15,.13,0" local_rotation="0,-180,0" parent_transform="LeftShoulder"/>				
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="@:Other/Items/Tools/Auger/augerPrefab.prefab" local_offset=".125,0,0" local_rotation="0,90,0" parent_transform="RightHand"/>
+				<triggered_effect trigger="onSelfRangedBurstShotEnd" action="AddBuff" target="self" buff="zombieRocketPREPPERMuzzle"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="buffInjuryKnockdown01Cooldown"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="Auger_Idle" />
+				<triggered_effect trigger="onSelfBuffStart" action="SetTransformActive" active="false"  transform_path="Detonator"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="@:Entities/LootContainers/weapon_bags_largePrefab.prefab" local_offset="0,-0.1,-0.32" local_rotation="0,0,0" parent_transform="Spine"/>
+			</effect_group>
+		</buff>
+		<buff name="zombieRocketPLUSMuzzle" hidden="true">
+			<duration value="1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" target="self" particle="p_rocketLauncherFire" local_offset="-.2,.13,0" local_rotation="180,0,0" parent_transform="LeftShoulder"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" target="self"  particle="p_nozzlesmoke_m136" local_offset="-.2,.13,0" local_rotation="180,0,0" parent_transform="LeftShoulder"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="RemoveParticleEffectFromEntity" target="self"  particle="p_nozzlesmoke_m136" />
+				<triggered_effect trigger="onSelfBuffFinish" action="RemoveParticleEffectFromEntity" target="self"  particle="p_rocketLauncherFire" />
+			</effect_group>
+		</buff>
+
+		<buff name="buffBansheeScreamerPLUSScream" hidden="true">
+			<update_rate value="12"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="BansheeScreamerPLUSbuff0"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="positionAOE" range="12" buff="buffBansheeScreamerPLUS"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_left" parent_transform="LeftHand"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_twitch_zombie_shock_right" parent_transform="RightHand"/>
+			</effect_group>
+		</buff>
+
+		<buff name="buffBansheeScreamerPLUS" hidden="true">
+			<stack_type value="replace"/>
+			<duration value="3"/>
+			<effect_group>
+				<passive_effect name="RunSpeed" operation="perc_subtract" value="0.8,.2" duration="0,4">
+					<requirement name="EntityTagCompare" tags="player"/>
+				</passive_effect>
+				<passive_effect name="WalkSpeed" operation="perc_subtract" value="0.8,.2" duration="0,4">
+					<requirement name="EntityTagCompare" tags="player"/>
+				</passive_effect>
+				<passive_effect name="CrouchSpeed" operation="perc_subtract" value="0.8,.2" duration="0,4">
+					<requirement name="EntityTagCompare" tags="player"/>
+				</passive_effect>
+				<passive_effect name="JumpStrength" operation="perc_subtract" value="0.8,.2" duration="0,4">
+					<requirement name="EntityTagCompare" tags="player"/>
+				</passive_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="1" fade="1" effect_name="Blur"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity=".25" fade="1" effect_name="Radiation" />
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity=".5" effect_name="Drunk" fade="1"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Blur"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Radiation" />
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" effect_name="Drunk" fade="1"/>
+				<triggered_effect trigger="onSelfDied" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Blur"/>
+				<triggered_effect trigger="onSelfDied" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Radiation" />
+				<triggered_effect trigger="onSelfDied" action="ModifyScreenEffect" intensity="0" effect_name="Drunk" fade="1"/>
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="BansheeScreamerPLUSbuff0" play_in_head="true">
+					<requirement name="EntityTagCompare" tags="player"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="BansheeScreamerPLUSbuff1" play_in_head="true">
+					<requirement name="EntityTagCompare" tags="player"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+
+		<buff name="buffzombieBurntSiren" hidden="true">
+			<update_rate value=".1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="positionAOE" range="30" buff="buffzombieBurntSirenPassiveA">
+					<requirement name="EntityTagCompare" target="other" tags="player"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buffzombieBurntSirenPassiveA" hidden="true">
+			<stack_type value="replace"/>
+			<duration value="1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="zombieBurntSirenStrong" play_in_head="true"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="StopSound" sound="zombieBurntSirenStrong" />
+			</effect_group>
+		</buff>
+		<buff name="zombieBurntSirenDeco" hidden="true">
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Electrical/speakerLoudWallPrefab" local_offset="0,-0.075,0.45" local_rotation="0,0,0" parent_transform="Head"/> <!-- Up/Down - Side/Side - Front/Back -->
+				<triggered_effect trigger="onSelfBuffStart" action="AttachPrefabToEntity" prefab="Entities/Commercial/bookShelfSpeakerPrefab" local_offset="0,0.425,-0.2" local_rotation="0,180,0" parent_transform="Head"/>			
+			</effect_group>
+		</buff>		
+		
+	</append>
+	
+</configs>
