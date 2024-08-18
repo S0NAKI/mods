@@ -1,3 +1,0 @@
-SVETG.unity3d filter=lfs diff=lfs merge=lfs -text
-SVETGDecorations.unity3d filter=lfs diff=lfs merge=lfs -text
-SVETGTraps.unity3d filter=lfs diff=lfs merge=lfs -text

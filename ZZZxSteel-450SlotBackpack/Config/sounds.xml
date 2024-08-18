@@ -1,0 +1,15 @@
+<xSteel>
+	
+	<append xpath="/Sounds">
+
+		<SoundDataNode name="backpack_page">
+			<AudioSource name="Sounds/AudioSource_Reloads"/>
+			<AudioClip ClipName="Sounds/Crafting/craft_click_recipe"/>
+			<LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.1"/>
+			<LowestPitch name="0.5"/>
+			<HighestPitch name="0.5"/>
+		</SoundDataNode>
+		
+	</append>
+	
+</xSteel>

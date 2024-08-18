@@ -1,9 +1,0 @@
-<Config>	
-	<!-- ######## -->
-	<!-- Tooltips -->
-	<append xpath="ui_display_info/item_display">
-		<item_display_info display_type="uniqueTabulaRasaDT" display_group="groupAttire">
-			<display_entry name="dDysenteryRisk" title_key="statTabulaRasa" display_leading_plus="true"/>
-		</item_display_info>
-	</append>
-</Config>

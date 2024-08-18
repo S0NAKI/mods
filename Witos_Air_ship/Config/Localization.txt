@@ -1,8 +1,0 @@
-Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish
-WitosAirShip1,vehicles,vehicle,,,"WitosAirShip",,,"Witos Barco Volador"
-burner,vehicles,item,,,"Burner",,,"Quemador"
-candles,vehicles,item,,,"candles",,,"Velas"
-structurewoodAirshipWitos,vehicles,item,,,"structure wood Air ship Witos",,,"Estructura barco Witos"
-WitosAirShip1placeable,vehicles,item,,,"WitosAirShip",,,"Witos Barco Volador"
-
-

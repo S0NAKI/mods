@@ -1,0 +1,143 @@
+<configs>
+<set xpath="/progression/attributes/attribute[@name='attPerception']/@icon">ui_customPerceptionPerk_icon</set>
+<set xpath="/progression/attributes/attribute[@name='attStrength']/@icon">ui_customStrengthPerk_icon</set>
+<set xpath="/progression/attributes/attribute[@name='attFortitude']/@icon">ui_customFortitudePerk_icon</set>
+<set xpath="/progression/attributes/attribute[@name='attAgility']/@icon">ui_CustomAgilityPerk_icon</set>
+<set xpath="/progression/attributes/attribute[@name='attIntellect']/@icon">ui_CustomIntellectPerk_icon</set>
+<set xpath="/progression/attributes/attribute[@name='attBooks']/@icon">ui_GeneralDescription_icon</set>
+<set xpath="/progression/attributes/attribute[@name='attCrafting']/@icon">ui_zombiehuntermain_icon</set>
+<set xpath="/progression/skills/skill[@name='skillPerceptionCombat']/@icon">ui_CustomPerceptionCombatPerk_icon</set>
+<set xpath="/progression/skills/skill[@name='skillPerceptionGeneral']/@icon">ui_CustomPerceptionGeneral_icon</set>
+<set xpath="/progression/skills/skill[@name='skillPerceptionScavenging']/@icon">ui_CustomPerceptionScavengingPerk_icon</set>
+<set xpath="/progression/skills/skill[@name='skillStrengthCombat']/@icon">ui_CustomStrengthCombatPerk2_icon</set>
+<set xpath="/progression/skills/skill[@name='skillStrengthGeneral']/@icon">ui_CustomStrengthGeneralPerk_icon</set>
+<set xpath="/progression/skills/skill[@name='skillStrengthConstruction']/@icon">ui_CustomStrengthConstructionPerk_icon</set>
+<set xpath="/progression/skills/skill[@name='skillFortitudeCombat']/@icon">ui_CustomFortitudeCombatPerk_icon</set>
+<set xpath="/progression/skills/skill[@name='skillFortitudeSurvival']/@icon">ui_CustomFortitudeSurvivalPerk_icon</set>
+<set xpath="/progression/skills/skill[@name='skillFortitudeRecovery']/@icon">ui_CustomFortitudeRecoveryPerk_icon</set>
+<set xpath="/progression/skills/skill[@name='skillAgilityCombat']/@icon">ui_CustomAgilityCombatPerk_icon</set>
+<set xpath="/progression/skills/skill[@name='skillAgilityAthletics']/@icon">ui_CustomAgilityAthleticsPerk_icon</set>
+<set xpath="/progression/skills/skill[@name='skillAgilityStealth']/@icon">ui_Custom_AgilityStealthPerk_icon</set>
+<set xpath="/progression/skills/skill[@name='skillIntellectCombat']/@icon">ui_CustomIntellectCombatPerk_icon</set>
+<set xpath="/progression/skills/skill[@name='skillIntellectInfluence']/@icon">ui_CustomIntellectInfluencePerk_icon</set>
+<set xpath="/progression/skills/skill[@name='skillIntellectCraftsmanship']/@icon">ui_CustomIntellectCraftPerk_icon</set>
+<set xpath="/progression/skills/book_group [@name='skillArtOfMining']/@icon">ui_CustomArtOfMiningPerk_icon</set>
+<set xpath="/progression/skills/book_group [@name='skillAutoWeapons']/@icon">ui_CustomAutoWeapons_icon</set>
+<set xpath="/progression/skills/book_group [@name='skillBatterUp']/@icon">ui_CustomBatterUpPerk_icon</set>
+<set xpath="/progression/skills/book_group [@name='skillBarBrawling']/@icon">ui_CustomBarBrawlingPerk_icon</set>
+<set xpath="/progression/skills/book_group [@name='skillFiremansAlmanac']/@icon">ui_CustomFiremansAlmanacPerk_icon</set>
+<set xpath="/progression/skills/book_group [@name='skillGreatHeist']/@icon">ui_CustomGreatHeistPerk_icon</set>
+<set xpath="/progression/skills/book_group [@name='skillHuntingJournal']/@icon">ui_CustomHuntingPerk_icon</set>
+<set xpath="/progression/skills/book_group [@name='skillLuckyLooter']/@icon">ui_CustomLuckylooterPerk_icon</set>
+<set xpath="/progression/skills/book_group [@name='skillEnforcer']/@icon">ui_CustomMagnumPerk_icon</set>
+<set xpath="/progression/skills/book_group [@name='skillNightStalker']/@icon">ui_CustomNightStalkerPerk_icon</set>
+<set xpath="/progression/skills/book_group [@name='skillPistolPete']/@icon">ui_CustomPistolPetePerk_icon</set>
+<set xpath="/progression/skills/book_group [@name='skillArchery']/@icon">ui_CustomArcheryPerk_icon</set>
+<set xpath="/progression/skills/book_group [@name='skillShotguns']/@icon">ui_CustomShotgunPerk_icon</set>
+<set xpath="/progression/skills/book_group [@name='skillSniper']/@icon">ui_CustomSniperPerk_icon</set>
+<set xpath="/progression/skills/book_group [@name='skillSpearHunter']/@icon">ui_CustomSpearHunter_icon</set>
+<set xpath="/progression/skills/book_group [@name='skillUrbanCombat']/@icon">ui_CustomUrbanPerk_icon</set>
+<set xpath="/progression/skills/book_group [@name='skillTechJunkie']/@icon">ui_CustomTechJunkiePerk_icon</set>
+<set xpath="/progression/skills/book_group [@name='skillWasteTreasures']/@icon">ui_CustomWasteTreasuresPerk_icon</set>
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingHarvestingTools']/@icon">ui_CustomHarvestToolsPerk_icon</set>
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingRepairTools']/@icon">ui_zombiehuntermain_icon</set>
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingSalvageTools']/@icon">ui_CustomSalvageToolsPerk_icon</set>
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingKnuckles']/@icon">ui_CustomKnucklesPerk_icon</set>
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingBlades']/@icon">ui_CustomBladesPerk_icon</set>
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingClubs']/@icon">ui_CustomClubsPerk_icon</set>
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingSledgehammers']/@icon">ui_CustomSledgehammersPerk_icon</set>
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingBows']/@icon">ui_CustomBowsPerk_icon</set>
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingSpears']/@icon">ui_CustomSpearsPerk_icon</set>
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingHandguns']/@icon">ui_CustomPistolPetePerk_icon</set>
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingShotguns']/@icon">ui_CustomShotgunPerk_icon</set>
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingRifles']/@icon">ui_CustomSniperPerk_icon</set>
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingMachineGuns']/@icon">ui_CustomAutoWeapons_icon</set>
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']/@icon">ui_CustomExplosivesPerk_icon</set>
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingRobotics']/@icon">ui_CustomTechJunkiePerk_icon</set>
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingArmor']/@icon">ui_CustomUrbanPerk_icon</set>
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingMedical']/@icon">ui_CustomMedicalPerk_icon</set>
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingFood']/@icon">ui_CustomFoodsPerk_icon</set>
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingSeeds']/@icon">ui_CustomSeedsPerk_icon</set>
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/@icon">ui_GeneralElectricianPerk_icon</set>
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingTraps']/@icon">ui_CustomTrapsPerk_icon</set>
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/@icon">ui_CustomWorkstationsPerk_icon</set>
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingVehicles']/@icon">ui_CustomVehiclesPerk_icon</set>
+<set xpath="/progression/perks/perk[@name='perkDeadEye']/@icon">ui_DeadEyePerk_Icon</set>
+<set xpath="/progression/perks/perk[@name='perkDemolitionsExpert']/@icon">ui_DemolitionExpert_icon</set>
+<set xpath="/progression/perks/perk[@name='perkJavelinMaster']/@icon">ui_CustomSpearsPerk_icon</set>
+<set xpath="/progression/perks/perk[@name='perkFlurryOfPerception']/@icon">ui_FlurryPerception_icon</set>
+<set xpath="/progression/perks/perk[@name='perkInfiltrator']/@icon">ui_Custom_AgilityStealthPerk_icon</set>
+<set xpath="/progression/perks/perk[@name='perkAnimalTracker']/@icon">ui_AnimalTracker_icon</set>
+<set xpath="/progression/perks/perk[@name='perkPenetrator']/@icon">ui_Penetrator_icon</set>
+<set xpath="/progression/perks/perk[@name='perkLuckyLooter']/@icon">ui_CustomLuckylooterPerk_icon</set>
+<set xpath="/progression/perks/perk[@name='perkTreasureHunter']/@icon">ui_CustomWasteTreasuresPerk_icon</set>
+<set xpath="/progression/perks/perk[@name='perkSalvageOperations']/@icon">ui_SalvageOperations_icon</set>
+<set xpath="/progression/perks/perk[@name='perkBoomstick']/@icon">ui_Boomstick_icon</set>
+<set xpath="/progression/perks/perk[@name='perkPummelPete']/@icon">ui_PummelPete_icon</set>
+<set xpath="/progression/perks/perk[@name='perkSkullCrusher']/@icon">ui_SkullCrusher_icon</set>
+<set xpath="/progression/perks/perk[@name='perkFlurryOfStrength']/@icon">ui_FlurryOfStrength_icon</set>
+<set xpath="/progression/perks/perk[@name='perkHeavyArmor']/@icon">ui_CustomUrbanPerk_icon</set>
+<set xpath="/progression/perks/perk[@name='perkPackMule']/@icon">ui_PackMule_icon</set>
+<set xpath="/progression/perks/perk[@name='perkMasterChef']/@icon">ui_MasterChef_icon</set>
+<set xpath="/progression/perks/perk[@name='perkMiner69r']/@icon">ui_Miner69r_icon</set>
+<set xpath="/progression/perks/perk[@name='perkMotherLode']/@icon">ui_MotherLode_icon</set>
+<set xpath="/progression/perks/perk[@name='perkBrawler']/@icon">ui_CustomKnucklesPerk_icon</set>
+<set xpath="/progression/perks/perk[@name='perkMachineGunner']/@icon">ui_CustomAutoWeapons_icon</set>
+<set xpath="/progression/perks/perk[@name='perkFlurryOfFortitude']/@icon">ui_FlurryOfFortitude_icon</set>
+<set xpath="/progression/perks/perk[@name='perkTheHuntsman']/@icon">ui_TheHuntsMan_icon</set>
+<set xpath="/progression/perks/perk[@name='perkWellInsulated']/@icon">ui_WellInsulated_icon</set>
+<set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/@icon">ui_LivingOffTheLand_icon</set>
+<set xpath="/progression/perks/perk[@name='perkPainTolerance']/@icon">ui_PainTolerance_icon</set>
+<set xpath="/progression/perks/perk[@name='perkHealingFactor']/@icon">ui_HealingFactor_icon</set>
+<set xpath="/progression/perks/perk[@name='perkSlowMetabolism']/@icon">ui_SlowMetabolism_icon</set>
+<set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/@icon">ui_RuleOneCardio_icon</set>
+<set xpath="/progression/perks/perk[@name='perkArchery']/@icon">ui_ArcheryPerk_icon</set>
+<set xpath="/progression/perks/perk[@name='perkGunslinger']/@icon">ui_CustomPistolPetePerk_icon</set>
+<set xpath="/progression/perks/perk[@name='perkDeepCuts']/@icon">ui_DeepCuts_icon</set>
+<set xpath="/progression/perks/perk[@name='perkFlurryOfAgility']/@icon">ui_FlurryOfAgility_icon</set>
+<set xpath="/progression/perks/perk[@name='perkRunAndGun']/@icon">ui_RunAndGun_icon</set>
+<set xpath="/progression/perks/perk[@name='perkMediumArmor']/@icon">ui_MediumArmor_icon</set>
+<set xpath="/progression/perks/perk[@name='perkParkour']/@icon">ui_CustomAgilityAthleticsPerk_icon</set>
+<set xpath="/progression/perks/perk[@name='perkHiddenStrike']/@icon">ui_CustomNightStalkerPerk_icon</set>
+<set xpath="/progression/perks/perk[@name='perkFromTheShadows']/@icon">ui_FromTheShadows_icon</set>
+<set xpath="/progression/perks/perk[@name='perkElectrocutioner']/@icon">ui_Electrocutioner_icon</set>
+<set xpath="/progression/perks/perk[@name='perkTurrets']/@icon">ui_CustomTechJunkiePerk_icon</set>
+<set xpath="/progression/perks/perk[@name='perkFlurryOfIntellect']/@icon">ui_FlurryOfIntellect_icon</set>
+<set xpath="/progression/perks/perk[@name='perkBetterBarter']/@icon">ui_BetterBarter_icon</set>
+<set xpath="/progression/perks/perk[@name='perkDaringAdventurer']/@icon">ui_DaringAdventurer_icon</set>
+<set xpath="/progression/perks/perk[@name='perkCharismaticNature']/@icon">ui_CharismaticNature_icon</set>
+<set xpath="/progression/perks/perk[@name='perkPhysician']/@icon">ui_CustomMedicalPerk_icon</set>
+<set xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/@icon">ui_CustomWorkstationsPerk_icon</set>
+<set xpath="/progression/perks/perk[@name='perkGreaseMonkey']/@icon">ui_CustomVehiclesPerk_icon</set>
+<set xpath="/progression/perks/perk[@name='perkLockPicking']/@icon">ui_LockPicking_icon</set>
+
+<remove xpath="/progression/perks/perk[@name='perkPackMule']"/>
+<append xpath="/progression/perks">
+<perk name="perkPackMule" parent="skillStrengthGeneral" name_key="perkPackMuleName" desc_key="perkPackMuleDesc" icon="ui_game_symbol_pack_mule">
+<level_requirements level="1">
+<requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="1" desc_key="reqStrengthLevel01"/>
+</level_requirements>
+<level_requirements level="2">
+<requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="2" desc_key="reqStrengthLevel02"/>
+</level_requirements>
+<level_requirements level="3">
+<requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="3" desc_key="reqStrengthLevel03"/>
+</level_requirements>
+<level_requirements level="4">
+<requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="4" desc_key="reqStrengthLevel04"/>
+</level_requirements>
+<level_requirements level="5">
+<requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="5" desc_key="reqStrengthLevel05"/>
+</level_requirements>
+<effect_group>
+<passive_effect name="CarryCapacity" operation="base_add" level="1,2,3,4,5" value="3,6,10,14,150"/>
+<effect_description level="1" desc_key="perkPackMuleRank1Desc" long_desc_key="perkPackMuleRank1LongDesc"/>
+<effect_description level="2" desc_key="perkPackMuleRank2Desc" long_desc_key="perkPackMuleRank2LongDesc"/>
+<effect_description level="3" desc_key="perkPackMuleRank3Desc" long_desc_key="perkPackMuleRank3LongDesc"/>
+<effect_description level="4" desc_key="perkPackMuleRank4Desc" long_desc_key="perkPackMuleRank4LongDesc"/>
+<effect_description level="5" desc_key="perkPackMuleRank5Desc" long_desc_key="perkPackMuleRank5LongDesc"/>
+</effect_group>
+</perk>
+</append>
+
+</configs>

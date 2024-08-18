@@ -1,5 +1,0 @@
-Key,Source,Context,Changes,English
-solarbankschematic,items,,,Solar bank Schematic
-solarbankschematicDesc,items,Tools,New,Learn how to craft Solar Banks.
-solarcellschematic,items,,,Solar Cell Schematic
-solarcellschematicDesc,items,Tools,New,Learn how to craft Solar Cells.

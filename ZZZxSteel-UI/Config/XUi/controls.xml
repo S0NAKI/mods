@@ -1,0 +1,250 @@
+<xSteel>
+	
+	<setattribute xpath="//sprite[@name='backgroundMainColor']" name="globalopacitymod">0.9</setattribute>
+	<setattribute xpath="//sprite[@name='backgroundMainColor']" name="color">[black]</setattribute>
+	
+	<set xpath="/controls/skill_entry/panel/@row_color">[black]</set>	
+	
+	<setattribute xpath="//sprite[@color='[darkGrey]']" name="globalopacitymod">0.9</setattribute>
+	<setattribute xpath="//sprite[@color='[darkGrey]']" name="color">[black]</setattribute>
+	
+	<setattribute xpath="//rect[@row_color='[darkGrey]']" name="globalopacitymod">0.9</setattribute>
+	<setattribute xpath="//rect[@row_color='[darkGrey]']" name="row_color">[black]</setattribute>
+	
+	<setattribute xpath="/controls/entity_entry//sprite[@name='background']" name="globalopacitymod">0.7</setattribute>
+	<append xpath="/controls/entity_entry/rect">
+		<sprite depth="2" color="[black]" pos="2,0" width="${width-4}" type="sliced" globalopacitymod="0.9"></sprite>
+	</append>	
+	
+	<setattribute xpath="/controls/quest_turnin_entry//sprite[@name='background']" name="globalopacitymod">0.3</setattribute>
+	<setattribute xpath="/controls/quest_turnin_entry//sprite[@name='background']" name="color">0,0,0,0</setattribute>
+	<setattribute xpath="/controls/quest_turnin_entry//label[@text='{rewardname}']" name="color">{#itemtypeicon == 'book' and chosenicon == '' ? '170,255,170,255' : namecolor}</setattribute>
+	<!-- <append xpath="/controls/quest_turnin_entry/rect"> -->
+		<!-- <sprite depth="2" color="[black]" pos="2,-3" width="${width-4}" height="44" type="sliced" globalopacitymod="0.9"/> -->
+		<!-- <sprite depth="2" name="windowIcon" style="icon30px" pos="600,-10" sprite="{chosenicon}" visible="{hasreward}" color="[green]" /> -->
+	<!-- </append> -->
+	
+	
+		
+		<setattribute xpath="/controls/trader_item//sprite[@name='background']" name="globalopacitymod">0.3</setattribute>
+		<setattribute xpath="/controls/trader_item//sprite[@name='background']" name="color">0,0,0,0</setattribute>
+		<setattribute xpath="/controls/trader_item//label[@text='{itemname}']" name="color">{#itemtypeicon == 'book' ? '170,255,170,255' : statecolor}</setattribute>
+		<setattribute xpath="/controls/trader_item//label[@text='{itemname}']" name="width">390</setattribute>
+		<setattribute xpath="/controls/recipe_entry//sprite[@name='background']" name="globalopacitymod">0.3</setattribute>
+		
+		<setattribute xpath="/controls/ingredient_header//sprite[@color='[black]']" name="globalopacitymod">0.01</setattribute>
+		<setattribute xpath="/controls/unlocked_by_header//sprite[@color='[black]']" name="globalopacitymod">0.01</setattribute>
+		
+		<setattribute xpath="/controls/item_action_entry//sprite[@name='background']" name="color">1,1,1,1</setattribute>
+		<setattribute xpath="/controls/item_action_entry/rect" name="default_background_color">1,1,1,1</setattribute>
+		
+		<setattribute xpath="//sprite[@color='[lightGrey]']" name="globalopacitymod">0.01</setattribute>
+		<setattribute xpath="//sprite[@name='thumb']" name="globalopacitymod">1</setattribute>
+		<setattribute xpath="//sprite[@color='[mediumGrey]']" name="color">[black]</setattribute>
+		<setattribute xpath="//sprite[@sprite='menu_empty3px']" name="color">[black]</setattribute>
+		<setattribute xpath="//sprite[@sprite='menu_empty3px']" name="globalopacitymod">0.01</setattribute>
+		<setattribute xpath="//sprite[@sprite='menu_empty2px']" name="globalopacitymod">0.01</setattribute>
+		<setattribute xpath="//sprite[@name='highlightOverlay']" name="color">[black]</setattribute>
+		
+		
+		<setattribute xpath="/controls/skill_entry//sprite[@color='{rowstatecolor}']" name="globalopacitymod">0.6</setattribute>
+		<setattribute xpath="/controls/skill_entry/panel" name="row_color">0,0,0,0</setattribute>
+		<setattribute xpath="/controls/skill_entry/panel" name="hover_color">255,255,255,130</setattribute>
+		<setattribute xpath="/controls/skill_attribute_level//sprite[@name='backgroundMainColor']" name="globalopacitymod">0.01</setattribute>
+		<setattribute xpath="/controls/skill_perk_level//sprite[@name='backgroundMainColor']" name="globalopacitymod">0.01</setattribute>
+		<setattribute xpath="/controls/skill_book_level//sprite[@name='backgroundMainColor']" name="globalopacitymod">0.01</setattribute>
+		<setattribute xpath="/controls/skill_crafting_entry//sprite[@name='backgroundMainColor']" name="globalopacitymod">0.01</setattribute>
+		<setattribute xpath="/controls/vehicle_part_slot//sprite[@name='background']" name="globalopacitymod">0.4</setattribute>
+		<setattribute xpath="/controls/item_part_slot//sprite[@name='background']" name="globalopacitymod">0.4</setattribute>
+		<setattribute xpath="/controls/waypoint_entry//sprite[@name='background']" name="globalopacitymod">0.4</setattribute>
+		<setattribute xpath="/controls/invites_entry//sprite[@name='background']" name="globalopacitymod">0.4</setattribute>
+		<setattribute xpath="/controls/active_buff_entry//sprite[@name='background']" name="globalopacitymod">0.2</setattribute>
+		
+		<setattribute xpath="/controls/quest_entry//sprite[@name='background']" name="globalopacitymod">0.2</setattribute>
+		<setattribute xpath="/controls/challenge_list_entry//sprite[@name='background']" name="globalopacitymod">0.01</setattribute>
+		<setattribute xpath="/controls/challenge_entry//sprite[@name='highlightOverlay']" name="globalopacitymod">0.01</setattribute>
+		<setattribute xpath="/controls/radial_entry//sprite[@color='96,96,96,192']" name="color">0,0,0,230</setattribute>
+		
+		<!-- <setattribute xpath="/controls/skill_attribute_level//label[@text='{text}']" name="justify">center</setattribute> -->
+		<setattribute xpath="/controls/skill_perk_level//label[@text='{text}']" name="justify">center</setattribute>
+		
+		
+	<remove xpath="/controls/item_stack"></remove>
+	<remove xpath="/controls/backpack_item_stack"></remove>
+	<remove xpath="/controls/recipe_stack"></remove>
+	<remove xpath="/controls/response_entry"></remove>
+	<remove xpath="/controls/shape_stack"></remove>
+	<append xpath="/controls">
+
+		  <item_stack controller="ItemStack" on_scroll="false" allow_dropping="true" prefix_id="false" show_favorites="false">
+			<rect controller="${controller}" style="itemStack, hover" collider_scale="1.0" on_scroll="${on_scroll}" allow_dropping="${allow_dropping}" prefix_id="${prefix_id}" show_favorites="${show_favorites}" tooltip="{tooltip}"  width="75" height="75" >
+			  <sprite depth="0" name="highlightOverlay" sprite="ui_stack_background" color="[black]" pos="0,0" type="sliced" globalopacity="true"  globalopacitymod="1" >			  </sprite>
+			  <sprite depth="10" sprite="{#selectionbordercolor == '200,200,200,255' ? 'ui_ToolBarBarsHover' : 'ui_ToolbarBars'}" color="{selectionbordercolor}" type="sliced" globalopacity="true" fillcenter="false" globalopacitymod="1">				  </sprite>
+
+			  <texture depth="3" name="backgroundTexture" material="Materials/Transparent Colored" size="73,73" globalopacity="true" />
+			  <sprite depth="13" name="favoriteIcon" width="24" height="24" sprite="server_favorite" pos="2,-2" foregroundlayer="true" visible="{isfavorite}" />
+			  <sprite depth="11" name="itemIcon" width="64" height="64" atlas="ItemIconAtlas" sprite="{itemicon}" pos="37,-37" pivot="center" foregroundlayer="true" color="{iconcolor}" />
+			  <sprite depth="5" name="itemQualityBackground" pos="37,-37" width="70" height="70" sprite="quality_background" pivot="center" color="{durabilitycolor}" globalopacitymod="0.9" visible="{hasdurability}" />
+			  <sprite depth="13" name="lockTypeIcon" width="24" height="24" sprite="{locktypeicon}" pos="2,-2" foregroundlayer="true" />
+			  <sprite depth="13" name="itemtypeicon" width="24" height="24" sprite="ui_game_symbol_{itemtypeicon}" pos="2,-2" foregroundlayer="true" visible="{hasitemtypeicon}" color="{itemtypeicontint}" />
+			  <sprite depth="11" name="unreadBookHighlight" sprite="ui_ToolBarBarsHover" color="150,255,150,200" type="sliced" globalopacity="true" fillcenter="false" globalopacitymod="1" visible="{#itemtypeicon == 'book' ? true : false}" >				  </sprite>
+			  
+			  <sprite name="durabilityBackground" depth="5" pos="1,-63" width="74" height="10"  sprite="durability_bar" color="96,96,96" foregroundlayer="true" visible="{hasdurability}" />
+			  <sprite name="durability" depth="6" pos="1,-63" width="74" height="10"  sprite="durability_bar" type="filled" fill="{durabilityfill}" color="{durabilitycolor}" foregroundlayer="true" visible="{hasdurability}" />
+			  
+			  <sprite depth="5" name="disabledOverlay" width="72" height="72" color="[darkGrey_half_alpha]" pos="1,-1" type="sliced" visible="false" />
+			  <label depth="15" name="stackValue" pos="-8,-52" width="75" height="75" text="{itemcount}" font_size="20" style="style_label_outline" justify="right" visible="{#!hasdurability}" />
+			  <label depth="15" name="timer" pos="0,-24" height="24" font_size="24" justify="center" style="style_label_outline" />
+			  <sprite depth="14" name="cancel" sprite="ui_game_symbol_x" color="[red]" type="sliced" visible="false" />
+			  <sprite depth="13" name="assembleIcon" size="40,40" sprite="{stacklockicon}" color="[white_half_alpha]" visible="{isassemblelocked}" pos="17,-17" foregroundlayer="true" />
+			</rect>
+		  </item_stack>
+
+		  <toolbelt_item_stack controller="ItemStack" on_scroll="false" allow_dropping="true" prefix_id="false" show_favorites="false">
+			<rect controller="${controller}" style="itemStack, hover" collider_scale="1.0" on_scroll="${on_scroll}" allow_dropping="${allow_dropping}" prefix_id="${prefix_id}" show_favorites="${show_favorites}" tooltip="{tooltip}" width="${cell_size}" height="${cell_size}" >
+			  <sprite depth="0" name="highlightOverlay" sprite="ui_stack_background"  color="{#selectionbordercolor == '255,255,255,255' ? '20,20,20' : '0,0,0'}" type="sliced" globalopacity="true"  globalopacitymod="1" >			  </sprite>
+			  <sprite depth="10" sprite="{#selectionbordercolor == '255,255,255,255' || selectionbordercolor == '200,200,200,255' ? 'ui_ToolBarBarsHover' : 'ui_ToolbarBars'}" color="{selectionbordercolor}" type="sliced" globalopacity="true" fillcenter="false" foregroundlayer="true" >				  </sprite>
+			  
+			  <texture depth="3" name="backgroundTexture" material="Materials/Transparent Colored" width="${cell_size-6}" height="${cell_size-6}" pos="3,-3" globalopacity="true" />
+			  <sprite depth="13" name="favoriteIcon" width="24" height="24" sprite="server_favorite" pos="2,-2" foregroundlayer="true" visible="{isfavorite}" />
+			  <sprite depth="11" name="itemIcon" atlas="ItemIconAtlas" sprite="{itemicon}" foregroundlayer="true" color="{iconcolor}"  width="${cell_size-10}" height="${cell_size-10}" pos="${cell_half},${-cell_half}" pivot="center"  />
+			  <sprite depth="5" name="itemQualityBackground" sprite="quality_background" color="{durabilitycolor}" globalopacitymod="0.9" visible="{hasdurability}"  width="${cell_size}" height="${cell_size}" pos="${cell_half},${-cell_half}" pivot="center"  />
+			  
+			  <sprite name="durabilityBarBg" depth="5" pos="1,${11-cell_size}" height="8" width="${cell_size-2}" sprite="durability_bar"  color="96,96,96" foregroundlayer="true" visible="{hasdurability}" />
+			  <sprite name="durabilityBar" depth="6" pos="1,${11-cell_size}" height="8" width="${cell_size-2}" sprite="durability_bar" type="filled" fill="{durabilityfill}" color="{durabilitycolor}" foregroundlayer="true" visible="{hasdurability}" />
+			  
+			  <sprite depth="14" name="quickswapIcon" size="30,30" sprite="server_refresh" pos="40,-2" foregroundlayer="true" color="1,1,1,1" />
+			  
+			   <label depth="14" name="slotnumber" pos="8,-7" text="{slotnumber}" font_size="13" style="style_label_outline" justify="left" />
+			   <label depth="14" name="stackValue" pos="-6,-54" text="x{itemcount}" font_size="17" style="style_label_outline" justify="right" visible="{# !hasdurability and itemcount != ''}" />
+			   <label depth="14" name="ammo" pos="0,-52" style="style_label_outline" text="{loadedammo}" font_size="20" justify="center" color="200,200,200" />
+			</rect>
+		  </toolbelt_item_stack>
+
+		  
+		  <backpack_item_stack controller="ItemStack" on_scroll="false" allow_dropping="true" prefix_id="false">
+					<rect controller="${controller}" style="itemStack, hover" collider_scale="1.0" on_scroll="${on_scroll}" allow_dropping="${allow_dropping}" prefix_id="${prefix_id}" tooltip="{tooltip}" width="${cell_size}" height="${cell_size}" >
+						  <sprite depth="0" name="highlightOverlay" sprite="ui_stack_background" color="[black]" width="${cell_size-2}" height="${cell_size-2}" pos="1,-1" type="sliced" globalopacity="true" globalopacitymod="1" >				  </sprite>
+						  <sprite depth="0" color="[black]" pos="0,0" type="sliced" globalopacity="true" globalopacitymod="0.5" >				  </sprite>
+						  <sprite depth="10" sprite="{#selectionbordercolor == '200,200,200,255' ? 'ui_ToolBarBarsHover' : 'ui_ToolbarBars'}" color="{selectionbordercolor}" type="sliced" globalopacity="true" fillcenter="false" globalopacitymod="1" >				  </sprite>
+						  
+						  <texture depth="3" name="backgroundTexture" material="Materials/Transparent Colored" globalopacity="true" width="${cell_size-6}" height="${cell_size-6}" pos="3,-3" />
+						  
+						  <sprite depth="11" name="itemIcon" atlas="ItemIconAtlas" sprite="{itemicon}" foregroundlayer="true" color="{iconcolor}"  width="${cell_size-10}" height="${cell_size-10}" pos="${cell_half},${-cell_half}" pivot="center"  />
+						  <!-- <button depth="11" name="itemIcon" style="hover" atlas="ItemIconAtlas" sprite="{itemicon}" foregroundlayer="true" color="{iconcolor}" width="${cell_size-10}" height="${cell_size-10}" pos="${cell_half},${-cell_half}" pivot="center" hoverscale="1.4" >						</button> -->
+						  <sprite depth="5" name="itemQualityBackground" sprite="quality_background" color="{durabilitycolor}" globalopacitymod="0.9" visible="{hasdurability}"  width="${cell_size}" height="${cell_size}" pos="${cell_half},${-cell_half}" pivot="center"  />
+						  
+						  <sprite name="durabilityBarBg" depth="5" pos="1,${11-cell_size}" height="8" width="${cell_size-2}" sprite="durability_bar"  color="96,96,96" foregroundlayer="true" visible="{hasdurability}" />
+						  <sprite name="durabilityBar" depth="6" pos="1,${11-cell_size}" height="8" width="${cell_size-2}" sprite="durability_bar" type="filled" fill="{durabilityfill}" color="{durabilitycolor}" foregroundlayer="true" visible="{hasdurability}" />
+						  <label depth="12" name="stackValue" pos="-6,${6-cell_size+16}" height="20" text="{itemcount}" font_size="26" style="style_label_outline" justify="right" visible="{#!hasdurability}" />
+						  
+						  <sprite depth="13" name="favoriteIcon" width="24" height="24" sprite="server_favorite" pos="2,-2" foregroundlayer="true" visible="{isfavorite}" />
+						  <sprite depth="13" name="lockTypeIcon" width="17" height="17" sprite="{locktypeicon}" pos="2,-2" foregroundlayer="true" />
+						  <sprite depth="13" name="itemtypeicon" width="24" height="24" sprite="ui_game_symbol_{itemtypeicon}" pos="2,-2" foregroundlayer="true" visible="{hasitemtypeicon}" color="{itemtypeicontint}" />
+						  <sprite depth="11" name="unreadBookHighlight" sprite="ui_ToolBarBarsHover" color="150,255,150,200" type="sliced" globalopacity="true" fillcenter="false" globalopacitymod="1" visible="{#itemtypeicon == 'book' ? true : false}" >				  </sprite>
+						  
+						  <sprite depth="5" name="disabledOverlay" width="${cell_size-20}" height="${cell_size-20}" pos="10,-10" color="[darkGrey_half_alpha]" type="sliced" visible="false" />
+						  <label depth="13" name="timer" pos="35,-38" width="55" height="21" font_size="24" justify="center" pivot="center"  style="style_label_outline"  />
+						  <sprite depth="13" name="cancel" sprite="ui_game_symbol_x" width="55" height="55" color="255,0,0,255" type="sliced" visible="false" foregroundlayer="true" />
+						  <sprite depth="13" name="assembleIcon" width="${cell_size-40}" height="${cell_size-40}" pos="20,-20"  sprite="{stacklockicon}" color="[white_half_alpha]" visible="{isassemblelocked}" foregroundlayer="true" />
+						  
+						  <button name="rectSlotLock" depth="15" style="press, hover" width="65" height="65" visible="{userlockmode}" sprite="" hoverscale="1" use_selection_box="true">
+							<sprite depth="16" name="button" width="24" height="24" sprite="{# userlockedslot ? 'ui_game_symbol_lock' : 'ui_game_symbol_unlock' }" pos="50, -14" style="icon32px" pivot="center" color="{# userlockedslot ? '255,255,255' : '180,180,180' }" foregroundlayer="false" globalopacitymod="1" />
+						</button>
+						  <sprite depth="15" name="iconSlotLock" width="18" height="18" sprite="ui_game_symbol_lock" pos="54, -14" style="icon32px" pivot="center" visible="{# userlockedslot and !userlockmode}" color="[white]" foregroundlayer="false" globalopacitymod="0.8"  />
+					</rect>
+			  </backpack_item_stack>
+			  
+			  <shape_stack>
+				<rect style="itemStack, hover, scroll" collider_scale="1.0" controller="ShapeStack" sound_play_on_hover="[default_hover]" width="75" height="75" highlight_color="[white]" select_color="[white]" press_color="[white]" background_color="1,1,1,1" >
+				  <sprite depth="3" name="background" sprite="ui_ToolbarBars_select" color="[black]" type="sliced" globalopacity="true" fillcenter="true" globalopacitymod="0.85" width="80" height="80" pos="-5,5"  />
+			      <sprite depth="2" name="highlightOverlay" type="sliced" globalopacity="true" globalopacitymod="1" />
+				  <sprite depth="4" name="itemIcon" width="64" height="64" atlas="ItemIconAtlas" sprite="{itemicon}" color="{itemicontint}" pos="35,-35" pivot="center" foregroundlayer="true" />
+				  <sprite depth="8" name="favoriteIcon" width="24" height="24" sprite="server_favorite" pos="2,-2" foregroundlayer="true" visible="{isfavorite}" />
+				</rect>
+			  </shape_stack>
+			  
+			<equipment_item_stack_sdcs>
+				<rect depth="1" controller="EquipmentStack" style="itemStack, hover" tooltip="test" >
+				  <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="83" height="83" color="[black]" type="sliced" fillcenter="false" globalopacitymod="0.01">			  </sprite>
+				  <sprite depth="5" name="background" sprite="ui_ToolbarBars" width="78" height="78" color="[black]" type="sliced" fillcenter="false" >			  </sprite>
+				  <sprite depth="2" name="highlightOverlay" width="76" height="76" color="[black]" pos="1,-1" type="sliced" globalopacity="true">			  </sprite>
+				  <sprite depth="6" name="itemIcon" width="74" height="74" atlas="ItemIconAtlas" sprite="campfire" pos="39,-39" pivot="center" foregroundlayer="true" />
+				  <!-- <sprite depth="5" name="itemQualityBackground" sprite="quality_background" color="{durabilitycolor}" globalopacitymod="0.9" width="74" height="74" pos="39,-39" pivot="center" visible="{notempty}" /> -->
+				  <sprite depth="8" name="lockTypeIcon" width="24" height="24" sprite="" pos="6,-6" foregroundlayer="true" />
+				  <sprite depth="3" name="durabilityBackground" sprite="durability_bar"  width="76" height="10" color="96,96,96" type="sliced" pos="2, -66" foregroundlayer="true" >			  </sprite>
+				  <filledsprite depth="4" name="durability" sprite="durability_bar"  width="76" height="10" color="[transparent]" type="filled" pos="2, -66" foregroundlayer="true" />
+				  <label depth="7" name="stackValue" pos="0,-50" width="78" height="28" text="" font_size="26" justify="center" color="1,1,1,1" />
+				</rect>
+		  </equipment_item_stack_sdcs>
+	  
+		  <item_stack_part controller="ItemStack" on_scroll="false" allow_dropping="true" prefix_id="false" show_favorites="false">
+			<rect controller="${controller}" style="itemStack, hover" collider_scale="1.0" on_scroll="${on_scroll}" allow_dropping="${allow_dropping}" prefix_id="${prefix_id}" show_favorites="${show_favorites}" tooltip="{tooltip}">
+			  <sprite depth="10" sprite="ui_widget_bg" color="[black]" type="sliced" globalopacity="true" fillcenter="false" globalopacitymod="1" visible="{#itemicon == '' ? false : true}" >				  </sprite>
+			  <sprite depth="11" name="itemIcon" width="64" height="64" atlas="ItemIconAtlas" sprite="{itemicon}" pos="35,-35" pivot="center" foregroundlayer="true" color="{iconcolor}" />
+			  <sprite depth="13" name="lockTypeIcon" width="24" height="24" sprite="{locktypeicon}" pos="2,-2" foregroundlayer="true" />
+			  <sprite depth="13" name="itemtypeicon" width="24" height="24" sprite="ui_game_symbol_{itemtypeicon}" pos="2,-2" foregroundlayer="true" visible="{hasitemtypeicon}" color="{itemtypeicontint}" />
+			</rect>
+		  </item_stack_part>
+			  
+			  <response_entry>
+				<rect width="600" height="43" style="press, hover, scroll" enabled_color="[iconColor]" disabled_color="[disabledLabelColor]" row_color="[white]" hover_color="[hoverColor]" sound="[recipe_click]" controller="DialogResponseEntry" visible="{showresponse}" sound_play_on_hover="[default_hover]" use_selection_box="false">
+				  <label depth="4" name="Text" pos="15,-5" width="640" height="37" text="{response}" style="style_label_outline" color="{rowstatecolor}" font_size="26" />
+				</rect>
+			  </response_entry>
+			  
+			  <recipe_stack>
+				<rect controller="RecipeStack" width="75" height="75" collider_scale="1.0">
+				  <sprite name="background" sprite="ui_stack_background" color="[black]" type="sliced" style="press" on_hover="true" globalopacitymod="1" >				  </sprite>
+				  <sprite depth="1" sprite="ui_ToolbarBars" width="75" height="75" color="120,120,120" type="sliced" globalopacity="true" fillcenter="false" globalopacitymod="1">				  </sprite>
+				  <sprite depth="1" name="itemIcon" width="64" height="64" atlas="ItemIconAtlas" sprite="" pos="36,-35" pivot="center" foregroundlayer="true" />
+				  <sprite depth="4" name="lockIcon" width="24" height="24" sprite="ui_game_symbol_hammer" pos="2,-2" visible="false" foregroundlayer="true" />
+				  <label depth="4" name="count" pos="0,-50" width="70" height="26" text="Test" font_size="24" justify="right"  style="style_label_outline" />
+				  <label depth="4" name="timer" pos="36,-36" width="70" height="26" font_size="24" justify="center" pivot="center"  style="style_label_outline"  />
+				  <sprite depth="2" name="overlay" width="72" height="72" color="32,32,32,128" type="sliced" />
+				  <sprite depth="3" name="cancel" sprite="ui_game_symbol_x" width="72" height="72" color="255,0,0,0" type="sliced" visible="false" foregroundlayer="true" />
+				</rect>
+			  </recipe_stack>
+			  
+			  <questtracker_objective_entry>
+				<rect width="280" height="26" controller="QuestTrackerObjectiveEntry" visible="{hasobjective}">
+				  <sprite name="iconTrack" depth="2" pos="280,6" size="22,22" sprite="{objectivecompletesprite}" color="{objectivecompletecolor}" visible="{objectiveshowicon}" />
+				  <sprite name="questtracker_objective_background" depth="0" pos="-25,13" width="360" height="34" sprite="ui_StatBarPcR01" globalopacitymod="1" />
+				  <label name="questtracker_objective" depth="1" pos="0,6" width="{objectivetextwidth}" style="style_label_normal" text="{objectiveoptional}{objectivedescription} " font_size="20" justify="left" upper_case="true" color="[white]" visible="{hasobjective}" />
+				  <label name="questtracker_state" depth="1" pos="0,6" width="{objectivetextwidth}" style="style_label_normal" text=" [{objectivecompletehexcolor}]{objectivestate}[-]" font_size="20" justify="right" upper_case="true" color="[white]" visible="{hasobjective}" />
+				</rect>
+			  </questtracker_objective_entry>
+			  
+		</append>
+		
+		<remove xpath="/controls/party_entry"></remove>
+		<remove xpath="/controls/companion_entry"></remove>
+		<append xpath="/controls">
+			<party_entry>
+				<rect width="170" height="30" controller="PartyEntry" visible="{partyvisible}" default_health_color="180,50,50,230" twitch_health_color="100,65,165,128">
+				  <sprite depth="5" name="BarBg" style="style_statbar_bg1" sprite="ui_statbar_bg" />
+				  <filledsprite depth="5" name="BarHealth" color="{healthcolor}" sprite="ui_statbar_bg" type="filled" fill="{healthfill}" />
+				  <sprite depth="6" name="BarBgShadow" style="style_statbar_shadow" /> 
+				  <label depth="7" name="TextContent" style="style_label_normal, style_label_statbar1" pos="{#showicon1 ? '21,-15' : '10,-15'}"  width="130" justify="left" pivot="left" text="{name}"  />
+				  <label depth="7" name="TextContent" style="style_label_normal, style_label_statbar1" pos="175,-16" justify="left" pivot="left" color="[white]" text="{distance}" font_size="20" crispness="OnDesktop" effect="Outline8" effect_distance="1,1"  effect_color="20,20,20,230"  />
+				  <sprite depth="6" name="icon1" sprite="{icon1}" visible="{showicon1}" size="16,16" pos="11,-14" pivot="center" globalopacity="true" globalopacitymod="1" />
+				  <sprite depth="6" name="icon2" sprite="{icon2}" visible="{showicon2}" size="22,22" pos="240,-14" pivot="center" globalopacity="true" globalopacitymod="1" />
+				  <sprite depth="8" name="arrowContent" style="icon22px" width="15" height="20" pos="155,-15" sprite="ui_game_symbol_player_arrow" visible="{showarrow}" pivot="center" color="{arrowcolor}" />
+				  <sprite depth="8" name="voiceStatus" style="icon22px" pos="238,-14" sprite="ui_game_symbol_talk" visible="{voicevisible}" pivot="center" flip="Horizontally"  color="{# voicemuted ? '200,0,0,255' : (voiceactive ? '255,255,255,255' : '128,128,128,255') }" />
+				</rect>
+			 </party_entry>
+			  <companion_entry>
+				<rect width="170" height="30" controller="CompanionEntry" visible="{partyvisible}">
+				  <sprite depth="5" name="BarBg" style="style_statbar_bg1" sprite="ui_statbar_bg" />
+				  <filledsprite depth="5" name="BarHealth" color="180,50,50,230" sprite="ui_statbar_bg" type="filled" fill="{healthfill}" />
+				  <sprite depth="6" name="BarBgShadow" style="style_statbar_shadow" />
+				  <label depth="7" name="TextContent" style="style_label_normal, style_label_statbar1" pos="7,-15"  width="160" justify="left" pivot="left" text="{name}" />
+				  <label depth="7" name="TextContent" style="style_label_normal, style_label_statbar1" pos="175,-15" justify="left" pivot="left" color="[white]" text="{distance}" font_size="20" crispness="OnDesktop" effect="Outline8" effect_distance="1,1"  effect_color="20,20,20,230"  />
+				</rect>
+			  </companion_entry>
+		</append>	
+		
+
+		<setattribute xpath="/controls/quest_objective_entry/rect" name="incomplete_icon">ui_game_symbol_quest</setattribute>
+
+</xSteel>

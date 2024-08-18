@@ -1,0 +1,67 @@
+<xSteel>
+
+<remove xpath="//statement[starts-with(@id,'currentjobs')]//response_entry[@uniqueid='next']"></remove>
+<remove xpath="//statement[starts-with(@id,'currentjobs')]//response_entry[@uniqueid='prev']"></remove>
+<remove xpath="//statement[starts-with(@id,'currentjobs')]//response_entry[@id='nevermind']"></remove>
+
+<insertBefore xpath="//statement[@id='currentjobs1']//quest_entry[1]">
+<response_entry id="nevermind" />
+<response_entry id="jobsnext2" uniqueid="next" />
+<response_entry id="jobsnext3" uniqueid="next" />
+<response_entry id="jobsnext4" uniqueid="next" />
+<response_entry id="jobsnext5" uniqueid="next" />
+<response_entry id="jobsnext6" uniqueid="next" />
+
+</insertBefore>
+
+<insertBefore xpath="//statement[@id='currentjobs2']//quest_entry[1]">
+<response_entry id="nevermind" />
+<response_entry id="jobsprev1" uniqueid="prev" />
+<response_entry id="jobsnext3" uniqueid="next" />
+<response_entry id="jobsnext4" uniqueid="next" />
+<response_entry id="jobsnext5" uniqueid="next" />
+<response_entry id="jobsnext6" uniqueid="next" />
+
+</insertBefore>
+
+<insertBefore xpath="//statement[@id='currentjobs3']//quest_entry[1]">
+<response_entry id="nevermind" />
+<response_entry id="jobsprev2" uniqueid="prev" />
+<response_entry id="jobsprev1" uniqueid="prev" />
+<response_entry id="jobsnext4" uniqueid="next" />
+<response_entry id="jobsnext5" uniqueid="next" />
+<response_entry id="jobsnext6" uniqueid="next" />
+
+</insertBefore>
+
+<insertBefore xpath="//statement[@id='currentjobs4']//quest_entry[1]">
+<response_entry id="nevermind" />
+<response_entry id="jobsprev3" uniqueid="prev" />
+<response_entry id="jobsprev2" uniqueid="prev" />
+<response_entry id="jobsprev1" uniqueid="prev" />
+<response_entry id="jobsnext5" uniqueid="next" />
+<response_entry id="jobsnext6" uniqueid="next" />
+
+</insertBefore>
+
+<insertBefore xpath="//statement[@id='currentjobs5']//quest_entry[1]">
+<response_entry id="nevermind" />
+<response_entry id="jobsprev4" uniqueid="prev" />
+<response_entry id="jobsprev3" uniqueid="prev" />
+<response_entry id="jobsprev2" uniqueid="prev" />
+<response_entry id="jobsprev1" uniqueid="prev" />
+<response_entry id="jobsnext6" uniqueid="next" />
+
+</insertBefore>
+
+<insertBefore xpath="//statement[@id='currentjobs6']//quest_entry[1]">
+<response_entry id="nevermind" />
+<response_entry id="jobsprev5" uniqueid="prev" />
+<response_entry id="jobsprev4" uniqueid="prev" />
+<response_entry id="jobsprev3" uniqueid="prev" />
+<response_entry id="jobsprev2" uniqueid="prev" />
+<response_entry id="jobsprev1" uniqueid="prev" />
+
+</insertBefore>
+
+</xSteel>

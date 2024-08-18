@@ -1,0 +1,342 @@
+<xSteel>
+
+
+<setattribute xpath="//sprite[@color='[darkestGrey]']" name="color">[black]</setattribute>
+<setattribute xpath="//sprite[@sprite='ui_game_panel_header']" name="color">[black]</setattribute>
+<setattribute xpath="//sprite[@sprite='ui_game_panel_header']" name="type">sliced</setattribute>
+<!-- <removeattribute xpath="//sprite[@sprite='ui_game_panel_header']/@sprite"></removeattribute> -->
+<setattribute xpath="//sprite[@name='fillerBackground']" name="globalopacitymod">0.01</setattribute>
+
+<setattribute xpath="//window[@name='emptyInfoPanel']//label[@text_key='xuiEmptyInfoPanelText']" name="color">0,0,0,0</setattribute>
+<setattribute xpath="//window[@name='emptyInfoPanel']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<append xpath="//window[@name='emptyInfoPanel']/rect">
+          <sprite color="[black]" type="sliced" globalopacitymod="1">      </sprite>
+</append>
+
+<setattribute xpath="//window[@name='windowSkillList']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<setattribute xpath="//window[@name='windowSkillList']//panel[@name='content']" name="pos">0,-46</setattribute>
+<append xpath="//window[@name='windowSkillList']//panel[@name='content']">
+          <sprite color="[black]" type="sliced" globalopacitymod="1"  height="740" >      </sprite>
+</append>
+
+<setattribute xpath="//window[@name='windowSkillAttributeInfo']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<append xpath="//window[@name='windowSkillAttributeInfo']//rect[@name='content']">
+          <sprite color="[black]" type="sliced" globalopacitymod="1"  height="740" >      </sprite>
+</append>
+
+<setattribute xpath="//window[@name='windowSkillSkillInfo']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<append xpath="//window[@name='windowSkillSkillInfo']//rect[@name='content']">
+          <sprite color="[black]" type="sliced" globalopacitymod="1"  height="740" >      </sprite>
+</append>
+
+<setattribute xpath="//window[@name='windowSkillPerkInfo']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<append xpath="//window[@name='windowSkillPerkInfo']//rect[@name='content']">
+          <sprite color="[black]" type="sliced" globalopacitymod="1"  height="740" >      </sprite>
+</append>
+
+<setattribute xpath="//window[@name='windowSkillBookInfo']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<append xpath="//window[@name='windowSkillBookInfo']//rect[@name='content']">
+          <sprite color="[black]" type="sliced" globalopacitymod="1"  height="740" >      </sprite>
+</append>
+
+<setattribute xpath="//window[@name='windowSkillCraftingInfo']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<append xpath="//window[@name='windowSkillCraftingInfo']//rect[@name='content']">
+          <sprite color="[black]" type="sliced" globalopacitymod="1"  height="740" >      </sprite>
+</append>
+
+<setattribute xpath="//window[@name='windowVehicle']//button[@defaultcolor]" name="defaultcolor">0,0,0,200</setattribute>
+<setattribute xpath="//window[@name='windowVehicle']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<append xpath="//window[@name='windowVehicle']//panel[@name='content']">
+          <sprite color="[black]" type="sliced" globalopacitymod="1" pos="3,-3" >      </sprite>
+</append>
+
+<setattribute xpath="//window[@name='windowAssemble']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<setattribute xpath="//window[@name='windowAssemble']//grid[@name='parts']" name="cell_height">55</setattribute>
+<append xpath="//window[@name='windowAssemble']//panel[@name='content']">
+          <sprite color="[black]" type="sliced" globalopacitymod="1"  height="740" pos="3,-3"  >      </sprite>
+</append>
+
+<setattribute xpath="//window[@name='itemInfoPanel']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<append xpath="//window[@name='itemInfoPanel']//rect[@name='contentInfo']">
+          <sprite color="[black]" type="sliced" globalopacitymod="1">      </sprite>
+</append>
+
+<setattribute xpath="//window[@name='buffInfoPanel']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<append xpath="//window[@name='buffInfoPanel']//rect[@name='contentBuffInfo']">
+          <sprite color="[black]" type="sliced" globalopacitymod="1">      </sprite>
+</append>
+
+<setattribute xpath="//window[@name='windowCraftingList']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<append xpath="//window[@name='windowCraftingList']//panel[@name='content']">
+          <sprite color="[black]" type="sliced" globalopacitymod="1" pos="0,-3" >      </sprite>
+</append>
+
+
+<setattribute xpath="//window[@name='mapTracking']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<append xpath="//window[@name='mapTracking']/rect">
+          <sprite color="[black]" type="sliced" globalopacitymod="1" pos="3,-3" >      </sprite>
+</append>
+
+
+<setattribute xpath="//window[@name='mapInvites']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<append xpath="//window[@name='mapInvites']//rect[@name='content']">
+          <sprite color="[black]" type="sliced" globalopacitymod="1" pos="3,-3" >      </sprite>
+</append>
+
+<setattribute xpath="//window[@name='craftingInfoPanel']//sprite[@color='[black]']" name="globalopacitymod">0.01</setattribute>
+<setattribute xpath="//window[@name='craftingInfoPanel']//sprite[@color='[darkGrey]']" name="globalopacitymod">0.01</setattribute>
+<setattribute xpath="//window[@name='craftingInfoPanel']//sprite[@color='[mediumGrey]']" name="globalopacitymod">0.01</setattribute>
+<setattribute xpath="//window[@name='craftingInfoPanel']//rect[@name='contentCraftingInfo']" name="height">346</setattribute>
+<append xpath="//window[@name='craftingInfoPanel']//rect[@name='contentCraftingInfo']">
+          <sprite color="[black]" type="sliced" globalopacitymod="1" >      </sprite>
+</append>
+
+
+<setattribute xpath="//window[@name='CharacterFrameWindow']//player_stats_entry" name="backgroundcolor">[transparent]</setattribute>
+<setattribute xpath="//window[@name='CharacterFrameWindow']//player_stats_generic_entry" name="backgroundcolor">[transparent]</setattribute>
+<setattribute xpath="//window[@name='CharacterFrameWindow']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<append xpath="//window[@name='CharacterFrameWindow']">
+          <sprite color="[black]" type="sliced" globalopacitymod="1"  pos="0,-46" height="740" >      </sprite>
+</append>
+
+
+<setattribute xpath="//window[@name='ActiveBuffsWindow']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<append xpath="//window[@name='ActiveBuffsWindow']//panel[@name='content']">
+          <sprite color="[black]" type="sliced" globalopacitymod="1" height="740" >      </sprite>
+</append>
+
+
+<setattribute xpath="//window[@name='windowTrader']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<setattribute xpath="//window[@name='windowTrader']//grid[@controller='TraderItemList']" name="rows">14</setattribute>
+<setattribute xpath="//window[@name='windowTrader']//grid[@controller='TraderItemList']" name="cell_height">43</setattribute>
+<append xpath="//window[@name='windowTrader']//panel[@name='content']">
+          <sprite color="[black]" type="sliced" globalopacitymod="1"  pos="0,-3"  height="740" >      </sprite>
+</append>
+
+
+<setattribute xpath="//window[@name='windowQuestList']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<append xpath="//window[@name='windowQuestList']/rect">
+          <sprite color="[black]" type="sliced" globalopacitymod="1"  pos="3,-3" height="{# questsautoaccept ? 723 : 464}" >      </sprite>
+</append>
+
+<setattribute xpath="//window[@name='windowQuestSharedList']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<append xpath="//window[@name='windowQuestSharedList']/rect">
+          <sprite color="[black]" type="sliced" globalopacitymod="1"  pos="3,-3" height="208" >      </sprite>
+</append>
+
+<setattribute xpath="//window[@name='windowQuestDescription']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<append xpath="//window[@name='windowQuestDescription']/rect">
+          <sprite color="[black]" type="sliced" globalopacitymod="1">      </sprite>
+</append>
+
+<setattribute xpath="//window[@name='windowQuestObjectives']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<append xpath="//window[@name='windowQuestObjectives']/rect">
+          <sprite color="[black]" type="sliced" globalopacitymod="1">      </sprite>
+</append>
+
+<setattribute xpath="//window[@name='windowQuestRewards']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<append xpath="//window[@name='windowQuestRewards']/rect">
+          <sprite color="[black]" type="sliced" globalopacitymod="1">      </sprite>
+</append>
+
+
+<setattribute xpath="//window[@name='windowChallengeList']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<append xpath="//window[@name='windowChallengeList']//rect[@name='content']">
+          <sprite color="[black]" type="sliced" globalopacitymod="1"  pos="3,-3" height="711" >      </sprite>
+</append>
+
+<setattribute xpath="//window[@name='windowChallengeEntryDescription']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<append xpath="//window[@name='windowChallengeEntryDescription']//rect[@name='content']">
+          <sprite color="[black]" type="sliced" globalopacitymod="1"  >      </sprite>
+</append>
+
+<setattribute xpath="//window[@name='windowQuestTurnInDescription']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<append xpath="//window[@name='windowQuestTurnInDescription']">
+          <sprite color="[black]" type="sliced" globalopacitymod="1"  pos="0,-46"  height="266" >      </sprite>
+</append>
+
+<setattribute xpath="//window[@name='windowQuestTurnInRewards']//button[@defaultcolor]" name="defaultcolor">40,40,40,200</setattribute>
+<setattribute xpath="//window[@name='windowQuestTurnInRewards']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<append xpath="//window[@name='windowQuestTurnInRewards']">
+          <sprite color="[black]" type="sliced" globalopacitymod="1" pos="0,-46" height="412" >      </sprite>
+</append>
+
+
+<setattribute xpath="//window[@name='windowQuestOffer']//sprite[@name='backgroundMain']" name="globalopacitymod">0.01</setattribute>
+<setattribute xpath="//window[@name='windowQuestOffer']//sprite[@name='background']" name="globalopacitymod">0.01</setattribute>
+<setattribute xpath="//window[@name='windowQuestOffer']//panel[@name='content']" name="backgroundcolor">1,1,1,1</setattribute>
+<setattribute xpath="//window[@name='windowQuestOffer']//button[@defaultcolor='[mediumGrey]']" name="defaultcolor">0,0,0,240</setattribute>
+<append xpath="//window[@name='windowQuestOffer']//panel[@name='content']">
+          <sprite color="[black]" type="sliced" globalopacitymod="1"  >      </sprite>
+</append>
+
+<setattribute xpath="//window[@name='messageBox']//sprite[@name='backgroundMain']" name="globalopacitymod">0.01</setattribute>
+<setattribute xpath="//window[@name='messageBox']//panel[@name='header']" name="bordercolor">1,1,1,1</setattribute>
+<setattribute xpath="//window[@name='messageBox']//panel[@name='content']" name="backgroundcolor">1,1,1,1</setattribute>
+<setattribute xpath="//window[@name='messageBox']//button[@defaultcolor='[mediumGrey]']" name="defaultcolor">0,0,0,240</setattribute>
+<append xpath="//window[@name='messageBox']//panel[@name='content']">
+          <sprite color="[black]" type="sliced" globalopacitymod="1"  height="240"   >      </sprite>
+</append>
+
+<setattribute xpath="//window[@name='windowTip']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<setattribute xpath="//window[@name='windowTip']//button[@defaultcolor='[mediumGrey]']" name="defaultcolor">0,0,0,240</setattribute>
+<append xpath="//window[@name='windowTip']/rect">
+          <sprite color="[black]" type="sliced" globalopacitymod="1"  >      </sprite>
+</append>
+
+<setattribute xpath="//window[@name='windowFuel']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<setattribute xpath="//window[@name='windowFuel']//button[@defaultcolor]" name="defaultcolor">40,40,40,200</setattribute>
+<setattribute xpath="//window[@name='windowForgeInput']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<append xpath="//window[@name='windowForgeInput']//rect[@name='content2']">
+          <sprite color="[black]" type="sliced" globalopacitymod="1"  >      </sprite>
+</append>
+<setattribute xpath="//window[@name='windowOutput']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+
+<setattribute xpath="//window[@name='windowCreative2']//sprite[@color='[darkGrey]']" name="color">[black]</setattribute>
+<setattribute xpath="//window[@name='windowCreative2']//sprite[@sprite='menu_empty3px']" name="globalopacitymod">0.9</setattribute>
+<setattribute xpath="//window[@name='windowCreative2']//sprite[@sprite='menu_empty3px']" name="sprite">menu_empty2px</setattribute>
+
+<setattribute xpath="//window[@name='windowShapeBlocks']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<append xpath="//window[@name='windowShapeBlocks']/rect">
+          <sprite color="[black]" type="sliced" globalopacitymod="1"  height="705"  >      </sprite>
+</append>
+
+<setattribute xpath="//window[@name='windowShapeInfo']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<append xpath="//window[@name='windowShapeInfo']/rect">
+          <sprite color="[black]" type="sliced" globalopacitymod="1"  >      </sprite>
+</append>
+
+<setattribute xpath="//window[@name='windowShapeMaterial']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<append xpath="//window[@name='windowShapeMaterial']/rect">
+          <sprite color="[black]" type="sliced" globalopacitymod="1"  >      </sprite>
+</append>
+
+<setattribute xpath="//window[@name='windowSignEdit']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<setattribute xpath="//window[@name='windowSignEdit']//button[@defaultcolor]" name="defaultcolor">0,0,0,250</setattribute>
+<append xpath="//window[@name='windowSignEdit']/rect[@name='content']">
+          <sprite color="[black]" type="sliced" globalopacitymod="1"  >      </sprite>
+</append>
+
+<setattribute xpath="//window[@name='windowPowerSourceSlots']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<setattribute xpath="//window[@name='windowPowerSourceStats']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+<setattribute xpath="//window[@name='windowPowerSourceStats']//button[@defaultcolor]" name="defaultcolor">40,40,40,220</setattribute>
+<append xpath="//window[@name='windowPowerSourceStats']/rect[@name='content']">
+          <sprite color="[black]" type="sliced" globalopacitymod="1" height="{# showfuel ? 270 : 236}" >      </sprite>
+</append>
+
+
+<setattribute xpath="//window[@name='players']//sprite[@color]" name="color">[black]</setattribute>
+<setattribute xpath="//window[@name='players']//sprite[@sprite='menu_empty3px']" name="globalopacitymod">0.9</setattribute>
+
+<setattribute xpath="//window[@name='chat']//sprite[@sprite='menu_empty2px']" name="globalopacitymod">0.01</setattribute>
+<setattribute xpath="//window[@name='chat']//sprite[@color='[darkGrey]']" name="width">800</setattribute>
+<setattribute xpath="//window[@name='chat']//sprite[@color='[darkGrey]']" name="sprite">ui_game_popup</setattribute>
+<setattribute xpath="//window[@name='chat']//sprite[@color='[darkGrey]']" name="flip">Horizontally</setattribute>
+<setattribute xpath="//window[@name='chat']//sprite[@color='[darkGrey]']" name="globalopacitymod">1.2</setattribute>
+<setattribute xpath="//window[@name='chat']//sprite[@color='[darkGrey]']" name="color">[black]</setattribute>
+
+<setattribute xpath="//textlist[@name='txtOutput']" name="style">style_chat_outline</setattribute>
+
+<setattribute xpath="//window[@name='windowToolbelt']//sprite[@color]" name="globalopacitymod">0.01</setattribute>
+
+<setattribute xpath="//backpack_item_stack" name="cell_size">67</setattribute>
+<setattribute xpath="//backpack_item_stack" name="cell_half">33</setattribute>
+
+<remove xpath="//window[@name='HUDRightStatBars']//rect[2]"/>
+
+
+
+<setattribute xpath="//window[@name='toolTip']//sprite[@color='[lightGrey]']" name="color">0,0,0,80</setattribute>
+<setattribute xpath="//window[@name='windowTimer']//sprite[@color='128,128,128,192']" name="color">0,0,0,245</setattribute>
+
+
+
+<remove xpath="//window[@name='interactionPrompt']"/>
+<append xpath="/windows">
+	<window name="interactionPrompt" pos="0,60" width="480" height="60" anchor="CenterCenter" controller="InteractionPrompt" fade_delay="0.02">
+		<sprite name="background" depth="1" pivot="center"  color="[black]" globalopacitymod="0.8" />
+		<label name="lblText" depth="100" style="style_label_normal" text="{text}" font_size="26" pivot="center" justify="center" parse_actions="true" actions_default_format="([AF1E19]###[-])" foregroundlayer="true"></label>
+  </window>
+</append>
+
+
+<remove xpath="//window[@name='windowRespondentName']"/>
+<remove xpath="//window[@name='windowStatement']"/>
+<remove xpath="//window[@name='windowResponses']"/>
+<append xpath="/windows">
+	<window name="windowRespondentName" pos="-175,120" width="500" height="20" anchor="CenterBottom" controller="DialogRespondentName">
+    <rect name="content" depth="1">
+      <label style="style_label_normal, header.name" text="{respondentname}" color="[selectedColor]" justify="center" />
+    </rect>
+  </window>
+	<window name="windowStatement" pos="0,85" width="1000" height="60" anchor="CenterBottom" controller="DialogStatementWindow">
+    <rect name="content" depth="1" pivot="center">
+      <sprite depth="1" name="backgroundSprite" pos="-500,-5" color="25,25,25,210" />
+      <label depth="3" name="statementLabel" pos="-500,-20" text="{statement}" font_size="30" overflow="resizeheight" justify="center" />
+    </rect>
+  </window>
+  <window name="windowResponses" pos="-650,0" width="600" height="340" anchor="RightCenter" cursor_area="true">
+    <sprite depth="1" name="background" sprite="ui_game_text_body_back" globalopacitymod="0.95">    </sprite>
+    <sprite depth="1" name="background2" sprite="ui_game_text_body_back" globalopacitymod="0.95" flip="Vertically" >    </sprite>
+    <grid name="items" pos="3,-6" rows="8" cols="1" width="590" height="200" cell_width="590" cell_height="40" repeat_content="true" arrangement="vertical" controller="DialogResponseList">
+      <response_entry id="0" />
+    </grid>
+  </window>
+</append>
+
+
+<setattribute xpath="//label[@text='{skillpointsavailable}']" name="visible">true</setattribute>
+
+<set xpath="//grid[@controller='PartList']">
+        <item_stack_part name="0" />
+</set>
+
+<setattribute xpath="//panel[@name='equipment']" name="pos">3, -706</setattribute>
+<set xpath="//grid[@controller='EquipmentStackGrid']">
+        <equipment_item_stack_sdcs name="0" cell_size="70" cell_half="35" />
+</set>
+
+<setattribute xpath="//grid[@controller='VehiclePartStackGrid']" name="cell_height">55</setattribute>
+
+<remove xpath="//window[@name='windowGroupBars']"/>
+<append xpath="/windows">
+	<window name="windowGroupBars" controller="PartyWindow" depth="-20">
+		<rect controller="HUDStatBar" visible="{statvisible}" >
+			<sprite depth="8" name="voiceStatus" style="icon32px" width="26" height="26" pos="34,-96" sprite="ui_game_symbol_mic" visible="{# partyvisible and voicevisible}" pivot="center" color="{# voiceactive ? '255,255,255,255' : '128,128,128,255' }" />
+			<grid name="hud" pos="20,-110" rows="7" cols="1" cell_width="180" cell_height="32" side="left" repeat_content="true" controller="PartyEntryList">
+			  <party_entry />
+			</grid>
+			<grid name="hud" pos="20,-110" rows="7" cols="1" cell_width="180" cell_height="32" side="left" repeat_content="true" controller="CompanionEntryList">
+			  <companion_entry />
+			</grid>
+		</rect>
+  </window>
+</append>
+
+<setattribute xpath="//window[@name='windowRadial']//label" name="style">style_label_normal</setattribute>
+
+<append xpath="/windows">
+		<rect name="placeholder0" >
+			<simplebutton/>
+		</rect>
+</append>
+
+
+<setattribute xpath="//window[@name='windowSkillList']//grid[@name='categories']" name="cols">15</setattribute>
+<setattribute xpath="//window[@name='windowSkillList']//grid[@name='skills']" name="pos">1,-89</setattribute>
+<remove xpath="//window[@name='windowSkillList']//panel[@console_enabled='false']"></remove>
+
+<setattribute xpath="//textfield[@name='searchInput']" name="clear_button">true</setattribute>
+
+
+
+
+<!-- <append xpath="/windows/window[@name='windowVehicleStorage']//rect[@controller='ContainerStandardControls']"> -->
+		<!-- <combobox depth="3" name="cbxLockedSlots" pos="74,-7" width="100" height="30" tooltip_key="xuiStashLockedSlots" type="ComboBoxInt" value_min="0" value_max="{container_slots}" value_wrap="true" value_increment="1" /> -->
+<!-- </append> -->
+
+
+
+
+
+</xSteel>

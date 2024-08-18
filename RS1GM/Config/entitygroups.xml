@@ -1,0 +1,21 @@
+<configs>
+  <!-- remove the following lines to disable the enities for the bloodmoon. -->
+  <csv xpath="//entitygroup[starts-with(@name,'feralHordeStageGS') and (contains(text(),'Feral'))]/text()" delim="\n" op="add">animalGiantZombieVultureRadiated, .3</csv>
+  
+  <csv xpath="//entitygroup[starts-with(@name,'feralHordeStageGS') and (contains(text(),'Feral'))]/text()" delim="\n" op="add">zombieGiantSpider, .15</csv>
+
+  <csv xpath="//entitygroup[starts-with(@name,'feralHordeStageGS') and (contains(text(),'Feral'))]/text()" delim="\n" op="add">anotherSadako, .2</csv>
+
+  <csv xpath="//entitygroup[starts-with(@name,'feralHordeStageGS') and (contains(text(),'Feral'))]/text()" delim="\n" op="add">animalRS1DireWolf, .01</csv>
+  
+
+  <!-- remove this 1 line below to disable giant spiders on morning wandering hordes -->
+  <csv xpath="//entitygroup[starts-with(@name,'wanderingHordeStageGS')]/text()" delim="\n" op="add">zombieGiantSpider, .15</csv>
+
+  <!-- remove this 1 line below to disable giant spiders on evening wandering hordes -->
+  <csv xpath="//entitygroup[starts-with(@name,'FwanderingHordeStageGS')]/text()" delim="\n" op="add">zombieGiantSpider</csv>
+
+  <!-- remove this 1 line below to disable sadako on evening wandering hordes -->
+  <csv xpath="//entitygroup[starts-with(@name,'FwanderingHordeStageGS')]/text()" delim="\n" op="add">anotherSadako, 1.5</csv>
+  
+</configs>

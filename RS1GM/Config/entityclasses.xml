@@ -1,0 +1,119 @@
+<configs>
+    <append xpath="/entity_classes">
+
+        <!-- Giant Vulture -->
+        <entity_class name="animalGiantZombieVultureRadiated" extends="animalZombieVultureRadiated">
+            <!-- hardcoded to use the vomit attack if isRadiated=true -->
+            <property name="Mass" value="250" />
+            <property name="SizeScale" value="5.0" />
+
+            <property name="MoveSpeed" value=".2" />
+
+            <property name="ExperienceGain" value="5400" /><!-- XP grunt radiated -->
+
+            <property name="DeadBodyHitPoints" value="600" />
+            <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
+            <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="30" />
+            <drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="70" />
+            <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="20" />
+            <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="15" />
+
+            <effect_group name="Base Effects">
+                <passive_effect name="HealthMax" operation="base_set" value="2800" />
+                <passive_effect name="EntityDamage" operation="perc_add" value=".7" />
+            </effect_group>
+        </entity_class>
+
+
+        <!-- Giant Spider -->
+        <entity_class name="zombieGiantSpider" extends="zombieSpider">
+            <property name="SizeScale" value="4.0" />
+            <property name="Mass" value="400" />
+            <property name="ExperienceGain" value="5400" />
+
+            <!-- Gameplay zombieSpider -->
+            <property name="MoveSpeed" value="0.08" />
+            <property name="MoveSpeedAggro" value="0.1, 0.9" /> <!-- slim, regular -->
+            <property name="MoveSpeedPanic" value="0.9" />
+            <property name="SwimSpeed" value="0.9" />
+            <property name="JumpMaxDistance" value="9, 13" />
+
+            <effect_group name="Base Effects">
+                <passive_effect name="HealthMax" operation="base_set" value="3000" />
+            </effect_group>
+        </entity_class>
+
+        <!-- Sadako -->
+        <entity_class name="anotherSadako" extends="zombieScreamer">
+            <property name="WalkType" value="22" />
+            <property name="SizeScale" value="2.5" />
+            <property name="Mass" value="400" />
+            <property name="ExperienceGain" value="3200" />
+
+            <property name="MoveSpeed" value="0.04" />
+            <property name="MoveSpeedAggro" value="0.9, 2.0" /> <!-- slim, regular -->
+            <property name="MoveSpeedPanic" value="2.9" />
+            <effect_group name="Base Effects">
+                <passive_effect name="HealthMax" operation="base_set" value="1500" />
+            </effect_group>
+
+            <!-- Dismemberment -->
+            <property name="DismemberTag_L_HeadGore" value="Screamer/Blade/Head;Screamer/Blunt/Head"
+                data="type=blade+target=neck+atp=true+detach=true;type=blunt+target=neck+atp=true" />
+            <property name="DismemberTag_L_LeftLowerArmGore" value="Screamer/Blade/LeftLowerArm"
+                data="type=blade+target=leftforearmroll+atp=true+detach=true+mask=true" />
+            <property name="DismemberTag_L_LeftLowerLegGore" value="Screamer/Blade/LeftLowerLeg"
+                data="type=blade+target=leftleg+detach=true+mask=true" />
+            <property name="DismemberTag_L_LeftUpperArmGore" value="Screamer/Blade/LeftUpperArm"
+                data="type=blade+target=leftarmroll+atp=true+detach=true+mask=true" />
+            <property name="DismemberTag_L_RightLowerArmGore" value="Screamer/Blade/RightLowerArm"
+                data="type=blade+target=rightforearmroll+atp=true+detach=true+mask=true" />
+            <property name="DismemberTag_L_RightLowerLegGore" value="Screamer/Blade/RightLowerLeg"
+                data="type=blade+target=rightleg+detach=true+mask=true" />
+            <property name="DismemberTag_L_RightUpperArmGore" value="Screamer/Blade/RightUpperArm"
+                data="type=blade+target=rightarmroll+atp=true+detach=true+mask=true" />
+            <property name="DismemberTag_L_LeftUpperLegGore" value="linked"
+                data="DismemberTag_L_LeftLowerLegGore" />
+            <property name="DismemberTag_L_RightUpperLegGore" value="linked"
+                data="DismemberTag_L_RightLowerLegGore" />
+
+        </entity_class>
+
+        <!-- Big Boi DireWolf -->
+        <entity_class name="animalRS1DireWolf" extends="animalWolf">
+            <property name="UserSpawnType" value="Menu" />
+            <property name="SizeScale" value="3.0" />
+            <property name="Mass" value="300" />
+            <property name="Prefab" value="/Entities/Animals/DireWolf/animalDireWolfPrefab" />
+            <property name="AIPathCostScale" value=".18, .3" />
+            
+
+            <!-- Gameplay  -->
+            <property name="MoveSpeedAggro" value="1, 0.9" />
+            <property name="JumpMaxDistance" value="8, 12" />
+            <property name="HandItem" value="meleeHandAnimalDireWolf" />
+            <property name="Immunity" value="sickness;disease;wellness" /> <!-- bleeding; -->
+            <property name="PainResistPerHit" value=".99" />
+            <property name="DeadBodyHitPoints" value="700" />
+
+            <property name="ExperienceGain" value="4000" /><!-- XP strong -->
+            
+
+            <drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher" />
+            <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="70" /> <!--
+            animalDireWolf -->
+            <drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="25" />
+            <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="10" />
+            <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="30" />
+            <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="8" />
+
+            <effect_group name="Base Effects">
+                <passive_effect name="HealthMax" operation="base_set" value="5000" />
+            </effect_group>
+
+            <property name="NavObject"
+                value="twitch_spawn,twitch_spawn_other,animaltracking_direwolf,clear_sleeper" />
+        </entity_class>
+
+    </append>
+</configs>

@@ -1,0 +1,58 @@
+<configs>
+
+<remove xpath="/controls[@name='backpack_item_stack']"/>
+
+<append xpath="/controls">
+<zh_button_mainmenubutton depth="3" pos="0,0" width="200" height="32" pivot="left" caption="" caption_key="" enabled_font_color="[labelColor]" disabled_font_color="[disabledLabelColor]" tooltip_key="" visible="true" enabled="true" sound="[default_click]">
+<rect name="${name}" depth="${depth}" pos="${pos}" width="${width}" height="${height}" font_size_default="${height-32}" enabled_font_color="${enabled_font_color}" disabled_font_color="${disabled_font_color}" controller="SimpleButton" visible="${visible}" button_enabled="${enabled}">
+<button name="clickable" pos="10,${Round(-height/2,0)}" sprite="menu_ButtonTx" defaultcolor="[mediumGrey]" selectedsprite="menu_ButtonTxSelected" hoversprite="menu_ButtonTxSelected" hovercolor="[white]" hoverscale="1.1" pivot="${pivot}" tooltip_key="${tooltip_key}" sound_play_on_hover="[default_hover]" sound="${sound}"/>
+<label name="btnLabel" depth="2" pos="10,${Round(-2-height/2,0)}" width="${width-40}" height="${height-33}" text="${caption}" text_key="${caption_key}" font_size="${height-34}" upper_case="true" pivot="${pivot}" justify="center"/>
+</rect>
+</zh_button_mainmenubutton>
+
+<zh_button_maintabbutton depth="3" pos="0,0" width="200" height="32" enabled_font_color="[labelColor]" disabled_font_color="[disabledLabelColor]" visible="true" enabled="true" bordersprite="menu_empty2px" bordercolor="[black]" pivot="left" defaultsprite="menu_empty" defaultcolor="[mediumGrey]" hoversprite="ui_MenuTabButton_PcR" hovercolor="[white]" selectedsprite="ui_MenuTabButton_PcR" selectedcolor="[mediumGrey]" foregroundlayer="true" tooltip_key="" disabled_tooltip_key="" sound="[default_click]" justify="center" caption="" caption_key="" font_size="28" upper_case="false" parse_actions="false">
+<rect name="${name}" depth="${depth}" pos="${pos}" width="${width}" height="${height}" enabled_font_color="${enabled_font_color}" disabled_font_color="${disabled_font_color}" controller="SimpleButton" visible="${visible}" button_enabled="${enabled}">
+<sprite depth="1" name="border" sprite="ui_MenuTabButton_PcR" pos="0,${Round(-height/2,0)}" color="${bordercolor}" type="sliced" fillcenter="false" foregroundlayer="true" pivot="${pivot}"/>
+<button name="clickable" pos="0,${Round(-height/2,0)}" sprite="ui_MenuTabButton_PcR" defaultcolor="${defaultcolor}" disabledcolor="[darkGrey]" hoversprite="ui_MenuTabButtonSelected_PcR" hovercolor="${hovercolor}" selectedsprite="ui_MenuTabButtonSelected_PcR" selectedcolor="${selectedcolor}" foregroundlayer="${foregroundlayer}" type="sliced" hoverscale="1.0" pivot="${pivot}" tooltip_key="${tooltip_key}" disabled_tooltip_key="${disabled_tooltip_key}" sound_play_on_hover="[default_hover]" sound="${sound}"/>
+<label depth="2" name="btnLabel" width="${width}" height="${height-2}" pos="0,${Round(-height/2,0)}" justify="${justify}" text="${caption}" text_key="${caption_key}" effect="outline" pivot="${pivot}" font_size="${font_size}" upper_case="${upper_case}" parse_actions="${parse_actions}"/>
+</rect>
+</zh_button_maintabbutton>
+ 
+<backpack_item_stack controller="ItemStack" on_scroll="false" allow_dropping="true" prefix_id="false">
+<rect controller="${controller}" style="itemStack, hover" collider_scale="1.0" on_scroll="${on_scroll}" allow_dropping="${allow_dropping}" prefix_id="${prefix_id}" tooltip="{tooltip}" enabled="{# !userlockmode}">
+<sprite depth="2" name="backgroundMain" sprite="ui_QuestTrackerBoard" pos="-3,3" width="70" height="70" type="sliced" fillcenter="false"/>
+<sprite depth="3" name="background" sprite="ui_QuestTrackerBoard" width="65" height="65" color="{selectionbordercolor}" type="sliced" globalopacity="true" fillcenter="false"/>
+<sprite depth="2" name="highlightOverlay" width="64" height="64" color="{backgroundcolor}" pos="0,0" type="sliced" globalopacity="true"/>
+<texture depth="3" name="backgroundTexture" sprite="ui_QuestTrackerBoard" size="65,65" globalopacity="true"/>
+<sprite depth="6" name="itemIcon" width="64" height="64" atlas="ItemIconAtlas" sprite="{itemicon}" pos="35,-30" pivot="center" foregroundlayer="true" color="{iconcolor}"/>
+<sprite depth="8" name="lockTypeIcon" width="24" height="24" sprite="{locktypeicon}" pos="2,-2" foregroundlayer="true"/>
+<sprite depth="8" name="itemtypeicon" width="24" height="24" sprite="ui_game_symbol_{itemtypeicon}" pos="2,-2" foregroundlayer="true" visible="{hasitemtypeicon}" color="{itemtypeicontint}"/>
+<sprite depth="3" name="durabilityBackground" width="63" height="10" sprite="menu_empty3px" color="[darkGrey]" type="sliced" pos="1, -55" foregroundlayer="true" visible="{hasdurability}"/>
+<filledsprite depth="4" name="durability" width="63" height="10" sprite="menu_empty2px" color="{durabilitycolor}" fill="{durabilityfill}" type="filled" pos="1, -55" foregroundlayer="true" visible="{hasdurability}"/>
+<sprite depth="5" name="disabledOverlay" width="64" height="64" color="[darkGrey_half_alpha]" pos="1,-1" type="sliced" visible="false"/>
+<label depth="7" name="stackValue" pos="-2,-40" width="62" height="28" text="{itemcount}" font_size="26" effect="outline" justify="{#hasdurability ? 'Center' : 'Right'}"/>
+<label depth="7" name="timer" pos="35,-33" width="62" height="24" font_size="24" justify="center" pivot="center" effect="outline" color="[beige]"/>
+<sprite depth="9" name="cancel" sprite="ui_game_symbol_x" width="62" height="62" color="255,0,0,255" type="sliced" visible="false" foregroundlayer="true"/>
+<sprite depth="13" name="assembleIcon" size="35,35" sprite="{stacklockicon}" color="{stacklockcolor}" visible="{isassemblelocked}" pos="14,-14" foregroundlayer="true"/>
+<button name="rectSlotLock" depth="15" style="press, hover" width="65" height="65" visible="{userlockmode}" sprite="" hoverscale="1" use_selection_box="true">
+<sprite depth="16" name="button" width="24" height="24" sprite="{# userlockedslot ? 'ui_game_symbol_lock' : 'ui_game_symbol_unlock' }" pos="50, -14" style="icon32px" pivot="center" color="{# userlockedslot ? '222,206,163' : '255,255,255' }"/>
+</button>
+<sprite depth="15" name="iconSlotLock" width="20" height="20" sprite="ui_game_symbol_lock" pos="50, -14" style="icon32px" pivot="center" visible="{# userlockedslot and !userlockmode}" color="[lightGrey]"/>
+</rect>
+</backpack_item_stack>
+ 
+<equipment_stack_sdcss>
+<rect depth="1" controller="EquipmentStack" style="itemStack, hover" tooltip="test">
+<sprite depth="3" name="background" sprite="ui_ToolbarBars" width="130" height="130" color="{selectionbordercolor}" type="sliced" fillcenter="false"/>
+<sprite depth="2" name="highlightOverlay" width="125" height="125" color="[mediumGrey]" pos="1,-1" type="sliced" globalopacity="true"/>
+<sprite depth="6" name="itemIcon" width="120" height="120" atlas="ItemIconAtlas" sprite="campfire" pos="39,-39" pivot="center" foregroundlayer="true"/>
+<sprite depth="8" name="lockTypeIcon" width="120" height="120" sprite="" pos="2,-12" foregroundlayer="true"/>
+<sprite depth="3" name="durabilityBackground" width="74" height="10" color="[darkGrey]" type="sliced" pos="2, -66" foregroundlayer="true"/>
+<filledsprite depth="4" name="durability" width="74" height="10" color="[transparent]" type="filled" pos="2, -66" foregroundlayer="true"/>
+<label depth="7" name="stackValue" pos="0,-50" width="78" height="28" text="" font_size="26" justify="center"/>
+</rect>
+</equipment_stack_sdcss>
+
+
+</append>
+</configs>

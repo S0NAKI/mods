@@ -1,0 +1,7 @@
+<xSteel>
+
+	<append xpath="/items/item[@name='masterSkillMagazine']">
+		<property name="ItemTypeIcon" value="magazine" />
+	</append>
+
+</xSteel>
