@@ -1,0 +1,200 @@
+<witos>
+	<append xpath="/vehicles">
+	<vehicle name="WitosAirShip">
+		<property name="cameraDistance" value="40,50"/>
+		<property name="cameraTurnRate" value=".2,.45"/>
+		<property name="upAngleMax" value="3"/>
+		<property name="upForce" value="1"/>
+		<property name="steerRate" value="130"/>
+		<property name="steerCenteringRate" value="90"/>
+		<property name="tiltAngleMax" value="2"/>
+		<property name="tiltThreshold" value=".1"/>
+		<property name="tiltDampening" value=".01"/>
+		<property name="tiltDampenThreshold" value="1"/>
+		<property name="tiltUpForce" value="1"/>
+	    <property name="airDrag_velScale_angVelScale" value=".997, .37"/>
+		<property name="waterLift_y_depth_force" value="1, .5, .1"/> 			
+		<property name="motorTorque_turbo" value="100, 100, 100, 100"/>
+		<property name="velocityMax_turbo" value="10, 12, 10, 12"/>
+		<property name="brakeTorque" value="300"/>
+		<property name="unstickForce" value="1"/>
+		<property name="waterY_VelMaxScale" value="2, .2"/>
+
+
+		<property name="hornSound" value="minibike_horn"/>
+			
+		<property class="chassis">
+			<property name="class" value="Chassis"/>
+			<property name="paint" value="M"/>
+		</property>
+			
+			<property class="engine">
+				<property name="class" value="Engine"/>
+				<property name="particleOn" value="Particles/p_on"/>
+				<property name="particleDamaged" value=""/>
+				<property name="particleBroken" value=""/>
+				<property name="fuelKmPerL" value="20"/>
+				<property name="foodDrain" value=".01,.01500"/>
+				<property name="gear1" value="
+									500,1500, -1400,800,0, 1500,5000,5000,
+									,
+									,
+									0, .5,  .35, .4,  -9, .1, .1, Ballon_flying,
+									-.1, .1,  .45, .6,  0, 9, .1, Ballon_flying
+									"/>
+				<property name="sound_start" value="Ballon_start"/>
+				<property name="sound_shut_off" value="Ballon_stop"/>
+				<property name="sound_no_fuel_shut_off" value="Vehicles/Gyrocopter/gyrocopter_sputter"/>
+
+			</property>
+
+			<property class="fuelTank">
+				<property name="class" value="FuelTank"/>
+				<property name="capacity" value="80"/>
+			</property>
+
+			<property class="handlebars">
+				<property name="class" value="Steering"/>
+				<property name="transform" value="M/steering_joint"/>
+				<property name="steerMaxAngle" value="60"/>
+				<property name="IKHandLPosition" value="0.19,0.45,-0.33"/>
+				<property name="IKHandLRotation" value="0, -90, 5"/>
+				<property name="IKHandRPosition" value="0.19,0.45,0.33"/>
+				<property name="IKHandRRotation" value="0, -90, 0"/>
+			</property>
+			
+			<property class="seat0">
+				<property name="class" value="Seat"/>
+				<property name="pose" value="51"/>
+				<property name="position" value="0,15,-9"/> 
+				<property name="rotation" value="-15,0,0"/>
+				<property name="exit" value="0,8,-8 ~ 0,8,-8 ~ 0,0,-2.5 ~ 0,0,2.6 ~ 0,2.5,0"/>
+	
+			</property>
+			<property class="seat1">
+				<property name="class" value="Seat"/>
+				<property name="pose" value="51"/>
+				<property name="position" value="0,15,-9"/> 
+				<property name="rotation" value="-15,0,0"/>
+				<property name="exit" value="0,8,-8 ~ 0,8,-8 ~ 0,0,-2.5 ~ 0,0,2.6 ~ 0,2.5,0"/>
+			</property>
+			<property class="seat2">
+				<property name="class" value="Seat"/>
+				<property name="pose" value="51"/>
+				<property name="position" value="0,15,-9"/> 
+				<property name="rotation" value="-15,0,0"/>
+				<property name="exit" value="0,8,-8 ~ 0,8,-8 ~ 0,0,-2.5 ~ 0,0,2.6 ~ 0,2.5,0"/>
+			</property>		
+			<property class="seat3">
+				<property name="class" value="Seat"/>
+				<property name="pose" value="51"/>
+				<property name="position" value="0,15,-9"/> 
+				<property name="rotation" value="-15,0,0"/>
+				<property name="exit" value="0,8,-8 ~ 0,8,-8 ~ 0,0,-2.5 ~ 0,0,2.6 ~ 0,2.5,0"/>
+			</property>
+			<property class="seat4">
+				<property name="class" value="Seat"/>
+				<property name="pose" value="51"/>
+				<property name="position" value="0,15,-9"/> 
+				<property name="rotation" value="-15,0,0"/>
+				<property name="exit" value="0,8,-8 ~ 0,8,-8 ~ 0,0,-2.5 ~ 0,0,2.6 ~ 0,2.5,0"/>
+			</property>
+			<property class="seat5">
+				<property name="class" value="Seat"/>
+				<property name="pose" value="51"/>
+				<property name="position" value="0,15,-9"/> 
+				<property name="rotation" value="-15,0,0"/>
+				<property name="exit" value="0,8,-8 ~ 0,8,-8 ~ 0,0,-2.5 ~ 0,0,2.6 ~ 0,2.5,0"/>
+			</property>	
+			<property class="seat6">
+				<property name="class" value="Seat"/>
+				<property name="pose" value="51"/>
+				<property name="position" value="0,15,-9"/>
+				<property name="rotation" value="-15,0,0"/>
+				<property name="exit" value="0,8,-8 ~ 0,8,-8 ~ 0,0,-2.5 ~ 0,0,2.6 ~ 0,2.5,0"/>
+			</property>	
+			<property class="seat7">
+				<property name="class" value="Seat"/>
+				<property name="pose" value="51"/>
+				<property name="position" value="0,15,-9"/> 
+				<property name="rotation" value="-15,0,0"/>
+				<property name="exit" value="0,8,-8 ~ 0,8,-8 ~ 0,0,-2.5 ~ 0,0,2.6 ~ 0,2.5,0"/>
+			</property>	
+			<property class="seat8">
+				<property name="class" value="Seat"/>
+				<property name="pose" value="51"/>
+				<property name="position" value="0,15,-9"/> 
+				<property name="rotation" value="-15,0,0"/>
+				<property name="exit" value="0,8,-8 ~ 0,8,-8 ~ 0,0,-2.5 ~ 0,0,2.6 ~ 0,2.5,0"/>
+			</property>	
+			<property class="seat9">
+				<property name="class" value="Seat"/>
+				<property name="pose" value="51"/>
+				<property name="position" value="0,15,-9"/> 
+				<property name="rotation" value="-15,0,0"/>
+				<property name="exit" value="0,8,-8 ~ 0,8,-8 ~ 0,0,-2.5 ~ 0,0,2.6 ~ 0,2.5,0"/>
+			</property>	
+			<property class="seat10">
+				<property name="class" value="Seat"/>
+				<property name="pose" value="51"/>
+				<property name="position" value="0,15,-9"/> 
+				<property name="rotation" value="-15,0,0"/>
+				<property name="exit" value="0,8,-8 ~ 0,8,-8 ~ 0,0,-2.5 ~ 0,0,2.6 ~ 0,2.5,0"/>
+			</property>	
+			<property class="seat11">
+				<property name="class" value="Seat"/>
+				<property name="pose" value="51"/>
+				<property name="position" value="0,15,-9"/> 
+				<property name="rotation" value="-15,0,0"/>
+				<property name="exit" value="0,8,-8 ~ 0,8,-8 ~ 0,0,-2.5 ~ 0,0,2.6 ~ 0,2.5,0"/>
+			</property>	
+			<property class="seat12">
+				<property name="class" value="Seat"/>
+				<property name="pose" value="51"/>
+				<property name="position" value="0,15,-9"/> 
+				<property name="rotation" value="-15,0,0"/>
+				<property name="exit" value="0,8,-8 ~ 0,8,-8 ~ 0,0,-2.5 ~ 0,0,2.6 ~ 0,2.5,0"/>
+			</property>				
+			
+			<property class="motor0">
+			
+				<property name="rpmAccel_min_max" value="0.01, .2"/>
+				<property name="rpmMax" value="8"/>
+				<property name="rpmDrag" value=".993"/>
+				<property name="trigger" value="vel"/>
+				<property name="type" value="spin"/>
+				<property name="transform" value="M/Heli1"/>
+				<property name="axis" value="1"/>
+			</property>
+			
+			<property class="motor1">
+				<property name="engine" value="engine"/>
+				<property name="turbo" value="0"/>
+				<property name="rpmAccel_min_max" value="0.01, .1"/>
+				<property name="rpmMax" value="8"/>
+				<property name="rpmDrag" value=".993"/>
+				<property name="trigger" value="relative"/>
+				<property name="type" value="spin"/>
+				<property name="transform" value="M/Heli2"/>
+				<property name="axis" value="2"/>
+			</property>
+			
+
+	
+			<property class="force0">
+				<property name="trigger" value="motor0"/> 
+				<property name="type" value="relative"/>
+				<property name="force" value="0, 0, 0"/>
+				<property name="ceiling" value="400, 500"/>
+			</property>
+
+
+			<property class="storage">
+			<property name="class" value="Storage"/>
+
+		</property>
+
+	</vehicle>	
+	
+	</append>	
+</witos>

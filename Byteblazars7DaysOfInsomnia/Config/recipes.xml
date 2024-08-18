@@ -1,0 +1,13 @@
+<Byteblazar>
+	<append xpath="/recipes">
+		<recipe name="bb7doi_drugSedatives" count="1" craft_area="chemistryStation" tags="chemStationCrafting">
+			<ingredient name="resourceCropChrysanthemumPlant" count="15"/>
+			<ingredient name="drugPainkillers" count="1"/>
+		</recipe>
+		<recipe name="bb7doi_drugStimulants" craft_time="300" count="1" craft_area="chemistryStation" tags="chemStationCrafting">
+			<ingredient name="drinkJarCoffee" count="1"/>
+			<ingredient name="resourceScrapPolymers" count="10"/>
+			<ingredient name="drugVitamins" count="1"/>
+		</recipe>
+	</append>
+</Byteblazar>

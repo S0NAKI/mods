@@ -1,0 +1,33 @@
+<Byteblazar>
+
+<insertAfter xpath="/lootcontainers/lootgroup[@name='survivalMedical']/item[@name='drugPainkillers']">
+	<item name="bb7doi_drugSedatives"/>
+</insertAfter>
+<insertAfter xpath="/lootcontainers/lootgroup[@name='groupQuestMedical']/item[@name='drugPainkillers']">
+	<item name="bb7doi_drugSedatives" count="1" loot_prob_template="QuestT1Prob"/>
+</insertAfter>
+<insertAfter xpath="/lootcontainers/lootgroup[@name='groupQuestMedical']/item[@name='drugFortBites' and @loot_prob_template='QuestT2Prob']">
+	<item name="bb7doi_drugStimulants" count="1" loot_prob_template="QuestT2Prob"/>
+</insertAfter>
+<insertAfter xpath="/lootcontainers/lootgroup[@name='groupQuestMedical']/item[@name='drugFortBites' and @loot_prob_template='QuestT3Prob']">
+	<item name="bb7doi_drugStimulants" count="1" loot_prob_template="QuestT3Prob"/>
+</insertAfter>
+<insertAfter xpath="/lootcontainers/lootgroup[@name='groupMedicalUncommon']/item[@name='drugPainkillers']">
+	<item name="bb7doi_drugSedatives" loot_prob_template="high"/>
+</insertAfter>
+<insertAfter xpath="/lootcontainers/lootgroup[@name='groupChemistryStationLoot02']/item[@name='drugPainkillers']">
+	<item name="bb7doi_drugSedatives" count="1"/>
+</insertAfter>
+<insertAfter xpath="/lootcontainers/lootgroup[@name='airdropMedicine']/item[@name='drugPainkillers']">
+	<item name="bb7doi_drugSedatives" count="1"/>
+</insertAfter>
+<insertAfter xpath="/lootcontainers/lootgroup[@name='twitch_med2' or @name='twitch_med3']/item[@name='drugPainkillers']">
+	<item name="bb7doi_drugSedatives" count="1,2"/>
+</insertAfter>
+<insertAfter xpath="/lootcontainers/lootgroup[@name='groupMedicalRare']/item[@name='drugFortBites']">
+	<item name="bb7doi_drugStimulants"/>
+</insertAfter>
+<insertAfter xpath="/lootcontainers/lootgroup[@name='twitch_medspecial']/item[@name='drugFortBites']">
+	<item name="bb7doi_drugStimulants" count="1,2"/>
+</insertAfter>
+</Byteblazar>

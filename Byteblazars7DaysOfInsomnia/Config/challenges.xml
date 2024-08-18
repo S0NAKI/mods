@@ -1,0 +1,62 @@
+<Byteblazar>
+<remove xpath="challenges/challenge_category[@name='Byteblazar']"/>
+<insertAfter xpath="challenges/challenge_category[@name='Twitch']">
+	<challenge_category name="Byteblazar" title="Byteblazar" icon="ui_game_symbol_dysentery"/>
+</insertAfter>
+<insertAfter xpath="challenges/challenge_group[@category='Twitch' and @name='Silly']">
+	<challenge_group category="Byteblazar" name="7daysOfInsomnia" title_key="bb7doiChallengeGroup"
+	reward_text_key="bb7doiChallengeRewardBonus" reward_event="bb7doi_challenge_group_reward_7daysOfInsomnia"/>
+</insertAfter>
+<insertAfter xpath="challenges/challenge[@name='killDemolitions']">
+	<challenge name="bb7doi_challengeGTSonCoffee" title_key="bb7doiChallengeGTSonCoffee" icon="ui_game_symbol_coffee" group="7daysOfInsomnia" 
+	short_description_key="bb7doiChallengeGTSonCoffeeShort" description_key="bb7doiChallengeGTSonCoffeeDesc"
+	reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
+		<objective type="CureDebuff" debuff="bb7doi_buffDummyBedtime" item="drinkJarCoffee,drinkJarBlackStrapCoffee" count="1"/>
+	</challenge>
+	<challenge name="bb7doi_challengeGTSonAlcohol" title_key="bb7doiChallengeGTSonAlcohol" icon="ui_game_symbol_beer" group="7daysOfInsomnia" 
+	short_description_key="bb7doiChallengeGTSonAlcoholShort" description_key="bb7doiChallengeGTSonAlcoholDesc"
+	reward_text_key="challenge_reward_2000xp" reward_event="challenge_reward_2000">
+		<objective type="CureDebuff" debuff="bb7doi_buffDummyBedtime" item="drinkJarGrandpasMoonshine,drinkJarGrandpasAwesomeSauce,drinkJarGrandpasLearningElixir,drinkJarGrandpasForgettingElixir,drinkJarBeer" count="1"/>
+	</challenge>
+	<challenge name="bb7doi_challengeGTSonPainkillers" title_key="bb7doiChallengeGTSonPainkillers" icon="ui_game_symbol_pills" group="7daysOfInsomnia" 
+	short_description_key="bb7doiChallengeGTSonPainkillersShort" description_key="bb7doiChallengeGTSonPainkillersDesc"
+	reward_text_key="challenge_reward_2000xp" reward_event="challenge_reward_2000">
+		<objective type="CureDebuff" debuff="bb7doi_buffDummyBedtime" item="drugPainkillers,drugFortBites" count="1"/>
+	</challenge>
+	<challenge name="bb7doi_challengeTreatInsomnia1" title_key="bb7doiChallengeTreatInsomnia1" icon="ui_game_symbol_fatigued" group="7daysOfInsomnia" 
+	short_description_key="bb7doiChallengeTreatInsomnia1Short" description_key="bb7doiChallengeTreatInsomnia1Desc"
+	reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
+		<objective type="CureDebuff" debuff="bb7doi_buffInsomnia" item="bb7doi_drugSedatives" count="1"/>
+	</challenge>
+	<challenge name="bb7doi_challengeTreatInsomnia2" title_key="bb7doiChallengeTreatInsomnia2" icon="ui_game_symbol_fatigued" group="7daysOfInsomnia" 
+	short_description_key="bb7doiChallengeTreatInsomnia2Short" description_key="bb7doiChallengeTreatInsomnia2Desc"
+	reward_text_key="challenge_reward_5000xp" reward_event="challenge_reward_5000">
+		<objective type="CureDebuff" debuff="bb7doi_buffInsomnia" item="bb7doi_drugSedatives" count="10"/>
+	</challenge>
+	<challenge name="bb7doi_challengeTreatInsomnia3" title_key="bb7doiChallengeTreatInsomnia3" icon="ui_game_symbol_fatigued" group="7daysOfInsomnia" 
+	short_description_key="bb7doiChallengeTreatInsomnia3Short" description_key="bb7doiChallengeTreatInsomnia3Desc"
+	reward_text_key="challenge_reward_10000xp" reward_event="challenge_reward_10000">
+		<objective type="CureDebuff" debuff="bb7doi_buffInsomnia" item="bb7doi_drugSedatives" count="30"/>
+	</challenge>
+	<challenge name="bb7doi_challengeTreatSleepDeprivation1" title_key="bb7doiChallengeTreatSleepDeprivation1" icon="ui_game_symbol_fatigued" group="7daysOfInsomnia" 
+	short_description_key="bb7doiChallengeTreatSleepDeprivation1Short" description_key="bb7doiChallengeTreatSleepDeprivation1Desc"
+	reward_text_key="challenge_reward_2000xp" reward_event="challenge_reward_2000">
+		<objective type="CureDebuff" debuff="bb7doi_buffDummyDeprivation" item="bb7doi_drugStimulants" count="1"/>
+	</challenge>
+	<challenge name="bb7doi_challengeTreatSleepDeprivation2" title_key="bb7doiChallengeTreatSleepDeprivation2" icon="ui_game_symbol_fatigued" group="7daysOfInsomnia" 
+	short_description_key="bb7doiChallengeTreatSleepDeprivation2Short" description_key="bb7doiChallengeTreatSleepDeprivation2Desc"
+	reward_text_key="challenge_reward_5000xp" reward_event="challenge_reward_5000">
+		<objective type="CureDebuff" debuff="bb7doi_buffDummyDeprivation" item="bb7doi_drugStimulants" count="3"/>
+	</challenge>
+	<challenge name="bb7doi_challengeTreatSSleepDeprivation" title_key="bb7doiChallengeTreatSSleepDeprivation" icon="ui_game_symbol_fatigued" group="7daysOfInsomnia" 
+	short_description_key="bb7doiChallengeTreatSSleepDeprivationShort" description_key="bb7doiChallengeTreatSSleepDeprivationDesc"
+	reward_text_key="challenge_reward_10000xp" reward_event="challenge_reward_10000">
+		<objective type="CureDebuff" debuff="bb7doi_buffDummyDeprivation2" item="bb7doi_drugStimulants" count="5"/>
+	</challenge>
+	<challenge name="bb7doi_challenge7daysOfInsomnia" title_key="bb7doiChallengeSurvive7DaysAwake" icon="ui_game_symbol_clock" group="7daysOfInsomnia" 
+	short_description_key="bb7doiChallengeSurvive7DaysAwakeShort" description_key="bb7doiChallengeSurvive7DaysAwakeDesc"
+	reward_text_key="challenge_reward_10000xp" reward_event="challenge_reward_10000">
+		<objective type="CureDebuff" debuff="bb7doi_buffDummy7daysAwake" item="bb7doi_drugSedatives" count="1"/>
+	</challenge>
+</insertAfter>
+</Byteblazar>

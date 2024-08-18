@@ -1,0 +1,71 @@
+<configs>
+
+<append xpath="/item_modifiers">
+<!--
+	<item_modifier name="modGunBayonet" installable_tags="barrelAttachment,gun,ranged,perkBrawler,perkJavelinMaster" modifier_tags="barrelAttachment" blocked_tags="noMods,noBlades" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="UnlockedBy" value="modGunBayonetSchematic"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<property name="CustomIcon" value="M9_Bayonet"/>
+		<property name="CustomIconTint" value="255,0,128"/>
+		
+		<effect_group tiered="false">
+			<passive_effect name="BlockDamage" operation="perc_add" value=".1"/>
+			<passive_effect name="DegradationPerUse" operation="perc_add" value="-.05" tags="perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin"/>
+		</effect_group>
+		
+		<effect_group tiered="false">
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="10"/>
+			<requirement name="CVarCompare" cvar="bleedCounter" operation="LT" value="@$maxBleedCounter" target="other"/>
+				<triggered_effect trigger="onSelfPrimaryActionRayHit" action="ModifyCVar" target="other" cvar="bleedCounter" operation="add" value="1"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="40"/>
+			<requirement name="CVarCompare" cvar="bleedCounter" operation="LT" value="@$maxBleedCounter" target="other"/>
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="ModifyCVar" target="other" cvar="bleedCounter" operation="add" value="1"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="CVarCompare" cvar="bleedCounter" operation="GT" value="0" target="other"/>
+				<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddBuff" target="other" buff="buffInjuryBleeding"/>
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" target="other" buff="buffInjuryBleeding"/>
+		</effect_group>
+		<effect_group tiered="false" name="mod effects">
+			<requirement name="ProgressionLevel" progression_name="perkDeepCuts" operation="GT" value="1"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value=".1"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value=".15"/>
+				<passive_effect name="DismemberChance" operation="base_add" value="20"/>
+		</effect_group>
+	</item_modifier>
+-->
+
+<!-- WEAPON MODIFIER TO INCREASE DismemberChance and bleeding ;bladeSkill,perkNightStalkerBlades,perkDeepCuts -->
+<item_modifier name="modMeleeSharpenedBlade" installable_tags="NobleKatanaSword" modifier_tags="damage" blocked_tags="noMods,noBlades" type="attachment">
+		<property name="Extends" value="modGeneralMaster"/>
+		<property name="UnlockedBy" value="modMeleeSharpenedBladeSchematic"/>
+		<property name="DescriptionKey" value="modMeleeSharpenedBladeDesc"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<property name="CustomIcon" value="modMeleeTemperedBlade"/>
+		<property name="CustomIconTint" value="161,229,237"/>
+		
+		<effect_group tiered="false">
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="10"/>
+			<requirement name="CVarCompare" cvar="bleedCounter" operation="LT" value="@$maxBleedCounter" target="other"/>
+				<triggered_effect trigger="onSelfPrimaryActionRayHit" action="ModifyCVar" target="other" cvar="bleedCounter" operation="add" value="1"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="CVarCompare" cvar="bleedCounter" operation="GT" value="0" target="other"/>
+				<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddBuff" target="other" buff="buffInjuryBleeding"/>
+		</effect_group>
+		<effect_group tiered="false" name="Sharpness">
+			<passive_effect name="DismemberChance" operation="base_add" value=".6" tags="primary,secondary,perkDeepCuts"/>
+		</effect_group>
+	</item_modifier>
+
+</append>
+
+<!-- MAKE IT SO THE NEW WPNS CAN USE SOME MODIFIERS -->
+<csv xpath="//item_modifier[@name='modMeleeTemperedBlade']/@installable_tags" delim="," op="add" >knife,machete,M9_Bayonet,NobleSamuraiSword,NobleKatanaSword</csv>
+<csv xpath="//item_modifier[@name='modMeleeSerratedBlade']/@installable_tags" delim="," op="add" >M9_Bayonet</csv>
+<csv xpath="//item_modifier[@name='modMeleeSerratedBlade']/@blocked_tags" delim="," op="add" >NobleSamuraiSword,NobleKatanaSword</csv>
+
+</configs>

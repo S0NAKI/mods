@@ -1,0 +1,1 @@
+Just drop the folder into your mods folder and it should work.

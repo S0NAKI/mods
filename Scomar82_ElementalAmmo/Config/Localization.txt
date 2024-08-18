@@ -1,0 +1,25 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german
+ammo9mmFire,items,Ammo,,,9mm Fire Ammo,,9mm Feuer-Munition
+ammo9mmFireDesc,items,Ammo,,,Fire Ammo sets targets on fire,,Feuer-Munition setzt Ziele in Brand
+ammo762mmFire,items,Ammo,,,7.62mm Fire Ammo,,7.62mm Feuer-Munition
+ammo762mmFireDesc,items,Ammo,,,Fire Ammo sets targets on fire,Feuer-Munition setzt Ziele in Brand
+ammo44MagnumFire,items,Ammo,,,44 Magnum Fire Ammo,,.44 Magnum Feuer-Munition
+ammo44MagnumFireDesc,items,Ammo,,,Fire Ammo sets targets on fire,,Feuer-Munition setzt Ziele in Brand
+ammoShotgunSlugFire,items,Ammo,,,Shotgun Fire Slug,,Schrotflinten Feuer-Geschoss
+ammoShotgunSlugFireDesc,items,Ammo,,,Fire Ammo sets targets on fire,,Feuer-Munition setzt Ziele in Brand
+ammo9mmLightning,items,Ammo,,,9mm Lightning Ammo,,9mm Blitzschlag-Munition
+ammo9mmLightningDesc,items,Ammo,,,Lightning Ammo electrifies the target,,Blitzschlag-Munition elektrifiziert das Ziel
+ammo762mmLightning,items,Ammo,,,7.62mm Lightning Ammo,,7.62mm Blitzschlag-Munition
+ammo762mmLightningDesc,items,Ammo,,,Lightning Ammo electrifies the target,,Blitzschlag-Munition elektrifiziert das Ziel
+ammo44MagnumLightning,items,Ammo,,,44 Magnum Lightning Ammo,,.44 Magnum Blitzschlag-Munition
+ammo44MagnumLightningDesc,items,Ammo,,,Lightning Ammo electrifies the target,,Blitzschlag-Munition elektrifiziert das Ziel
+ammoShotgunSlugLightning,item,Ammo,,,Shotgun Lightning Slug,,Schrotflinten Blitzschlag-Geschoss
+ammoShotgunSlugLightningDesc,item,Ammo,,,Lightning Ammo electrifies the target,,Blitzschlag-Munition elektrifiziert das Ziel
+ammoBundle9mmFire,items,Ammo,,,Box of 9mm Fire Ammo (100),,Kiste mit 9mm-Feuer-Munition (100)
+ammoBundle762mmFire,items,Ammo,,,Box of 7.62mm Fire Ammo (100),,Kiste mit 7.62mm-Feuer-Munition (100)
+ammoBundle44MagnumFire,items,Ammo,,,Box of .44 Magnum Fire Ammo (100),,Kiste mit .44 Magnum-Feuer-Munition (100)
+ammoBundleShotgunSlugFire,items,Ammo,,,Box of Shotgun Fire Slug (100),,Kiste mit Schrotflinten Feuer-Geschoss (100)
+ammoBundle9mmLightning,items,Ammo,,,Box of 9mm Lightning Ammo (100),,Kiste mit 9mm-Blitzschlag-Munition (100)
+ammoBundle762mmLightning,items,Ammo,,,Box of 7.62mm Lightning Ammo (100),,Kiste mit 7.62mm-Blitzschlag-Munition (100)
+ammoBundle44MagnumLightning,items,Ammo,,,Box of .44 Magnum Lightning Ammo (100),,Kiste mit .44 Magnum-Blitzschlag-Munition (100)
+ammoBundleShotgunSlugLightning,items,Ammo,,,Box of Shotgun Lightning Slug (100),,Kiste mit Schrotflinten Blitzschlag-Geschoss (100)

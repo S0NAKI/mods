@@ -1,0 +1,190 @@
+<ScriptsVanillaExtended-theGourmet>
+
+	<append xpath="/ui_display_info/item_display">
+		
+		<!-- Drinks -->
+		
+		<item_display_info display_type="waterRum" display_group="groupConsumables">
+			<display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+			<display_entry name="dEntityDamageBrawling" title_key="statEntityDamageBrawling" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="dStunResist" title_key="statStunResist" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="waterVodka" display_group="groupConsumables">
+			<display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+			<display_entry name="dEntityDamage" title_key="statEntityDamageMelee" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="dStunResist" title_key="statStunResist" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="waterCoitusOnTheBeach" display_group="groupConsumables">
+			<display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+			<display_entry name="dBartering" title_key="statBarteringSellBuy" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="waterMojito" display_group="groupConsumables">
+			<display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+			<display_entry name="dPlayerExpGain" title_key="statShowPlayerExpGain" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="waterPinaColada" display_group="groupConsumables">
+			<display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+			<display_entry name="dLootStageFlat" title_key="statLootStage" display_leading_plus="true"/>
+			<display_entry name="dLootStagePerc" title_key="statLootStage" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="waterXcalibersQuest" display_group="groupConsumables">
+			<display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+			<display_entry name="dMaxHealthBonus" title_key="statMaxHealthBonus" display_leading_plus="true"/>
+			<display_entry name="dBuffResistance" title_key="statBuffResistance" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="dNaturalCritHealing" title_key="statNaturalCritHealing" display_type="Percent"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="waterCoffeeDeKlutz" display_group="groupConsumables">
+			<display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+			<display_entry name="dStaminaRegen" title_key="statStaminaRegen" display_type="Percent"/>
+			<display_entry name="dRunSpeed" title_key="statRunSpeed" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="waterMarkosBane" display_group="groupConsumables">
+			<display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+			<display_entry name="dEntityDamage" title_key="statEntityDamageRanged" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="dPlayerExpGain" title_key="statShowPlayerExpGain" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="waterFilbertsDelight" display_group="groupConsumables">
+			<display_entry name="dCarryCapacity" title_key="statCarryCapacity" display_leading_plus="true"/>
+			<display_entry name="dRunSpeed" title_key="statRunSpeed" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="waterWolfOnTheIce" display_group="groupConsumables">
+			<display_entry name="dEntityDamageSneak" title_key="statEntityDamageSneak" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+			<display_entry name="dNoiseMultiplier" title_key="statNoiseReduction" display_type="Percent"/>
+		</item_display_info>
+		
+		<item_display_info display_type="waterDadricksIslandBreeze" display_group="groupConsumables">
+			<display_entry name="dWalkSpeed" title_key="statWalkSpeed" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="dJumpStrength" title_key="statJumpStrength" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="waterJTKePartyPunch" display_group="groupConsumables">
+			<display_entry name="dEntityDamage" title_key="statEntityDamageMelee" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="waterJivaiiRocketFuel" display_group="groupConsumables">
+			<display_entry name="dJumpStrength" title_key="statJumpStrength" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="waterJensColdBrew" display_group="groupConsumables">
+			<display_entry name="dDiseaseResist" title_key="statDiseaseResist" display_type="Percent"/>
+			<display_entry name="dStopsWeakness" title_key="statStopsWeakness" display_type="Percent"/>
+			<display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="waterScriptsMoistElixir" display_group="groupConsumables">
+			<display_entry name="dHarvestMining" title_key="statHarvestMining" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="dStaminaMax" title_key="statMaxStaminaBonus" display_leading_plus="true"/>
+			<display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="foodNachosAndSalsa" display_group="groupConsumables">
+			<display_entry name="dEntityDamage" title_key="statEntityDamageMelee" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="dStunResist" title_key="statStunResist" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="waterWhiskeysWhiskey" display_group="groupConsumables">
+			<display_entry name="dHarvestMining" title_key="statHarvestMining" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="dStaminaMax" title_key="statMaxStaminaBonus" display_leading_plus="true"/>
+			<display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+		
+		<item_display_info display_type="foodPancakesAndSyrup" display_group="groupConsumables">
+			<display_entry name="dEntityDamageSneak" title_key="statEntityDamageSneak" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+			<display_entry name="dNoiseMultiplier" title_key="statNoiseReduction" display_type="Percent"/>
+		</item_display_info>
+		
+		<item_display_info display_type="waterSaksSpecialBrew" display_group="groupConsumables">
+			<display_entry name="dDiseaseResist" title_key="statDiseaseResist" display_type="Percent"/>
+			<display_entry name="dStunResist" title_key="statStunResist" display_type="Percent" />
+			<display_entry name="dMaxHealthBonus" title_key="statMaxHealthBonus" display_leading_plus="true"/>
+			<display_entry name="dBuffResistance" title_key="statBuffResistance" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="dNaturalCritHealing" title_key="statNaturalCritHealing" display_type="Percent"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+			<display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+		</item_display_info>
+		
+		<item_display_info display_type="waterSagesSingularity" display_group="groupConsumables">
+			<display_entry name="dCraftingTime" title_key="statCraftingTime" display_type="Percent" display_leading_plus="true" negative_preferred="true"/>
+			<display_entry name="dRunSpeed" title_key="statRunSpeed" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+			<display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+		</item_display_info>
+		
+	<!-- Food stuff -->
+		
+		<item_display_info display_type="foodRawSVETG" display_group="groupConsumables">
+			<display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+			<display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+			<display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+			<display_entry name="ddummyNoBonus" title_key="statFoodStaminaBonus" display_type="Bool"/>
+		</item_display_info>
+		
+		<item_display_info display_type="foodSVETG" display_group="groupConsumables">
+			<display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
+			<display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+			<display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+			<display_entry name="ddummyNoBonus" title_key="statFoodStaminaBonus" display_type="Bool"/>
+		</item_display_info>
+		
+	</append>
+	
+	<append xpath="/ui_display_info/crafting_category_display">
+			<crafting_category_list display_type="SVETGStove">
+				<crafting_category name="CFFood/Cooking" icon="ui_game_symbol_fork" display_name="lblCategoryFood" />
+				<crafting_category name="CFDrink/Cooking" icon="ui_game_symbol_thirst" display_name="lblCategoryDrink" />
+			</crafting_category_list>
+	</append>
+	
+	<append xpath="/ui_display_info/crafting_category_display">
+			<crafting_category_list display_type="SVETGCuttingBoard">
+				<crafting_category name="CFFood/Cooking" icon="ui_game_symbol_fork" display_name="lblCategoryFood" />
+			</crafting_category_list>
+	</append>
+	
+	<append xpath="/ui_display_info/crafting_category_display">
+			<crafting_category_list display_type="SVETGBarCounter">
+				<crafting_category name="CFDrink/Cooking" icon="ui_game_symbol_thirst" display_name="lblCategoryDrink" />
+			</crafting_category_list>
+	</append>
+	
+	<append xpath="/ui_display_info/crafting_category_display">
+			<crafting_category_list display_type="SVETGButcherTable">
+				<crafting_category name="CFFood/Cooking" icon="ui_game_symbol_fork" display_name="lblCategoryFood" />
+				<crafting_category name="Resources" icon="ui_game_symbol_resource" display_name="lblCategoryResources" />
+			</crafting_category_list>
+	</append>
+	
+</ScriptsVanillaExtended-theGourmet>

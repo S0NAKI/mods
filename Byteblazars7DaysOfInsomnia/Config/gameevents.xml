@@ -1,0 +1,7 @@
+<Byteblazar>
+<insertBefore xpath="//action_sequence[@name='quest_poi_lights_off']">
+	<action_sequence name="bb7doi_challenge_group_reward_7daysOfInsomnia" template="challenge_group_reward_homesteading">
+		<variable name="quest" value="bb7doi_challengegroup_reward_7daysOfInsomnia" />
+	</action_sequence>
+</insertBefore>
+</Byteblazar>

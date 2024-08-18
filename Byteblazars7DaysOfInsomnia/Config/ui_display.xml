@@ -1,0 +1,16 @@
+<Byteblazar>
+<append xpath="ui_display_info/item_display">
+
+	<item_display_info display_type="bb7doi_medicalSedatives" display_group="groupConsumables">
+		<display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+		<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+	</item_display_info>
+	
+	<item_display_info display_type="bb7doi_medicalStimulants" display_group="groupConsumables">
+		<display_entry name="dStaminaRegen" title_key="statStaminaRegen" display_type="Percent"/>
+		<display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+		<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+	</item_display_info>
+
+</append>
+</Byteblazar>

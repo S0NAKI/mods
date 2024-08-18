@@ -1,0 +1,3026 @@
+<DW420_DeXp_ItemMods>
+<append xpath="/item_modifiers">
+<!--BASIC-->
+<!-- EMPERORS DYE -DISABLED UNTIL ARMOUR DYES WORK-
+	<item_modifier name="modDyeBasicEmperors420" installable_tags="clothing,armor" modifier_tags="dye, modDyeBasicEmperors420" type="attachment" cosmetic_install_chance="0">
+		<property name="DescriptionKey" value="modDyeBasicEmperors420Desc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value=""/>
+			<property name="UMA.Overlay0" value=""/>
+			<property name="UMA.ShowAltHair" value="false"/>
+		</item_property_overrides>
+	</item_modifier>
+	-->
+	<item_modifier name="modDyeBasicAmber420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeBasicAmber420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="255, 215, 70"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="255, 215, 70"/>
+			<property name="CustomIconTint" value="255, 215, 70"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeBasicBlue420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye,modDyeBasicBlue420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="62, 187, 230"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="62, 187, 230"/>
+			<property name="CustomIconTint" value="62, 187, 230"/>
+		</item_property_overrides>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeBasicBrown420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeBasicBrown420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="148, 109, 64"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="148, 109, 64"/>
+			<property name="CustomIconTint" value="148, 109, 64"/>
+		</item_property_overrides>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeBasicFuchsia420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeBasicFuchsia420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="171, 67, 171"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="171, 67, 171"/>
+			<property name="CustomIconTint" value="171, 67, 171"/>
+		</item_property_overrides>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeBasicGreen420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeBasicGreen420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="36, 145, 36"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="36, 145, 36"/>
+			<property name="CustomIconTint" value="36, 145, 36"/>
+		</item_property_overrides>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeBasicGrey420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, " type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="85,85,85"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="85,85,85"/>
+			<property name="CustomIconTint" value="85,85,85"/>
+		</item_property_overrides>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeBasicIndigo420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeBasicIndigo420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="29, 81, 153"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="29, 81, 153"/>
+			<property name="CustomIconTint" value="29, 81, 153"/>
+		</item_property_overrides>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeBasicLime420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeBasicGrey420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="192, 212, 70"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="192, 212, 70"/>
+			<property name="CustomIconTint" value="192, 212, 70"/>
+		</item_property_overrides>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeBasicOrange420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeBasicOrange420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="232, 147, 72"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="232, 147, 72"/>
+			<property name="CustomIconTint" value="232, 147, 72"/>
+		</item_property_overrides>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeBasicPink420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeBasicPink420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="255, 168, 212"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="255, 168, 212"/>
+			<property name="CustomIconTint" value="255, 168, 212"/>
+		</item_property_overrides>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeBasicPurple420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeBasicPurple420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="143, 60, 163"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="143, 60, 163"/>
+			<property name="CustomIconTint" value="143, 60, 163"/>
+		</item_property_overrides>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeBasicRed420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeBasicRed420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="150,0,0"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="150,0,0"/>
+			<property name="CustomIconTint" value="150,0,0"/>
+		</item_property_overrides>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeBasicRose420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeBasicRose420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="199, 40, 127"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="199, 40, 127"/>
+			<property name="CustomIconTint" value="199, 40, 127"/>
+		</item_property_overrides>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeBasicSilver420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeBasicSilver420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="115,115,115"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="115,115,115"/>
+			<property name="CustomIconTint" value="115,115,115"/>
+		</item_property_overrides>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeBasicTeal420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeBasicTeal420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="39, 194, 194"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="39, 194, 194"/>
+			<property name="CustomIconTint" value="39, 194, 194"/>
+		</item_property_overrides>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeBasicTrueBlack420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeBasicTrueBlack420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="5,5,5"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="5,5,5"/>
+			<property name="CustomIconTint" value="5,5,5"/>
+		</item_property_overrides>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeBasicBlack420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeBasicBlack420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="20,20,20"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="20,20,20"/>
+			<property name="CustomIconTint" value="20,20,20"/>
+		</item_property_overrides>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeBasicViolet420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeBasicViolet420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="100, 90, 173"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="100, 90, 173"/>
+			<property name="CustomIconTint" value="100, 90, 173"/>
+		</item_property_overrides>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeBasicYellow420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeBasicYellow420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="255, 239, 82"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="255, 239, 82"/>
+			<property name="CustomIconTint" value="255, 239, 82"/>
+		</item_property_overrides>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+<!--ARMED FORCES-->	
+	<item_modifier name="modDyeAFGreyAsh420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeAFGreyAsh420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="178,190,181"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="178,190,181"/>
+			<property name="CustomIconTint" value="178,190,181"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeAFGreyBlackCoral420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeAFGreyBlackCoral420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="84,98,111"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="84,98,111"/>
+			<property name="CustomIconTint" value="84,98,111"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeAFGreyCadet420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeAFGreyCadet420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="83,104,114"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="83,104,114"/>
+			<property name="CustomIconTint" value="83,104,114"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeAFGreyCharcoal420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeAFGreyCharcoal420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="54,69,79"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="54,69,79"/>
+			<property name="CustomIconTint" value="54,69,79"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeAFGreyDarkSlate420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeAFGreyDarkSlate420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="47,79,79"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="47,79,79"/>
+			<property name="CustomIconTint" value="47,79,79"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeAFGreyGunmetal420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeAFGreyGunmetal420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="42,52,57"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="42,52,57"/>
+			<property name="CustomIconTint" value="42,52,57"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeAFGreenArmy420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeAFGreenArmy420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="75,83,32"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="75,83,32"/>
+			<property name="CustomIconTint" value="75,83,32"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeAFGreenArtichoke420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeAFGreenArtichoke420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="143,151,121"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="143,151,121"/>
+			<property name="CustomIconTint" value="143,151,121"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeAFGreenDarkJungle420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeAFGreenDarkJungle420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="26,26,33"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="26,26,33"/>
+			<property name="CustomIconTint" value="26,26,33"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeAFGreenDarkMoss420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeAFGreenDarkMoss420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="85,107,47"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="85,107,47"/>
+			<property name="CustomIconTint" value="85,107,47"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeAFGreenHunter420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeAFGreenHunter420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="53,94,59"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="53,94,59"/>
+			<property name="CustomIconTint" value="53,94,59"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeAFGreenMustard420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeAFGreenMustard420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="110,110,48"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="110,110,48"/>
+			<property name="CustomIconTint" value="110,110,48"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeAFGreenOldMoss420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeAFGreenOldMoss420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="134,126,54"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="134,126,54"/>
+			<property name="CustomIconTint" value="134,126,54"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeAFGreenOlive420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeAFGreenOlive420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="128,128,0"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="128,128,0"/>
+			<property name="CustomIconTint" value="128,128,0"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeAFGreenOliveLight420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeAFGreenOliveLight420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="184,188,134"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="184,188,134"/>
+			<property name="CustomIconTint" value="184,188,134"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeAFGreenBlackOlive420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeAFGreenBlackOlive420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="59,60,54"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="59,60,54"/>
+			<property name="CustomIconTint" value="59,60,54"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeAFBrownDarkKhaki420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeAFBrownDarkKhaki420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="189,183,107"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="189,183,107"/>
+			<property name="CustomIconTint" value="189,183,107"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeAFBrownKhaki420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeAFBrownKhaki420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="195,176,145"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="195,176,145"/>
+			<property name="CustomIconTint" value="195,176,145"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeAFBrownSand420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeAFBrownSand420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="194,178,128"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="194,178,128"/>
+			<property name="CustomIconTint" value="194,178,128"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeAFBrownDesert420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeAFBrownDesert420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="193,154,107"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="193,154,107"/>
+			<property name="CustomIconTint" value="193,154,107"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeAFBrownDirt420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeAFBrownDirt420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="155,118,83"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="155,118,83"/>
+			<property name="CustomIconTint" value="155,118,83"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeAFBrownEcru420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeAFBrownEcru420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="194,178,128"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="194,178,128"/>
+			<property name="CustomIconTint" value="194,178,128"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeAFBrownFieldDrab420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeAFBrownFieldDrab420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="108,84,30"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="108,84,30"/>
+			<property name="CustomIconTint" value="108,84,30"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeAFBluePolice420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeAFBluePolice420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="55,79,107"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="55,79,107"/>
+			<property name="CustomIconTint" value="55,79,107"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeAFBluePrussian420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeAFBluePrussian420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="0,49,83"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="0,49,83"/>
+			<property name="CustomIconTint" value="0,49,83"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeAFBlueQueen420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeAFBlueQueen420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="67,107,149"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="67,107,149"/>
+			<property name="CustomIconTint" value="67,107,149"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeAFBlueNavy420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeAFBlueNavy420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="0,0,128"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="0,0,128"/>
+			<property name="CustomIconTint" value="0,0,128"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeAFBlueIndigo420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeAFBlueIndigo420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="0,65,106"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="0,65,106"/>
+			<property name="CustomIconTint" value="0,65,106"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeAFBlueMaastricht420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeAFBlueMaastricht420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="0,28,61"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="0,28,61"/>
+			<property name="CustomIconTint" value="0,28,61"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+<!--LEATHER-->	
+	<item_modifier name="modDyeLeatherBlack420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeLeatherBlack420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="37,53,71"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="37,53,71"/>
+			<property name="CustomIconTint" value="37,53,71"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeLeatherTanned420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeLeatherTanned420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="197,150,94"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="197,150,94"/>
+			<property name="CustomIconTint" value="197,150,94"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeLeatherDarkRed420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeLeatherDarkRed420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="86,16,3"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="86,16,3"/>
+			<property name="CustomIconTint" value="86,16,3"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeLeatherBrown420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeLeatherBrown420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="151,87,43"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="151,87,43"/>
+			<property name="CustomIconTint" value="151,87,43"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeLeatherSeal420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeLeatherSeal420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="96,45,13"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="96,45,13"/>
+			<property name="CustomIconTint" value="96,45,13"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeLeatherRusset420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeLeatherRusset420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="137,81,37"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="137,81,37"/>
+			<property name="CustomIconTint" value="137,81,37"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeLeatherDeer420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeLeatherDeer420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="178,128,83"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="178,128,83"/>
+			<property name="CustomIconTint" value="178,128,83"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeLeatherTuscan420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeLeatherTuscan420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="111,78,55"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="111,78,55"/>
+			<property name="CustomIconTint" value="111,78,55"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeLeatherSaddle420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeLeatherSaddle420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="139,69,19"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="139,69,19"/>
+			<property name="CustomIconTint" value="139,69,19"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeLeatherSienna420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeLeatherSienna420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="136,45,23"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="136,45,23"/>
+			<property name="CustomIconTint" value="136,45,23"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+<!--MAXIMUM-->
+	<item_modifier name="modDyeMaximumBlue420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeMaximumBlue420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="71,171,204"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="71,171,204"/>
+			<property name="CustomIconTint" value="71,171,204"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeMaximumBlueGreen420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeMaximumBlueGreen420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="48,191,191"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="48,191,191"/>
+			<property name="CustomIconTint" value="48,191,191"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeMaximumBluePurple420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeMaximumBluePurple420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="172,172,230"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="172,172,230"/>
+			<property name="CustomIconTint" value="172,172,230"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeMaximumGreen420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeMaximumGreen420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="94,140,49"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="94,140,49"/>
+			<property name="CustomIconTint" value="94,140,49"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeMaximumGreenYellow420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeMaximumGreenYellow420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="217,230,80"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="217,230,80"/>
+			<property name="CustomIconTint" value="217,230,80"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeMaximumOrange420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeMaximumOrange420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="225,91,0"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="225,91,0"/>
+			<property name="CustomIconTint" value="225,91,0"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeMaximumPurple420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeMaximumPurple420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="115,51,128"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="115,51,128"/>
+			<property name="CustomIconTint" value="115,51,128"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeMaximumPink420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeMaximumPink420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="246,165,242"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="246,165,242"/>
+			<property name="CustomIconTint" value="246,165,242"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeMaximumRed420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeMaximumRed420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="217,33,33"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="217,33,33"/>
+			<property name="CustomIconTint" value="217,33,33"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeMaximumRedPurple420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeMaximumRedPurple420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="166,58,121"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="166,58,121"/>
+			<property name="CustomIconTint" value="166,58,121"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeMaximumViolet420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeMaximumViolet420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="137,47,119"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="137,47,119"/>
+			<property name="CustomIconTint" value="137,47,119"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeMaximumYellow420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeMaximumYellow420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="250,250,55"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="250,250,55"/>
+			<property name="CustomIconTint" value="250,250,55"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeMaximumYellowRed420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeMaximumYellowRed420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="242,186,73"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="242,186,73"/>
+			<property name="CustomIconTint" value="242,186,73"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+<!--METALLIC-->
+	<item_modifier name="modDyeMetallicBlue420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeMetallicBlue420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="50,82,123"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="50,82,123"/>
+			<property name="CustomIconTint" value="50,82,123"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeMetallicBronze420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeMetallicBronze420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="169,113,66"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="169,113,66"/>
+			<property name="CustomIconTint" value="169,113,66"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeMetallicBrown420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeMetallicBrown420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="172,67,19"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="172,67,19"/>
+			<property name="CustomIconTint" value="172,67,19"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeMetallicGold420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeMetallicGold420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="211,175,55"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="211,175,55"/>
+			<property name="CustomIconTint" value="211,175,55"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeMetallicGreen420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeMetallicGreen420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="41,110,1"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="41,110,1"/>
+			<property name="CustomIconTint" value="41,110,1"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeMetallicOrange420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeMetallicOrange420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="218,104,15"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="218,104,15"/>
+			<property name="CustomIconTint" value="218,104,15"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeMetallicPink420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeMetallicPink420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="237,166,196"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="237,166,196"/>
+			<property name="CustomIconTint" value="237,166,196"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeMetallicRed420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeMetallicRed420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="166,44,43"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="166,44,43"/>
+			<property name="CustomIconTint" value="166,44,43"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeMetallicSeaweed420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeMetallicSeaweed420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="10,126,140"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="10,126,140"/>
+			<property name="CustomIconTint" value="10,126,140"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeMetallicSilver420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeMetallicSilver420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="168,169,173"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="168,169,173"/>
+			<property name="CustomIconTint" value="168,169,173"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeMetallicSunburst420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeMetallicSunburst420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="156,124,56"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="156,124,56"/>
+			<property name="CustomIconTint" value="156,124,56"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeMetallicViolet420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeMetallicViolet420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="90,10,145"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="90,10,145"/>
+			<property name="CustomIconTint" value="90,10,145"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeMetallicYellow420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeMetallicYellow420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="253,204,13"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="253,204,13"/>
+			<property name="CustomIconTint" value="253,204,13"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+<!--NEON-->
+	<item_modifier name="modDyeNeonBlue420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeNeonBlue420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="0,0,255"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="0,0,255"/>
+			<property name="CustomIconTint" value="0,0,255"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeNeonCyan420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeNeonCyan420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="0,255,255"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="0,255,255"/>
+			<property name="CustomIconTint" value="0,255,255"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeNeonFuchsia420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeNeonFuchsia420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="255,0,255"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="255,0,255"/>
+			<property name="CustomIconTint" value="255,0,255"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeNeonGreen420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeNeonGreen420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="0,255,0"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="0,255,0"/>
+			<property name="CustomIconTint" value="0,255,0"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeNeonLime420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeNeonLime420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="150,255,0"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="150,255,0"/>
+			<property name="CustomIconTint" value="150,255,0"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeNeonOrange420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeNeonOrange420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="255,100,0"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="255,100,0"/>
+			<property name="CustomIconTint" value="255,100,0"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeNeonPink420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeNeonPink420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="255,0,100"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="255,0,100"/>
+			<property name="CustomIconTint" value="255,0,100"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeNeonPurple420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeNeonPurple420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="100,0,255"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="100,0,255"/>
+			<property name="CustomIconTint" value="100,0,255"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeNeonRed420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeNeonRed420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="255,0,0"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="255,0,0"/>
+			<property name="CustomIconTint" value="255,0,0"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeNeonTurquoise420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeNeonTurquoise420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="0,255,150"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="0,255,150"/>
+			<property name="CustomIconTint" value="0,255,150"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeNeonYellow420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeNeonYellow420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="255,255,0"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="255,255,0"/>
+			<property name="CustomIconTint" value="255,255,0"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+<!--PALE-->
+	<item_modifier name="modDyePaleAqua420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePaleAqua420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="188,212,230"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="188,212,230"/>
+			<property name="CustomIconTint" value="188,212,230"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePaleBlue420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePaleBlue420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="175,238,238"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="175,238,238"/>
+			<property name="CustomIconTint" value="175,238,238"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePaleBrown420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePaleBrown420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="152,118,84"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="152,118,84"/>
+			<property name="CustomIconTint" value="152,118,84"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePaleCarmine420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePaleCarmine420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="175,64,53"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="175,64,53"/>
+			<property name="CustomIconTint" value="175,64,53"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePaleCerulean420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePaleCerulean420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="155,196,226"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="155,196,226"/>
+			<property name="CustomIconTint" value="155,196,226"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePaleChestnut420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePaleChestnut420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value=" 221,173,175"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value=" 221,173,175"/>
+			<property name="CustomIconTint" value=" 221,173,175"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePaleCopper420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePaleCopper420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value=" 218,138,103"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value=" 218,138,103"/>
+			<property name="CustomIconTint" value=" 218,138,103"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePaleCornflower420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePaleCornflower420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value=" 171,205,239"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value=" 171,205,239"/>
+			<property name="CustomIconTint" value=" 171,205,239"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePaleCyan420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePaleCyan420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="135,211,248"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="135,211,248"/>
+			<property name="CustomIconTint" value="135,211,248"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePaleGold420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePaleGold420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="230,190,138"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="230,190,138"/>
+			<property name="CustomIconTint" value="230,190,138"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePaleGoldenrod420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePaleGoldenrod420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="238,232,170"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="238,232,170"/>
+			<property name="CustomIconTint" value="238,232,170"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePaleGreen420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePaleGreen420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="152,251,152"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="152,251,152"/>
+			<property name="CustomIconTint" value="152,251,152"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePaleLavender420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePaleLavender420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="220,208,255"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="220,208,255"/>
+			<property name="CustomIconTint" value="220,208,255"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePaleMagenta420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePaleMagenta420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="249,132,229"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="249,132,229"/>
+			<property name="CustomIconTint" value="249,132,229"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePaleRose420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePaleRose420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="255,153,204"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="255,153,204"/>
+			<property name="CustomIconTint" value="255,153,204"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePalePink420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePalePink420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="250,218,221"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="250,218,221"/>
+			<property name="CustomIconTint" value="250,218,221"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePalePlum420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePalePlum420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="221,160,221"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="221,160,221"/>
+			<property name="CustomIconTint" value="221,160,221"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePaleRed420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePaleRed420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="219,112,147"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="219,112,147"/>
+			<property name="CustomIconTint" value="219,112,147"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePaleRobinEgg420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePaleRobinEgg420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="150,222,209"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="150,222,209"/>
+			<property name="CustomIconTint" value="150,222,209"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePaleSilver420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePaleSilver420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="201,192,187"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="201,192,187"/>
+			<property name="CustomIconTint" value="201,192,187"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePaleSpringBud420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePaleSpringBud420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="236,235,189"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="236,235,189"/>
+			<property name="CustomIconTint" value="236,235,189"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePaleTaupe420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePaleTaupe420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="188,152,126"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="188,152,126"/>
+			<property name="CustomIconTint" value="188,152,126"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePaleTurquoise420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePaleTurquoise420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="175,238,238"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="175,238,238"/>
+			<property name="CustomIconTint" value="175,238,238"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePaleViolet420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePaleViolet420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="204,153,255"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="204,153, 255"/>
+			<property name="CustomIconTint" value="204,153, 255"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+<!--PASTEL-->
+	<item_modifier name="modDyePastelBlue420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePastelBlue420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="174,198,207"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="174,198,207"/>
+			<property name="CustomIconTint" value="174,198,207"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePastelBrown420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePastelBrown420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="130,105,83"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="130,105,83"/>
+			<property name="CustomIconTint" value="130,105,83"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePastelGrey420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePastelGrey420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="207,207,196"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="207,207,196"/>
+			<property name="CustomIconTint" value="207,207,196"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePastelGreen420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePastelGreen420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="119,221,119"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="119,221,119"/>
+			<property name="CustomIconTint" value="119,221,119"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePastelMagenta420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePastelMagenta420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="244,154,194"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="244,154,194"/>
+			<property name="CustomIconTint" value="244,154,194"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePastelOrange420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePastelOrange420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="255,179,71"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="255,179,71"/>
+			<property name="CustomIconTint" value="255,179,71"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePastelPink420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePastelPink420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="222,165,164"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="222,165,164"/>
+			<property name="CustomIconTint" value="222,165,164"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePastelPurple420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePastelPurple420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="179,158,181"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="179,158,181"/>
+			<property name="CustomIconTint" value="179,158,181"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePastelRed420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePastelRed420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="166,44,43"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="166,44,43"/>
+			<property name="CustomIconTint" value="166,44,43"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePastelViolet420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePastelViolet420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="255,105,97"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="255,105,97"/>
+			<property name="CustomIconTint" value="255,105,97"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePastelYellow420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePastelYellow420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="253,253,150"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="253,253,150"/>
+			<property name="CustomIconTint" value="253,253,150"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+<!--PERSIAN-->	
+	<item_modifier name="modDyePersianBlue420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePersianBlue420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="28,57,187"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="28,57,187"/>
+			<property name="CustomIconTint" value="28,57,187"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePersianGreen420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePersianGreen420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="0,166,147"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="0,166,147"/>
+			<property name="CustomIconTint" value="0,166,147"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePersianIndigo420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePersianIndigo420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="50,18,122"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="50,18,122"/>
+			<property name="CustomIconTint" value="50,18,122"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePersianOrange420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePersianOrange420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="217,144,88"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="217,144,88"/>
+			<property name="CustomIconTint" value="217,144,88"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePersianPink420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePersianPink420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="247,127,190"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="247,127,190"/>
+			<property name="CustomIconTint" value="247,127,190"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePersianPlum420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePersianPlum420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="112,28,28"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="112,28,28"/>
+			<property name="CustomIconTint" value="112,28,28"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePersianRed420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePersianRed420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="204,51,51"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="204,51,51"/>
+			<property name="CustomIconTint" value="204,51,51"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePersianRose420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePersianRose420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="254,40,162"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="254,40,162"/>
+			<property name="CustomIconTint" value="254,40,162"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+<!--PHILLIPINE-->	
+	<item_modifier name="modDyePhillipineBlue420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePhillipineBlue420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="0,56,167"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="0,56,167"/>
+			<property name="CustomIconTint" value="0,56,167"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePhillipineBronze420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePhillipineBronze420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="110,58,7"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="110,58,7"/>
+			<property name="CustomIconTint" value="110,58,7"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePhillipineBrown420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePhillipineBrown420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="93,25,22"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="93,25,22"/>
+			<property name="CustomIconTint" value="93,25,22"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePhillipineGold420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePhillipineGold420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="177,115,4"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="177,115,4"/>
+			<property name="CustomIconTint" value="177,115,4"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePhillipineGreen420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePhillipineGreen420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="0,133,67"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="0,133,67"/>
+			<property name="CustomIconTint" value="0,133,67"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePhillipineOrange420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePhillipineOrange420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="255,115,0"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="255,115,0"/>
+			<property name="CustomIconTint" value="255,115,0"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePhillipinePink420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePhillipinePink420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="255,26,142"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="255,26,142"/>
+			<property name="CustomIconTint" value="255,26,142"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePhillipineRed420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePhillipineRed420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="206,17,39"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="206,17,39"/>
+			<property name="CustomIconTint" value="206,17,39"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePhillipineIndigo420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePhillipineIndigo420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="0,65,106"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="0,65,106"/>
+			<property name="CustomIconTint" value="0,65,106"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePhillipineSilver420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePhillipineSilver420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="179,179,179"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="179,179,179"/>
+			<property name="CustomIconTint" value="179,179,179"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePhillipineSkyBlue420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePhillipineSkyBlue420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="0,102,255"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="0,102,255"/>
+			<property name="CustomIconTint" value="0,102,255"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePhillipineViolet420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePhillipineViolet420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="129,0,127"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="129,0,127"/>
+			<property name="CustomIconTint" value="129,0,127"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePhillipineYellow420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePhillipineYellow420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="254,203,0"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="254,203,0"/>
+			<property name="CustomIconTint" value="254,203,0"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePhillipineGoldenYellow420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePhillipineGoldenYellow420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="253,223,22"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="253,223,22"/>
+			<property name="CustomIconTint" value="253,223,22"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyePhillipineGrey420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyePhillipineGrey420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="140,140,140"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="140,140,140"/>
+			<property name="CustomIconTint" value="140,140,140"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+<!--ROYAL-->
+	<item_modifier name="modDyeRoyalAzure420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeRoyalAzure420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="0,56,168"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="0,56,168"/>
+			<property name="CustomIconTint" value="0,56,168"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeRoyalBlue420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeRoyalBlue420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="0,35,102"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="0,35,102"/>
+			<property name="CustomIconTint" value="0,35,102"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeRoyalBrown420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeRoyalBrown420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="82,59,53"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="82,59,53"/>
+			<property name="CustomIconTint" value="82,59,53"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeRoyalFuchsia420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeRoyalFuchsia420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="202,44,146"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="202,44,146"/>
+			<property name="CustomIconTint" value="202,44,146"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeRoyalGreen420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeRoyalGreen420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="19,98,7"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="19,98,7"/>
+			<property name="CustomIconTint" value="19,98,7"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeRoyalOrange420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeRoyalOrange420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="249,146,69"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="249,146,69"/>
+			<property name="CustomIconTint" value="249,146,69"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeRoyalPink420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeRoyalPink420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="231,56,149"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="231,56,149"/>
+			<property name="CustomIconTint" value="231,56,149"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeRoyalPurple420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeRoyalPurple420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="120,81,169"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="120,81,169"/>
+			<property name="CustomIconTint" value="120,81,169"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeRoyalRed420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeRoyalRed420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="155,28,49"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="155,28,49"/>
+			<property name="CustomIconTint" value="155,28,49"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeRoyalYellow420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeRoyalYellow420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="250,218,94"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="250,218,94"/>
+			<property name="CustomIconTint" value="250,218,94"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+<!--SPANISH-->
+	<item_modifier name="modDyeSpanishBlue420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeSpanishBlue420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="0,112,184"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="0,112,184"/>
+			<property name="CustomIconTint" value="0,112,184"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeSpanishBistre420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeSpanishBistre420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="128,117,50"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="128,117,50"/>
+			<property name="CustomIconTint" value="128,117,50"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeSpanishCarmine420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeSpanishCarmine420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="209,0,71"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="209,0,71"/>
+			<property name="CustomIconTint" value="209,0,71"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeSpanishCrimson420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeSpanishCrimson420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="229,26,76"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="229,26,76"/>
+			<property name="CustomIconTint" value="229,26,76"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeSpanishGreen420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeSpanishGreen420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="0,145,80"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="0,145,80"/>
+			<property name="CustomIconTint" value="0,145,80"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeSpanishOrange420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeSpanishOrange420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="232,97,0"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="232,97,0"/>
+			<property name="CustomIconTint" value="232,97,0"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeSpanishPink420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeSpanishPink420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="247,191,190"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="247,191,190"/>
+			<property name="CustomIconTint" value="247,191,190"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeSpanishRed420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeSpanishRed420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="230,0,38"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="230,0,38"/>
+			<property name="CustomIconTint" value="230,0,38"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeSpanishGrey420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeSpanishGrey420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="152,152,152"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="152,152,152"/>
+			<property name="CustomIconTint" value="152,152,152"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeSpanishPurple420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeSpanishPurple420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="102,3,60"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="102,3,60"/>
+			<property name="CustomIconTint" value="102,3,60"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeSpanishViridian420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeSpanishViridian420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="0,127,92"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="0,127,92"/>
+			<property name="CustomIconTint" value="0,127,92"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeSpanishViolet420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeSpanishViolet420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="76,40,130"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="76,40,130"/>
+			<property name="CustomIconTint" value="76,40,130"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<item_modifier name="modDyeSpanishYellow420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeSpanishYellow420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="246,181,17"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="246,181,17"/>
+			<property name="CustomIconTint" value="246,181,17"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+<!--USER_REQUESTS-->
+	<item_modifier name="modDyeBubbleGumPink420" installable_tags="clothing,armor,weapon,tool,vehicle,drone" modifier_tags="dye, modDyeBubbleGumPink420" type="attachment" cosmetic_install_chance=".10">
+		<property name="DescriptionKey" value="modDyeGroupDesc"/>
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="CustomIcon" value="modDyeWhite"/> <property name="CustomIconTint" value="255,193,204"/>
+		<property name="Material" value="Mpaint"/>
+		<property name="Weight" value="20"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundPickup" value="dye_grab"/>
+		<property name="SoundPlace" value="dye_place"/>
+		<item_property_overrides name="*">
+			<property name="TintColor" value="255,193,204"/>
+			<property name="CustomIconTint" value="255,193,204"/>
+		</item_property_overrides>
+
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+</append>
+</DW420_DeXp_ItemMods>

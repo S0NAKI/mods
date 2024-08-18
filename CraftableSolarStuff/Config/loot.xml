@@ -1,0 +1,6 @@
+<CraftableSolarPanel>
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT2']">
+    <item name="solarbankschematic" loot_prob_template="veryLow"/>
+    <item name="solarcellschematic" loot_prob_template="veryLow"/>
+	</append>
+</CraftableSolarPanel> 

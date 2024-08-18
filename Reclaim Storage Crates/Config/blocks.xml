@@ -1,0 +1,23 @@
+<configs>
+	<remove xpath="/blocks/block[@name='cntWoodWritableCrate']/drop[@event='Destroy']"/>
+	<remove xpath="/blocks/block[@name='cntIronWritableCrate']/drop[@event='Destroy']"/>
+	<remove xpath="/blocks/block[@name='cntSteelWritableCrate']/drop[@event='Destroy']"/>
+		
+		<remove xpath="/blocks/block[@name='cntWoodWritableCrate']/property[@name='DowngradeBlock']"/>
+<append xpath="/blocks/block[@name='cntWoodWritableCrate']">
+	<drop event="Destroy" name="cntWoodWritableCrate" count="1"/>
+	<drop event="Harvest" name="resourceWood" count="0"/>
+</append>
+
+		<remove xpath="/blocks/block[@name='cntIronWritableCrate']/property[@name='DowngradeBlock']"/>
+<append xpath="/blocks/block[@name='cntIronWritableCrate']">
+	<drop event="Destroy" name="cntIronWritableCrate" count="1"/>
+	<drop event="Harvest" name="resourceScrapIron" count="0"/>
+</append>
+
+		<remove xpath="/blocks/block[@name='cntSteelWritableCrate']/property[@name='DowngradeBlock']"/>
+<append xpath="/blocks/block[@name='cntSteelWritableCrate']">
+	<drop event="Destroy" name="cntSteelWritableCrate" count="1"/>
+	<drop event="Harvest" name="resourceScrapIron" count="0"/>
+</append>
+</configs>

@@ -1,0 +1,153 @@
+<Config>
+	<setattribute xpath="/items/item[@name='ammoArrowExploding']/effect_group[@name='ammoArrowExploding']/passive_effect[@name='EntityDamage']" name="tags">perkArchery,perkDemolitionsExpert</setattribute>
+	<set xpath="/items/item[@name='gunBotT1JunkSledge']/effect_group[@name='gunBotT1JunkSledge']/passive_effect[@name='MaxRange']/@value">3.25</set>
+	<set xpath="/items/item[@name='gunBotT1JunkSledge']/effect_group[@name='gunBotT1JunkSledge']/passive_effect[@name='BlockRange']/@value">3.25</set>
+	
+	<!-- Effect from Relic: Mecha Grasp -->
+	<append xpath="/items/item[@name='gunBotT1JunkSledge']">
+		<effect_group name="relic_mechagrasp_shock">
+			<requirement name="HasBuff" buff="buffRelicEquippedMechagrasp"/>
+			<requirement name="HasBuff" buff="buffRelicMechagraspCharge"/>
+			<requirement name="CVarCompare" cvar="stat_mechagrasp_charge" operation="GTE" value="100"/>
+
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="otherAOE" range="4" target_tags="zombie,animal" buff="buffRelicMechagraspShock"/>
+			<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="self" cvar="stat_mechagrasp_charge" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="otherAOE" range="4" target_tags="zombie,animal" buff="buffRelicMechagraspShock"/>
+		</effect_group>
+	</append>
+	
+	
+	<!-- Effect from Relic: Mecha Gladiator -->
+	<!-- DEFAULT MaxRange is set to 2 -->
+	<append xpath="/items/item[@name='gunBotT1JunkSledge']">
+		<effect_group name="relic_mecha_gladiator">
+			<requirement name="HasBuff" buff="buffRelicEquippedMechaGladiator"/>
+			<passive_effect name="MaxRange" operation="base_add" value="1" tags="perkTurrets"/>
+		</effect_group>
+	</append>
+	
+	
+	<!-- Effect from Relic: Combatant's Reach -->
+	<append xpath="/items/item[@name='meleeToolRepairT0StoneAxe' or
+	@name='meleeToolRepairT1ClawHammer' or
+	@name='meleeToolRepairT3Nailgun' or
+	@name='meleeToolAxeT1IronFireaxe' or
+	@name='meleeToolAxeT2SteelAxe' or
+	@name='meleeToolPickT1IronPickaxe' or
+	@name='meleeToolPickT2SteelPickaxe' or
+	@name='meleeToolShovelT0StoneShovel' or
+	@name='meleeToolShovelT1IronShovel' or
+	@name='meleeToolShovelT2SteelShovel' or
+	@name='meleeToolSalvageT1Wrench' or
+	@name='meleeToolSalvageT2Ratchet' or
+	@name='meleeToolSalvageT3ImpactDriver' or
+	@name='meleeWpnBladeT0BoneKnife' or
+	@name='meleeWpnBladeT1HuntingKnife' or
+	@name='meleeWpnBladeT1CandyKnife' or
+	@name='meleeWpnBladeT3Machete' or
+	@name='meleeWpnClubT0WoodenClub' or
+	@name='meleeWpnClubT1BaseballBat' or
+	@name='meleeWpnClubT1CandyClub' or
+	@name='meleeWpnClubT3SteelClub' or
+	@name='meleeWpnBatonT0PipeBaton' or
+	@name='meleeWpnBatonT2StunBaton' or
+	@name='meleeWpnSpearT0StoneSpear' or
+	@name='meleeWpnSpearT1IronSpear' or
+	@name='meleeWpnSpearT3SteelSpear' or
+	@name='meleeWpnSledgeT0StoneSledgehammer' or
+	@name='meleeWpnSledgeT1IronSledgehammer' or
+	@name='meleeWpnSledgeT3SteelSledgehammer' or
+	@name='meleeWpnKnucklesT0LeatherKnuckles' or
+	@name='meleeWpnKnucklesT1IronKnuckles' or
+	@name='meleeWpnKnucklesT3SteelKnuckles']">
+		<effect_group name="relic_combatants_reach">
+			<requirement name="HasBuff" buff="buffRelicEquippedCombatantsReach"/>
+			<passive_effect name="MaxRange" operation="base_add" value="1" />
+			<passive_effect name="BlockRange" operation="base_add" value="1" />
+		</effect_group>
+	</append>
+	
+	
+	<!-- Effect from Relic: Heavy Weight -->
+	<append xpath="/items/item[@name='meleeToolAxeT1IronFireaxe' or
+	@name='meleeToolAxeT2SteelAxe' or
+	
+	@name='meleeWpnSpearT0StoneSpear' or
+	@name='meleeWpnSpearT1IronSpear' or
+	@name='meleeWpnSpearT3SteelSpear' or
+	
+	@name='meleeWpnSledgeT0StoneSledgehammer' or
+	@name='meleeWpnSledgeT1IronSledgehammer' or
+	@name='meleeWpnSledgeT3SteelSledgehammer']">
+		<effect_group name="relic_heavyweight">
+			<requirement name="HasBuff" buff="buffRelicEquippedHeavyWeight"/>
+			<!--   - Attack Speed with Two Handers -->
+			<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.35"/>
+				
+			<!--   + Entity Damage with Two Handers -->
+			<passive_effect name="EntityDamage" operation="perc_add" value="1"/>
+			
+			<!--   + Block Damage with Two Handers -->
+			<passive_effect name="BlockDamage" operation="perc_add" value=".5"/>
+		</effect_group>
+	</append>
+	
+	<!-- Below method is disabled because it bricks the stack size for Weapon Parts and Tool Parts items -->
+	<!--
+	<append xpath="/items/item[contains(@name,'meleeWpn')]">
+		<effect_group name="relic_combatants_reach">
+			<requirement name="HasBuff" buff="buffRelicEquippedCombatantsReach"/>
+			<passive_effect name="MaxRange" operation="base_add" value="1" />
+			<passive_effect name="BlockRange" operation="base_add" value="1" />
+		</effect_group>
+	</append>
+	<append xpath="/items/item[contains(@name,'meleeTool')]">
+		<effect_group name="relic_combatants_reach">
+			<requirement name="HasBuff" buff="buffRelicEquippedCombatantsReach"/>
+			<passive_effect name="MaxRange" operation="base_add" value="1" />
+			<passive_effect name="BlockRange" operation="base_add" value="1" />
+		</effect_group>
+	</append> 
+	-->
+	
+	
+	<!-- Tabulas Rasa -->
+	<append xpath="/items">
+		<item name="armorRelicTabulaRasa">
+			<property name="Tags" value="upperbody,chest,armor,armorChest,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg,armorLightSkill"/>
+			<property name="Material" value="Mleather"/>
+			<property name="RepairTools" value="resourceRepairKit"/>
+			<property name="DegradationBreaksAfter" value="false"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Group" value="Clothing,Armor,TCArmor"/>
+			<property name="RepairExpMultiplier" value="10.8"/>
+			<property name="EconomicValue" value="1250"/>
+			<property name="ShowQuality" value="true"/>
+			<property name="EquipSlot" value="Chest"/>
+			
+			<property name="CustomIcon" value="uniqueTabulaRasa"/>
+			<property name="DisplayType" value="uniqueTabulaRasaDT"/>
+			<property name="DescriptionKey" value="uniqueTabulaRasaDesc"/>
+			
+			<effect_group name="item_stats">
+				<passive_effect name="ModSlots" operation="base_set" value="6,6,6,6,6,6" tier="1,2,3,4,5,6"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="150" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="110,450" tier="1,6"/>
+				<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="lightArmorDeg"/>
+				
+				<!-- Tooltip Text -->
+				<display_value name="dDysenteryRisk" value="6"/>
+			</effect_group>
+			
+			<property class="UMA">
+				<property name="Mesh" value="shirt"/>
+				<property name="Overlay0" value="shirt"/>
+				<property name="Layer" value="2"/>
+				<property name="Mask0" value="chest" param1="inner"/>
+				<property name="UISlot" value="ChestArmor"/>
+			</property>
+		</item>
+	</append>
+</Config>

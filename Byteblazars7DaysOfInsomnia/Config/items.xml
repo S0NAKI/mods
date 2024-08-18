@@ -1,0 +1,58 @@
+<Byteblazar>
+<append xpath="/items">
+	
+<item name="bb7doi_drugSedatives">
+	<property name="DescriptionKey" value="SedativesDesc"/>
+	<property name="Tags" value="medical,medicalSkill,fitness"/>
+	<property name="CustomIcon" value="drugPainkillers"/> <property name="CustomIconTint" value="160,188,202"/>
+	<property name="DisplayType" value="bb7doi_medicalSedatives"/>
+	<property name="HoldType" value="16"/>
+	<property name="Meshfile" value="@:Other/Items/Health/painkillersPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="EconomicValue" value="70"/>
+	<property name="Stacknumber" value="10"/>
+	<property name="TintColor" value="160,188,202"/>
+	<property name="Group" value="Science,CFChemicals,Medical,TCMedical"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Sound_start" value="player_painkillers"/>
+		<requirement name="NotHasBuff" buff="bb7doi_buffSedative"/>
+	</property>
+	<effect_group tiered="false">
+		<display_value name="$waterAmountAdd" value="-40"/>
+		<display_value name="dDuration" value="400"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$bb7doiSedativeDuration" operation="add" value="403"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$bb7doiSedativeDuration" operation="set" value="1203">
+			<requirement name="CVarCompare" cvar="$bb7doiSedativeDuration" operation="GT" value="1203"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="bb7doi_buffSedative"/>
+	</effect_group>
+</item>
+
+<item name="bb7doi_drugStimulants">
+	<property name="Extends" value="bb7doi_drugSedatives"/>
+	<property name="DescriptionKey" value="StimulantsDesc"/>
+	<property name="EconomicValue" value="250"/>
+	<property name="CustomIconTint" value="181,121,84"/>
+	<property name="DisplayType" value="bb7doi_medicalStimulants"/>
+	<property name="TintColor" value="181,121,84"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Sound_start" value="player_painkillers"/>
+		<requirement name="NotHasBuff" buff="bb7doi_buffStimulant"/>
+	</property>
+	<effect_group tiered="false">
+		<display_value name="dStaminaRegen" value=".25"/>
+		<display_value name="$waterAmountAdd" value="-40"/>
+		<display_value name="dDuration" value="600"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$bb7doiStimulantDuration" operation="add" value="603"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$bb7doiStimulantDuration" operation="set" value="1803">
+			<requirement name="CVarCompare" cvar="$bb7doiStimulantDuration" operation="GT" value="1803"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="bb7doi_buffStimulant"/>
+	</effect_group>
+</item>
+
+</append>
+</Byteblazar>
