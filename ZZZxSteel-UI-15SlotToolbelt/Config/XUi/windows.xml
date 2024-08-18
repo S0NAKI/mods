@@ -1,4 +1,0 @@
-<xui_windows>
-<setattribute xpath="//window[@name='windowToolbelt']//grid[starts-with(@name,'inventory')]" name="cols">15</setattribute>
-<setattribute xpath="//window[@name='windowToolbelt']//grid[starts-with(@name,'inventory')]" name="cell_width">82</setattribute>
-</xui_windows>
